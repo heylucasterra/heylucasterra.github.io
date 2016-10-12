@@ -4,7 +4,6 @@ Copyright timtim por timtim® 2016
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, {
-  font-family: ‘Rubik’, sans-serif;
 }
 
 p, .lead {
@@ -12,21 +11,20 @@ p, .lead {
 }
 
 h1 {
-  font-family: ‘Rubik’, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -1px;
-  color: #000000;
+  color: #43325c;
   stroke: 1px;
-  background: rgba(255, 255, 255, 0.9);
 }
 
 h2 {
-  font-family: ‘Rubik’, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 40px;
   line-height: 40px;
   etter-spacing: -0.5px;
-  color: #43325c;
+  color: #60a2d6;
 }
 
 h3 {
@@ -265,7 +263,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat left center;
+  background: url(../img/header-bg.svg) no-repeat left center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -380,7 +378,7 @@ hr.line {
 }
 
 footer {
-  background: #43325c;
+  background: #ecebf1;
   padding: 40px 0px;
 }
 
