@@ -2,7 +2,7 @@
 laboratório de experimentos para o timtim por timtim
 
 # TO-DO:
-— Linkar o submit de email para a lista do Mailchimp
+— Linkar o submit de email para a lista do Mailchimp (uol.us6.list-manage.com/subscribe/post?u=40b3f0061f&amp;id=6417c1a449)
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
