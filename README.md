@@ -1,8 +1,8 @@
 # timtim-por-timtim_lab
 laboratório de experimentos para o timtim por timtim
 
-# TODO:
-• Linkar o submit de email para a lista do Mailchimp
+# TO-DO:
+— Linkar o submit de email para a lista do Mailchimp
     <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -24,4 +24,7 @@ laboratório de experimentos para o timtim por timtim
 
 <!--End mc_embed_signup-->
 
-• Arrumar para versão Mobile
+— Arrumar para versão Mobile
+
+# BUGS:
+— Adaptando para outros tamanhos de tela de forma bizarra
