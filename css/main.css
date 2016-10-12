@@ -263,7 +263,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.png) no-repeat left center;
+  background: url(../img/header-bg.SVG) no-repeat left center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
