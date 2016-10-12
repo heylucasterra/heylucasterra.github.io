@@ -28,4 +28,4 @@ laboratório de experimentos para o timtim por timtim
 — Arrumar para versão Mobile
 
 # BUGS:
-— Adaptando para outros tamanhos de tela de forma bizarra
+— Site ainda quebra formatação em alguns formatos de tela
