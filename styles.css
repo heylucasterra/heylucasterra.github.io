@@ -1,56 +1,216 @@
-h1 {
-    font-family: Muli;
-    font-size: 4em;
-    text-align: left;
-    color: #000000;
-    	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 0.5em;
-}
-
 h2 {
-	font-family: Muli;
-	font-size: 3m;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 1.25em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Muli, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 h3 {
-	font-family: Muli;
-	font-size: 2.5m;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-    line-height: 1.25em;
-    color:grey;
-
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Muli, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
-p {
-    font-family: Muli;
-	font-size: 2m;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-    line-height: 1.5em;
-    color:#9f9f9f;
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Muli, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 a {
-    color:darkorange
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  color: #ff8500;
+  text-decoration: none;
 }
 
-body {
-    padding-left: 5em;
-    padding-right: 5em;
-    padding: 10em
-    
+a:hover {
+  text-decoration: underline;
 }
 
-html {
-    background-color: #fbfbfb;
+.heading {
+  position: fixed;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  font-family: Muli, sans-serif;
+  font-weight: 300;
+}
 
+.div-block {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: -30px;
+}
+
+.heading-2 {
+  margin-top: 10px;
+  color: #333;
+  font-weight: 300;
+}
+
+.heading-3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+}
+
+.section {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 150px;
+  margin-top: auto;
+  float: none;
+}
+
+.link {
+  float: right;
+}
+
+.link.mini {
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 0px;
+  float: left;
+  opacity: 0.3;
+  font-family: Muli, sans-serif;
+  color: #333;
+}
+
+.link.mini:hover {
+  opacity: 1;
+  color: #ff8500;
+}
+
+.body {
+  background-color: #fbfbfb;
+  -webkit-transition: opacity 200ms ease, opacity 200ms ease;
+  transition: opacity 200ms ease, opacity 200ms ease;
+}
+
+.column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  display: block;
+}
+
+.link-2 {
+  color: #ff8500;
+}
+
+.link-3 {
+  color: #ff8500;
+}
+
+.section-2 {
+  margin-left: -20px;
+  padding-left: 0px;
+}
+
+.section-3 {
+  padding-left: 30px;
+}
+
+.div-block-2 {
+  display: block;
+  width: 5px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  background-color: #00ebff;
+}
+
+.div-block-2._3 {
+  width: 2px;
+  height: 70px;
+  margin-top: 118px;
+  background-color: #00ffad;
+}
+
+.div-block-2._2 {
+  width: 2px;
+  height: 54px;
+  margin-top: 98px;
+}
+
+.div-block-2._1 {
+  width: 2px;
+  margin-top: 168px;
+  background-color: #ffd486;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    position: static;
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-block-2._2 {
+    position: fixed;
+    margin-right: 93px;
+    margin-left: 350px;
+  }
+  .div-block-2._1 {
+    margin-left: 147px;
+  }
+  .column-2 {
+    position: fixed;
+  }
+}
+
+@media (max-width: 479px) {
+  .heading {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  .heading-3 {
+    margin-bottom: 17px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .section {
+    position: static;
+    bottom: 15px;
+    margin-top: auto;
+  }
+  .link.mini {
+    margin-right: 48px;
+    font-size: 22px;
+    line-height: 42px;
+  }
+  .div-block-2._2 {
+    margin-right: 0px;
+    margin-left: 84px;
+  }
+  .column-2 {
+    right: -89px;
+  }
 }
