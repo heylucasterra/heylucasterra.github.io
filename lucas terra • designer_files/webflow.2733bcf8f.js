@@ -682,7 +682,6 @@
     var api = {};
     var $html = $('html');
     var $body = $('body');
-    var namespace = '.w-webflow-badge';
     var location = window.location;
     var isPhantom = /PhantomJS/i.test(navigator.userAgent);
     var brandElement;
@@ -703,19 +702,11 @@
       }
     };
 
-    function createBadge() {
-      var $brand = $('<a class="w-webflow-badge"></a>')
-      .attr('href', 'https://webflow.com?utm_campaign=brandjs');
 
-      var $logoArt = $('<img>')
-      .attr('src', 'https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-icon.60efbf6ec9.svg')
       .css({
         marginRight: '8px',
         width: '16px',
       });
-
-      var $logoText = $('<img>')
-      .attr('src', 'https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg');
 
       $brand.append($logoArt, $logoText);
       return $brand[0];
