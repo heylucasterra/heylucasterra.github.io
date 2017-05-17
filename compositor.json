@@ -1,0 +1,76 @@
+{
+  "name": "heylucasterra/heylucasterra.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/heylucasterra/heylucasterra.github.io",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "heylucasterra.github.io",
+      "subhead": "testes para o site",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "heylucasterra.github.io: testes para o site",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "heylucasterra",
+          "repo": "heylucasterra.github.io"
+        }
+      ]
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/heylucasterra/heylucasterra.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/heylucasterra",
+          "text": "heylucasterra"
+        }
+      ]
+    }
+  ]
+}
