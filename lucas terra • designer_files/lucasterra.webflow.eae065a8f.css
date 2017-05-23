@@ -358,6 +358,14 @@ a:hover {
   text-align: center;
 }
 
+.avatar {
+    border-radius: 1000px;
+}
+
+.avatar:hover {
+    transform: scale (1.1);
+}
+
 .botao:hover {
   text-decoration: none;
 }
