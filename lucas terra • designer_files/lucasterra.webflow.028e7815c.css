@@ -319,7 +319,7 @@ a:hover {
 .container-4 {
   position: relative;
   left: 0px;
-  top: 60vh;
+  top: 55vh;
   right: 0px;
   bottom: 0px;
   display: block;
@@ -810,6 +810,7 @@ a:hover {
   right: 0px;
   bottom: 0px;
   height: 97vh;
+  min-height: auto;
   float: none;
   clear: none;
   background-color: #fff;
@@ -1011,7 +1012,7 @@ html.w-mod-js *[data-ix="paragraph"] {
   }
   .container-4 {
     position: absolute;
-    top: 40vh;
+    top: 38vh;
     bottom: 0px;
     margin-top: 32px;
     padding-right: 40px;
