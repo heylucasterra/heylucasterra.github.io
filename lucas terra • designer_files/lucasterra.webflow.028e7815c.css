@@ -1170,12 +1170,16 @@ html.w-mod-js *[data-ix="paragraph"] {
     .section-11 {
   position: static;
   left: 0px;
-  top: 30vh;
+  top: 50vh;
   right: 0px;
   bottom: 0px;
-  min-height: auto;
   height: 97vh;
-
+  min-height: auto;
+  float: none;
+  clear: none;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
 }
     
   .container-4 {
