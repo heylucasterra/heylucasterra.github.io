@@ -1173,6 +1173,7 @@ html.w-mod-js *[data-ix="paragraph"] {
   top: 30vh;
   right: 0px;
   bottom: 0px;
+  min-height: auto;
   height: 97vh;
 
 }
