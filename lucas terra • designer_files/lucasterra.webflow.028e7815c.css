@@ -1188,6 +1188,23 @@ html.w-mod-js *[data-ix="paragraph"] {
     font-size: 16px;
     line-height: 24px;
   }
+    
+    .p-white {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+
+  font-weight: 300;
+}
+
+.p-white.italic {
+    color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+    font-style: italic;
+  font-weight: 200;
+}
+    
   .image {
     min-height: 35px;
     margin-top: 0px;
