@@ -86,6 +86,20 @@ local_slide( {
         "width" : 127,
         "height" : 13
       },
+      "FBDF4C01A1DF96859733D320BF66A546" : {
+        "type" : "texture",
+        "index" : 3,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/9868ABF2-1118-4165-928B-E3BFB5419EED.pdf"
+        },
+        "width" : 1922,
+        "height" : 1090
+      },
       "B83480753A2F1F6CCE1888CCE11D1861" : {
         "type" : "texture",
         "index" : 4,
@@ -99,20 +113,6 @@ local_slide( {
         },
         "width" : 71,
         "height" : 13
-      },
-      "F7BE99AA9FBB0125640FC3B5A97DB9E3" : {
-        "type" : "texture",
-        "index" : 3,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/9868ABF2-1118-4165-928B-E3BFB5419EED.pdf"
-        },
-        "width" : 1923,
-        "height" : 1090
       }
     },
     "events" : [
@@ -398,24 +398,6 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "Confidential",
-            "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 128.3999633789062,
-              "width" : 68.256,
-              "height" : 15
-            }
-          },
-          {
-            "text" : "Confidential",
-            "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 128.3999633789062,
-              "width" : 68.256,
-              "height" : 15
-            }
-          },
-          {
             "text" : "lucas terra for nubank",
             "targetRectangle" : {
               "y" : 1037.029174506664,
@@ -430,6 +412,24 @@ local_slide( {
               "y" : 1037.029174506664,
               "x" : 897.7500002384186,
               "width" : 124.5,
+              "height" : 15
+            }
+          },
+          {
+            "text" : "Confidential",
+            "targetRectangle" : {
+              "y" : 1037.029174506664,
+              "x" : 128.3999633789062,
+              "width" : 68.256,
+              "height" : 15
+            }
+          },
+          {
+            "text" : "Confidential",
+            "targetRectangle" : {
+              "y" : 1037.029174506664,
+              "x" : 128.3999633789062,
+              "width" : 68.256,
               "height" : 15
             }
           },
@@ -1126,10 +1126,10 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 961.5,
+                      "pointX" : 961,
                       "pointY" : 541.414794921875
                     },
-                    "width" : 1923,
+                    "width" : 1922,
                     "sublayerTransform" : [
                       1,
                       0,
@@ -1192,10 +1192,10 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 960.5,
+                          "pointX" : 960,
                           "pointY" : 543.585205078125
                         },
-                        "width" : 1923,
+                        "width" : 1922,
                         "sublayerTransform" : [
                           1,
                           0,
@@ -1229,7 +1229,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "F7BE99AA9FBB0125640FC3B5A97DB9E3"
+                      "texture" : "FBDF4C01A1DF96859733D320BF66A546"
                     }
                   ]
                 }

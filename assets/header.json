@@ -1,7 +1,7 @@
 {
   "autoplayTransitionDelay" : 5,
   "author" : "",
-  "timestamp" : "2018-15-13 2:4:3",
+  "timestamp" : "2018-51-15 9:4:1",
   "loopSlideshow" : 0,
   "filename" : "lucasterra_Nubank_FoodWaste",
   "autoplayBuildDelay" : 2,
@@ -21,6 +21,8 @@
     "41DCB169-BE59-4031-BAD9-26D2978545B2",
     "61CEC067-83CB-4BA7-B458-A30E0C2BFA4D",
     "E3EBBF4E-452A-4B22-94B8-DD12BACCA9A0",
+    "FF7B35A3-5B8F-4265-B9CA-ED1296FDDE15",
+    "A54DC486-0050-4897-9A01-E6F9D4844247",
     "8F7D5395-5DB8-48B5-A0E9-37AC82066446",
     "9868ABF2-1118-4165-928B-E3BFB5419EED"
   ],
@@ -30,21 +32,19 @@
   },
   "slideWidth" : 1920,
   "slideHeight" : 1080,
-  "slideCount" : 13,
+  "slideCount" : 15,
   "majorVersion" : 1,
   "minorVersion" : 2,
   "fonts" : [
+    "GTCinetypeBold",
+    "Helvetica-Light",
     "HelveticaNeue-Bold",
+    "HelveticaNeue",
     "HelveticaNeue-Italic",
     "HelveticaNeue-Light",
-    "Helvetica",
-    "GTCinetypeBold",
-    "Times-Roman",
-    "Helvetica-Light",
-    "GillSans",
-    "GTCinetypeRegular-Italic",
     "GTCinetypeRegular",
-    "HelveticaNeue-Medium",
-    "HelveticaNeue"
+    "Helvetica",
+    "GillSans",
+    "HelveticaNeue-Medium"
   ]
 }

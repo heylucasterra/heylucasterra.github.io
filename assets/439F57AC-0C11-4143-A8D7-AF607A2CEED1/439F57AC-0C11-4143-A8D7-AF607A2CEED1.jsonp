@@ -2,9 +2,9 @@ local_slide( {
   "name" : "439F57AC-0C11-4143-A8D7-AF607A2CEED1",
   "json" : {
     "assets" : {
-      "8D4895464AC9FAE938C978B99BDDE433" : {
+      "744FBC53E844343EDE7D5B2B4F6913C3" : {
         "type" : "texture",
-        "index" : 1,
+        "index" : 2,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -13,7 +13,7 @@ local_slide( {
         "url" : {
           "native" : "assets\/439F57AC-0C11-4143-A8D7-AF607A2CEED1.pdf"
         },
-        "width" : 71,
+        "width" : 127,
         "height" : 13
       },
       "3E3AE401A22F0FB72A376036212A0AFD" : {
@@ -30,9 +30,9 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "C25C25FF361FB24FC35F6B120D2F252D" : {
+      "F7C8ECD39E7E96727C7EC11A712C1432" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 1,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -41,8 +41,22 @@ local_slide( {
         "url" : {
           "native" : "assets\/439F57AC-0C11-4143-A8D7-AF607A2CEED1.pdf"
         },
-        "width" : 1920,
-        "height" : 1080
+        "width" : 71,
+        "height" : 13
+      },
+      "2D453A62B6A170D71A616045FF4B07C0" : {
+        "type" : "texture",
+        "index" : 3,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/439F57AC-0C11-4143-A8D7-AF607A2CEED1.pdf"
+        },
+        "width" : 127,
+        "height" : 13
       },
       "EB928DB9EAA51CB912D004B923A01ABB" : {
         "type" : "texture",
@@ -86,9 +100,9 @@ local_slide( {
         "width" : 739,
         "height" : 365
       },
-      "62B595AA5962B09672A94B420E6942B7" : {
+      "6DBEE26D25E0B8920B3C0C12B2DE0496" : {
         "type" : "texture",
-        "index" : 2,
+        "index" : 0,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -97,22 +111,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/439F57AC-0C11-4143-A8D7-AF607A2CEED1.pdf"
         },
-        "width" : 127,
-        "height" : 13
-      },
-      "8F7EC971A922226E7AED51F2F24ACD43" : {
-        "type" : "texture",
-        "index" : 3,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/439F57AC-0C11-4143-A8D7-AF607A2CEED1.pdf"
-        },
-        "width" : 127,
-        "height" : 13
+        "width" : 1920,
+        "height" : 1080
       },
       "5FA2782518F6423023D1FBCE77582191" : {
         "type" : "texture",
@@ -336,7 +336,7 @@ local_slide( {
                           "beginTime" : 0,
                           "repeatCount" : 0,
                           "fillMode" : "both",
-                          "duration" : 0.35,
+                          "duration" : 0.3499999940395355,
                           "autoreverses" : false,
                           "timingFunction" : "EaseInEaseOut",
                           "property" : "opacity",
@@ -415,7 +415,7 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.35,
+            "duration" : 0.3499999940395355,
             "type" : "transition",
             "name" : "apple:dissolve",
             "objectID" : "0"
@@ -426,6 +426,42 @@ local_slide( {
 
         ],
         "accessibility" : [
+          {
+            "text" : "Desafio",
+            "targetRectangle" : {
+              "y" : 45.62501525878906,
+              "x" : 786.2976,
+              "width" : 347.4047999999999,
+              "height" : 120
+            }
+          },
+          {
+            "text" : "lucas terra for nubank",
+            "targetRectangle" : {
+              "y" : 1037.029174506664,
+              "x" : 897.7500002384186,
+              "width" : 124.5,
+              "height" : 15
+            }
+          },
+          {
+            "text" : "lucas terra for nubank",
+            "targetRectangle" : {
+              "y" : 1037.029174506664,
+              "x" : 897.7500002384186,
+              "width" : 124.5,
+              "height" : 15
+            }
+          },
+          {
+            "text" : "￼",
+            "targetRectangle" : {
+              "y" : 1026.029174804688,
+              "x" : 1786.486582905054,
+              "width" : 9.196999999999889,
+              "height" : 21
+            }
+          },
           {
             "text" : "Confidential",
             "targetRectangle" : {
@@ -442,33 +478,6 @@ local_slide( {
               "x" : 733.828,
               "width" : 61.58400000000006,
               "height" : 68
-            }
-          },
-          {
-            "text" : "Desafio",
-            "targetRectangle" : {
-              "y" : 45.62501525878906,
-              "x" : 786.2976,
-              "width" : 347.4047999999999,
-              "height" : 120
-            }
-          },
-          {
-            "text" : "￼",
-            "targetRectangle" : {
-              "y" : 1026.029174896461,
-              "x" : 1786.486582905054,
-              "width" : 9.196999999999889,
-              "height" : 21
-            }
-          },
-          {
-            "text" : "lucas terra for nubank",
-            "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 897.7500002384186,
-              "width" : 124.5,
-              "height" : 15
             }
           },
           {
@@ -496,15 +505,6 @@ local_slide( {
               "x" : 591.9225000000001,
               "width" : 744.1199999999999,
               "height" : 105.6000022888184
-            }
-          },
-          {
-            "text" : "lucas terra for nubank",
-            "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 897.7500002384186,
-              "width" : 124.5,
-              "height" : 15
             }
           }
         ],
@@ -739,7 +739,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "C25C25FF361FB24FC35F6B120D2F252D"
+                      "texture" : "6DBEE26D25E0B8920B3C0C12B2DE0496"
                     }
                   ]
                 }
@@ -926,7 +926,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "8D4895464AC9FAE938C978B99BDDE433"
+                      "texture" : "F7C8ECD39E7E96727C7EC11A712C1432"
                     }
                   ]
                 }
@@ -1113,7 +1113,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "62B595AA5962B09672A94B420E6942B7"
+                      "texture" : "744FBC53E844343EDE7D5B2B4F6913C3"
                     }
                   ]
                 }
@@ -1300,7 +1300,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "8F7EC971A922226E7AED51F2F24ACD43"
+                      "texture" : "2D453A62B6A170D71A616045FF4B07C0"
                     }
                   ]
                 }
@@ -1940,7 +1940,7 @@ local_slide( {
                     "scale" : 1,
                     "position" : {
                       "pointX" : 1791.986582905054,
-                      "pointY" : 1034.029174896461
+                      "pointY" : 1034.029174804688
                     },
                     "width" : 12,
                     "sublayerTransform" : [
@@ -1987,7 +1987,7 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.5684375,
-                        "textBaseline" : 0.830572134031712,
+                        "textBaseline" : 0.8305721282958984,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
@@ -2012,7 +2012,7 @@ local_slide( {
                         "scale" : 1,
                         "position" : {
                           "pointX" : 4.013417094945908,
-                          "pointY" : 11.97082510353948
+                          "pointY" : 11.9708251953125
                         },
                         "width" : 12,
                         "sublayerTransform" : [

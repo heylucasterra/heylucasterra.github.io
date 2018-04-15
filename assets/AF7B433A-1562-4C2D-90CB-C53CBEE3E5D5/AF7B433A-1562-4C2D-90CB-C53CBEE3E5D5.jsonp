@@ -336,7 +336,7 @@ local_slide( {
                           "beginTime" : 0,
                           "repeatCount" : 0,
                           "fillMode" : "both",
-                          "duration" : 0.35,
+                          "duration" : 0.3499999940395355,
                           "autoreverses" : false,
                           "timingFunction" : "EaseInEaseOut",
                           "property" : "opacity",
@@ -415,7 +415,7 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.35,
+            "duration" : 0.3499999940395355,
             "type" : "transition",
             "name" : "apple:dissolve",
             "objectID" : "0"
@@ -427,12 +427,12 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "PERFIL ESCOLHIDO",
+            "text" : "Educar a população sobre como conservar alimentos, utilizar partes que hoje são jogadas fora e ensinar formas de reciclar refeições anteriores.",
             "targetRectangle" : {
-              "y" : 560.3576049804688,
-              "x" : 885.4719847412109,
-              "width" : 149.056,
-              "height" : 23.10000050067902
+              "y" : 295.6424255371094,
+              "x" : 625.015,
+              "width" : 679.9999999999999,
+              "height" : 176.0000038146973
             }
           },
           {
@@ -463,15 +463,6 @@ local_slide( {
             }
           },
           {
-            "text" : "OPORTUNIDADE",
-            "targetRectangle" : {
-              "y" : 260.3575744628906,
-              "x" : 897.431484741211,
-              "width" : 125.1370000000001,
-              "height" : 23.10000050067902
-            }
-          },
-          {
             "text" : "lucas terra for nubank",
             "targetRectangle" : {
               "y" : 1037.029174506664,
@@ -481,21 +472,30 @@ local_slide( {
             }
           },
           {
-            "text" : "Educar a população sobre como conservar alimentos, utilizar partes que hoje são jogadas fora e ensinar formas de reciclar refeições anteriores.",
-            "targetRectangle" : {
-              "y" : 295.6424255371094,
-              "x" : 625.015,
-              "width" : 679.9999999999999,
-              "height" : 176.0000038146973
-            }
-          },
-          {
             "text" : "Confidential",
             "targetRectangle" : {
               "y" : 1037.029174506664,
               "x" : 128.3999633789062,
               "width" : 68.256,
               "height" : 15
+            }
+          },
+          {
+            "text" : "PERFIL ESCOLHIDO",
+            "targetRectangle" : {
+              "y" : 560.3576049804688,
+              "x" : 885.4719847412109,
+              "width" : 149.056,
+              "height" : 23.10000050067902
+            }
+          },
+          {
+            "text" : "OPORTUNIDADE",
+            "targetRectangle" : {
+              "y" : 260.3575744628906,
+              "x" : 897.431484741211,
+              "width" : 125.1370000000001,
+              "height" : 23.10000050067902
             }
           }
         ],

@@ -2,9 +2,9 @@ local_slide( {
   "name" : "6748B2EF-323E-4BAC-B5B1-AC5766166707",
   "json" : {
     "assets" : {
-      "449091441CF6FEDA0586D29B54E20366" : {
+      "54529E2865A24445D2838BF270F7F1BD" : {
         "type" : "texture",
-        "index" : 2,
+        "index" : 13,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -13,22 +13,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
         },
-        "width" : 127,
-        "height" : 13
-      },
-      "4095F4F01E7B574BBED0E576946C51BC" : {
-        "type" : "texture",
-        "index" : 10,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
-        },
-        "width" : 401,
-        "height" : 96
+        "width" : 1920,
+        "height" : 1080
       },
       "62AA871BA4D8BDBB5A400D9193624310" : {
         "type" : "texture",
@@ -44,7 +30,7 @@ local_slide( {
         "width" : 507,
         "height" : 204
       },
-      "2DB3FCF0232BE90CA015DBC8E5247B5D" : {
+      "8D4895464AC9FAE938C978B99BDDE433" : {
         "type" : "texture",
         "index" : 1,
         "assetRequest" : {
@@ -58,9 +44,9 @@ local_slide( {
         "width" : 71,
         "height" : 13
       },
-      "CECC0F93DEC0A86F49094E9747589E2F" : {
+      "17222DE88D754055C71575AC6CBC5ACA" : {
         "type" : "texture",
-        "index" : 9,
+        "index" : 10,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -69,8 +55,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
         },
-        "width" : 495,
-        "height" : 236
+        "width" : 401,
+        "height" : 96
       },
       "5964E5079E5746F98B9B3ED0C5B968C2" : {
         "type" : "texture",
@@ -85,20 +71,6 @@ local_slide( {
         },
         "width" : 511,
         "height" : 199
-      },
-      "54529E2865A24445D2838BF270F7F1BD" : {
-        "type" : "texture",
-        "index" : 13,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
-        },
-        "width" : 1920,
-        "height" : 1080
       },
       "C0640390ECBB96C0613FF358092B53C8" : {
         "type" : "texture",
@@ -128,9 +100,9 @@ local_slide( {
         "width" : 549,
         "height" : 351
       },
-      "B05357DF693AEE0A4D3CD57F233D18D5" : {
+      "3D5CCB56384422E21742D45729E29F76" : {
         "type" : "texture",
-        "index" : 0,
+        "index" : 9,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -139,8 +111,8 @@ local_slide( {
         "url" : {
           "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
         },
-        "width" : 1920,
-        "height" : 1080
+        "width" : 495,
+        "height" : 236
       },
       "CCD01F85FF764AEC5E320CCD1365D2FC" : {
         "type" : "texture",
@@ -156,7 +128,7 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "C7529E10C0C5FE67D5EA2D095F206706" : {
+      "4672C37C28A5DA006785DD638AFA4093" : {
         "type" : "texture",
         "index" : 7,
         "assetRequest" : {
@@ -183,6 +155,20 @@ local_slide( {
         },
         "width" : 534,
         "height" : 379
+      },
+      "C25C25FF361FB24FC35F6B120D2F252D" : {
+        "type" : "texture",
+        "index" : 0,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
+        },
+        "width" : 1920,
+        "height" : 1080
       },
       "6BFD4128D32B7878228DA52A9FE38C2C" : {
         "type" : "texture",
@@ -211,6 +197,20 @@ local_slide( {
         },
         "width" : 13,
         "height" : 16
+      },
+      "62B595AA5962B09672A94B420E6942B7" : {
+        "type" : "texture",
+        "index" : 2,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/6748B2EF-323E-4BAC-B5B1-AC5766166707.pdf"
+        },
+        "width" : 127,
+        "height" : 13
       }
     },
     "events" : [
@@ -406,7 +406,7 @@ local_slide( {
                           "beginTime" : 0,
                           "repeatCount" : 0,
                           "fillMode" : "both",
-                          "duration" : 0.35,
+                          "duration" : 0.3499999940395355,
                           "autoreverses" : false,
                           "timingFunction" : "EaseInEaseOut",
                           "property" : "opacity",
@@ -485,7 +485,7 @@ local_slide( {
             "effects" : [
 
             ],
-            "duration" : 0.35,
+            "duration" : 0.3499999940395355,
             "type" : "transition",
             "name" : "apple:dissolve",
             "objectID" : "0"
@@ -497,19 +497,10 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "Confidential",
-            "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 128.3999633789062,
-              "width" : 68.256,
-              "height" : 15
-            }
-          },
-          {
             "text" : "Economia de bairro",
             "targetRectangle" : {
-              "y" : 709.5719279393952,
-              "x" : 101.1467408313245,
+              "y" : 709.5718994140625,
+              "x" : 101.1467437744141,
               "width" : 306.9519999999999,
               "height" : 46
             }
@@ -517,8 +508,8 @@ local_slide( {
           {
             "text" : "Plataformas que conectam a vizinhança para compartilhar alimentos que não vão mais consumir. ",
             "targetRectangle" : {
-              "y" : 755.5719279393952,
-              "x" : 101.1467408313245,
+              "y" : 755.5718994140625,
+              "x" : 101.1467437744141,
               "width" : 511.8929999999999,
               "height" : 102
             }
@@ -526,8 +517,8 @@ local_slide( {
           {
             "text" : "No Brasil, uma das mais conhecidas se chama Comida Invisível.",
             "targetRectangle" : {
-              "y" : 857.5719279393952,
-              "x" : 101.1467408313245,
+              "y" : 857.5718994140625,
+              "x" : 101.1467437744141,
               "width" : 498.663,
               "height" : 64
             }
@@ -542,75 +533,39 @@ local_slide( {
             }
           },
           {
-            "text" : "pasted-image.tiff",
+            "text" : "5101989-1.png",
             "targetRectangle" : {
-              "y" : 323.3662462234497,
-              "x" : 1310.217618465424,
-              "width" : 454.9375,
-              "height" : 349.71875
+              "y" : 295.1164855957031,
+              "x" : 1665.005035400391,
+              "width" : 178.3637390136719,
+              "height" : 165.5215454101562
             }
           },
           {
-            "text" : "CrJs2yYUIAAyzjp.jpg",
+            "text" : "pasted-image.jpeg",
             "targetRectangle" : {
-              "y" : 323.3658857524074,
-              "x" : 686.3745170278451,
-              "width" : 293.71875,
-              "height" : 349.71875
+              "y" : 323.3658752441406,
+              "x" : 103.727294921875,
+              "width" : 504.9926452636719,
+              "height" : 349.7073974609375
             }
           },
           {
-            "text" : "Kits de culinária",
+            "text" : "Confidential",
             "targetRectangle" : {
-              "y" : 709.5718994140623,
-              "x" : 688.0499878056526,
-              "width" : 257.244,
-              "height" : 46
+              "y" : 1037.029174506664,
+              "x" : 128.3999633789062,
+              "width" : 68.256,
+              "height" : 15
             }
           },
           {
-            "text" : "Serviços por assinatura que entregam caixas com ingredientes e instruções de como cozinhá-los. ",
+            "text" : "DESTAQUES DA DESK RESEARCH",
             "targetRectangle" : {
-              "y" : 755.5718994140623,
-              "x" : 688.0499878056526,
-              "width" : 516.1590000000001,
-              "height" : 102
-            }
-          },
-          {
-            "text" : "Obs. Reduzem o desperdício de comida, mas aumentam o lixo gerado por embalagens.",
-            "targetRectangle" : {
-              "y" : 857.5718994140623,
-              "x" : 688.0499878056526,
-              "width" : 465.74,
-              "height" : 54
-            }
-          },
-          {
-            "text" : "Alimentos “feios”",
-            "targetRectangle" : {
-              "y" : 709.5718994140622,
-              "x" : 1315.28006270169,
-              "width" : 275.5699999999999,
-              "height" : 46
-            }
-          },
-          {
-            "text" : "Representam quase 40% do motivo de desperdício de alimento nos EUA.",
-            "targetRectangle" : {
-              "y" : 755.5718994140622,
-              "x" : 1315.28006270169,
-              "width" : 497.502,
-              "height" : 70
-            }
-          },
-          {
-            "text" : "Muitos países relatam a efetividade de soluções como as “baby carrots” que ajudam a reduzir o desperdício desses alimentos.",
-            "targetRectangle" : {
-              "y" : 825.5718994140622,
-              "x" : 1315.28006270169,
-              "width" : 499.338,
-              "height" : 128
+              "y" : 276.8323669433594,
+              "x" : 831.7264847412109,
+              "width" : 256.547,
+              "height" : 23.10000050067902
             }
           },
           {
@@ -623,39 +578,66 @@ local_slide( {
             }
           },
           {
-            "text" : "lucas terra for nubank",
+            "text" : "Screenshot 2018-04-12 19.23.22.png",
             "targetRectangle" : {
-              "y" : 1037.029174506664,
-              "x" : 897.7500002384186,
-              "width" : 124.5,
-              "height" : 15
+              "y" : 323.3947605154135,
+              "x" : 991.3601837158203,
+              "width" : 242.75,
+              "height" : 349.65625
             }
           },
           {
-            "text" : "pasted-image.jpeg",
+            "text" : "Kits de culinária",
             "targetRectangle" : {
-              "y" : 323.3658856951753,
-              "x" : 103.727292162288,
-              "width" : 504.9926452636721,
-              "height" : 349.7073974609375
+              "y" : 709.5718994140625,
+              "x" : 688.0499877929688,
+              "width" : 257.244,
+              "height" : 46
             }
           },
           {
-            "text" : "5101989-1.png",
+            "text" : "Serviços por assinatura que entregam caixas com ingredientes e instruções de como cozinhá-los. ",
             "targetRectangle" : {
-              "y" : 295.1164855957031,
-              "x" : 1665.005004882812,
-              "width" : 178.3637390136719,
-              "height" : 165.5215454101562
+              "y" : 755.5718994140625,
+              "x" : 688.0499877929688,
+              "width" : 516.1590000000001,
+              "height" : 102
             }
           },
           {
-            "text" : "DESTAQUES DA DESK RESEARCH",
+            "text" : "Obs. Reduzem o desperdício de comida, mas aumentam o lixo gerado por embalagens.",
             "targetRectangle" : {
-              "y" : 276.8323519109617,
-              "x" : 831.7264847412109,
-              "width" : 256.547,
-              "height" : 23.10000050067902
+              "y" : 857.5718994140625,
+              "x" : 688.0499877929688,
+              "width" : 465.74,
+              "height" : 54
+            }
+          },
+          {
+            "text" : "Alimentos “feios”",
+            "targetRectangle" : {
+              "y" : 709.5718994140625,
+              "x" : 1315.280029296875,
+              "width" : 275.5699999999999,
+              "height" : 46
+            }
+          },
+          {
+            "text" : "Representam quase 40% do motivo de desperdício de alimento nos EUA.",
+            "targetRectangle" : {
+              "y" : 755.5718994140625,
+              "x" : 1315.280029296875,
+              "width" : 497.502,
+              "height" : 70
+            }
+          },
+          {
+            "text" : "Muitos países relatam a efetividade de soluções como as “baby carrots” que ajudam a reduzir o desperdício desses alimentos.",
+            "targetRectangle" : {
+              "y" : 825.5718994140625,
+              "x" : 1315.280029296875,
+              "width" : 499.338,
+              "height" : 128
             }
           },
           {
@@ -668,12 +650,30 @@ local_slide( {
             }
           },
           {
-            "text" : "Screenshot 2018-04-12 19.23.22.png",
+            "text" : "pasted-image.tiff",
             "targetRectangle" : {
-              "y" : 323.394771035625,
-              "x" : 991.3601912321355,
-              "width" : 242.75,
-              "height" : 349.6562499999999
+              "y" : 323.3662462234497,
+              "x" : 1310.217651367188,
+              "width" : 454.9375,
+              "height" : 349.71875
+            }
+          },
+          {
+            "text" : "lucas terra for nubank",
+            "targetRectangle" : {
+              "y" : 1037.029174506664,
+              "x" : 897.7500002384186,
+              "width" : 124.5,
+              "height" : 15
+            }
+          },
+          {
+            "text" : "CrJs2yYUIAAyzjp.jpg",
+            "targetRectangle" : {
+              "y" : 323.3658752441406,
+              "x" : 686.3745040893555,
+              "width" : 293.71875,
+              "height" : 349.71875
             }
           }
         ],
@@ -908,7 +908,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "B05357DF693AEE0A4D3CD57F233D18D5"
+                      "texture" : "C25C25FF361FB24FC35F6B120D2F252D"
                     }
                   ]
                 }
@@ -1095,7 +1095,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "2DB3FCF0232BE90CA015DBC8E5247B5D"
+                      "texture" : "8D4895464AC9FAE938C978B99BDDE433"
                     }
                   ]
                 }
@@ -1282,7 +1282,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "449091441CF6FEDA0586D29B54E20366"
+                      "texture" : "62B595AA5962B09672A94B420E6942B7"
                     }
                   ]
                 }
@@ -1360,8 +1360,8 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 932.87452387198,
-                      "pointY" : 498.8658857524074
+                      "pointX" : 932.87451171875,
+                      "pointY" : 498.8658752441406
                     },
                     "width" : 549,
                     "sublayerTransform" : [
@@ -1426,8 +1426,8 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 302.12547612802,
-                          "pointY" : 175.1341142475926
+                          "pointX" : 302.12548828125,
+                          "pointY" : 175.1341247558594
                         },
                         "width" : 549,
                         "sublayerTransform" : [
@@ -1542,7 +1542,7 @@ local_slide( {
                     "scale" : 1,
                     "position" : {
                       "pointX" : 879.6026000976562,
-                      "pointY" : 279.7073519109617
+                      "pointY" : 279.7073669433594
                     },
                     "width" : 257,
                     "sublayerTransform" : [
@@ -1589,7 +1589,7 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.535,
-                        "textBaseline" : 0.8289606564122678,
+                        "textBaseline" : 0.8289615406709558,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
@@ -1614,7 +1614,7 @@ local_slide( {
                         "scale" : 1,
                         "position" : {
                           "pointX" : 209.3973999023438,
-                          "pointY" : 17.29264808903832
+                          "pointY" : 17.29263305664062
                         },
                         "width" : 257,
                         "sublayerTransform" : [
@@ -1728,8 +1728,8 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 350.6467408313243,
-                      "pointY" : 807.5719279393949
+                      "pointX" : 350.6467437744139,
+                      "pointY" : 807.5718994140622
                     },
                     "width" : 507,
                     "sublayerTransform" : [
@@ -1776,7 +1776,7 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.08916666666666667,
-                        "textBaseline" : 0.9883916420608374,
+                        "textBaseline" : 0.9883915022307751,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
@@ -1800,8 +1800,8 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 256.3532591686757,
-                          "pointY" : 110.4280720606051
+                          "pointX" : 256.3532562255861,
+                          "pointY" : 110.4281005859378
                         },
                         "width" : 507,
                         "sublayerTransform" : [
@@ -1915,8 +1915,8 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 939.5499878056524,
-                      "pointY" : 805.0718994140623
+                      "pointX" : 939.5499877929686,
+                      "pointY" : 805.0718994140625
                     },
                     "width" : 511,
                     "sublayerTransform" : [
@@ -1963,7 +1963,7 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.09140703517587941,
-                        "textBaseline" : 0.973526997781877,
+                        "textBaseline" : 0.9735269977818781,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
@@ -1987,8 +1987,8 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 259.4500121943476,
-                          "pointY" : 106.9281005859377
+                          "pointX" : 259.4500122070314,
+                          "pointY" : 106.9281005859375
                         },
                         "width" : 511,
                         "sublayerTransform" : [
@@ -2102,8 +2102,8 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 357.727292162288,
-                      "pointY" : 499.8658856951753
+                      "pointX" : 357.727294921875,
+                      "pointY" : 499.8658752441406
                     },
                     "width" : 508,
                     "sublayerTransform" : [
@@ -2168,8 +2168,8 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 252.272707837712,
-                          "pointY" : 175.1341143048247
+                          "pointX" : 252.272705078125,
+                          "pointY" : 175.1341247558594
                         },
                         "width" : 508,
                         "sublayerTransform" : [
@@ -2205,7 +2205,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "C7529E10C0C5FE67D5EA2D095F206706"
+                      "texture" : "4672C37C28A5DA006785DD638AFA4093"
                     }
                   ]
                 }
@@ -2283,7 +2283,7 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 1577.217618465424,
+                      "pointX" : 1577.217651367188,
                       "pointY" : 484.6164855957031
                     },
                     "width" : 534,
@@ -2349,7 +2349,7 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 266.7823815345764,
+                          "pointX" : 266.7823486328125,
                           "pointY" : 189.3835144042969
                         },
                         "width" : 534,
@@ -2464,8 +2464,8 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 1558.780062701689,
-                      "pointY" : 823.5718994140619
+                      "pointX" : 1558.780029296875,
+                      "pointY" : 823.5718994140623
                     },
                     "width" : 495,
                     "sublayerTransform" : [
@@ -2512,7 +2512,7 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.07707627118644068,
-                        "textBaseline" : 0.9899655358266007,
+                        "textBaseline" : 0.9899655358266022,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
@@ -2536,8 +2536,8 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 250.2199372983107,
-                          "pointY" : 126.4281005859381
+                          "pointX" : 250.2199707031252,
+                          "pointY" : 126.4281005859377
                         },
                         "width" : 495,
                         "sublayerTransform" : [
@@ -2573,7 +2573,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "CECC0F93DEC0A86F49094E9747589E2F"
+                      "texture" : "3D5CCB56384422E21742D45729E29F76"
                     }
                   ]
                 }
@@ -2760,7 +2760,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "4095F4F01E7B574BBED0E576946C51BC"
+                      "texture" : "17222DE88D754055C71575AC6CBC5ACA"
                     }
                   ]
                 }

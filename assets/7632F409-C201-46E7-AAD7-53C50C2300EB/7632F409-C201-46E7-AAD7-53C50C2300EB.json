@@ -348,7 +348,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.35,
+                        "duration" : 0.3499999940395355,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "opacity",
@@ -427,7 +427,7 @@
           "effects" : [
 
           ],
-          "duration" : 0.35,
+          "duration" : 0.3499999940395355,
           "type" : "transition",
           "name" : "apple:dissolve",
           "objectID" : "0"
@@ -439,12 +439,30 @@
       ],
       "accessibility" : [
         {
-          "text" : "Group 4.3 (5).png",
+          "text" : "nubank design",
           "targetRectangle" : {
-            "y" : 21.97979736328131,
-            "x" : -1.115501504500571e-07,
-            "width" : 1920,
-            "height" : 1088.040405273438
+            "y" : 371.1740733385086,
+            "x" : 132.5993957519531,
+            "width" : 170.95,
+            "height" : 30
+          }
+        },
+        {
+          "text" : "lucasterra",
+          "targetRectangle" : {
+            "y" : 401.1740733385086,
+            "x" : 132.5993957519531,
+            "width" : 118.15,
+            "height" : 30
+          }
+        },
+        {
+          "text" : "2018",
+          "targetRectangle" : {
+            "y" : 431.1740733385086,
+            "x" : 132.5993957519531,
+            "width" : 35.80200000000002,
+            "height" : 28
           }
         },
         {
@@ -457,46 +475,10 @@
           }
         },
         {
-          "text" : "nubank design",
-          "targetRectangle" : {
-            "y" : 371.1740690553401,
-            "x" : 132.5993937888341,
-            "width" : 170.95,
-            "height" : 30
-          }
-        },
-        {
-          "text" : "lucasterra",
-          "targetRectangle" : {
-            "y" : 401.1740690553401,
-            "x" : 132.5993937888341,
-            "width" : 118.15,
-            "height" : 30
-          }
-        },
-        {
-          "text" : "2018",
-          "targetRectangle" : {
-            "y" : 431.1740690553401,
-            "x" : 132.5993937888341,
-            "width" : 35.80200000000002,
-            "height" : 28
-          }
-        },
-        {
-          "text" : "Confidential",
-          "targetRectangle" : {
-            "y" : 1037.029174506664,
-            "x" : 128.3999633789062,
-            "width" : 68.256,
-            "height" : 15
-          }
-        },
-        {
           "text" : "Um guia para \\u2028aproveitar seus \\u2028alimentos por completo.",
           "targetRectangle" : {
-            "y" : 493.296873693072,
-            "x" : 1405.114005864915,
+            "y" : 493.2968738079071,
+            "x" : 1405.114013671875,
             "width" : 327.729,
             "height" : 102
           }
@@ -511,11 +493,29 @@
           }
         },
         {
+          "text" : "Group 4.3 (5).png",
+          "targetRectangle" : {
+            "y" : 21.97979736328125,
+            "x" : 0,
+            "width" : 1920,
+            "height" : 1088.040405273438
+          }
+        },
+        {
           "text" : "lucas terra for nubank",
           "targetRectangle" : {
             "y" : 1037.029174506664,
             "x" : 897.7500002384186,
             "width" : 124.5,
+            "height" : 15
+          }
+        },
+        {
+          "text" : "Confidential",
+          "targetRectangle" : {
+            "y" : 1037.029174506664,
+            "x" : 128.3999633789062,
+            "width" : 68.256,
             "height" : 15
           }
         }
@@ -1442,7 +1442,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 971.5000002265726,
+                    "pointX" : 971.5000002384186,
                     "pointY" : 554
                   },
                   "width" : 1951,
@@ -1508,7 +1508,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 974.4999997734274,
+                        "pointX" : 974.4999997615814,
                         "pointY" : 557
                       },
                       "width" : 1951,
@@ -1810,8 +1810,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1565.114005864915,
-                    "pointY" : 538.796873693072
+                    "pointX" : 1565.114013671875,
+                    "pointY" : 538.7968738079071
                   },
                   "width" : 328,
                   "sublayerTransform" : [
@@ -1858,7 +1858,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.1567171717171717,
-                      "textBaseline" : 0.928452912047287,
+                      "textBaseline" : 0.9284529132072372,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -1882,8 +1882,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 167.8859941350854,
-                        "pointY" : 57.20312630692797
+                        "pointX" : 167.885986328125,
+                        "pointY" : 57.2031261920929
                       },
                       "width" : 328,
                       "sublayerTransform" : [
@@ -2184,8 +2184,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 215.5993937888341,
-                    "pointY" : 408.6740690553401
+                    "pointX" : 215.5993957519531,
+                    "pointY" : 408.6740733385086
                   },
                   "width" : 174,
                   "sublayerTransform" : [
@@ -2232,7 +2232,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.161144578313253,
-                      "textBaseline" : 0.8847475699203244,
+                      "textBaseline" : 0.8847476215247648,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2256,8 +2256,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 89.40060621116589,
-                        "pointY" : 49.32593094465994
+                        "pointX" : 89.40060424804688,
+                        "pointY" : 49.32592666149139
                       },
                       "width" : 174,
                       "sublayerTransform" : [

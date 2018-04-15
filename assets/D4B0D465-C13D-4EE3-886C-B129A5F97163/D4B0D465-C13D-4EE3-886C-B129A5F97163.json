@@ -28,7 +28,49 @@
       "width" : 10,
       "height" : 26
     },
-    "D366F3E6E4ECCA1DE4EEE17090297088" : {
+    "9BD79F109D0978606E1DD971D5263273" : {
+      "type" : "texture",
+      "index" : 31,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 278,
+      "height" : 30
+    },
+    "3D5CCB56384422E21742D45729E29F76" : {
+      "type" : "texture",
+      "index" : 29,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 422,
+      "height" : 30
+    },
+    "C085C16A2BB8778AAD4AB5B5C07871B8" : {
+      "type" : "texture",
+      "index" : 11,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 504,
+      "height" : 30
+    },
+    "16D77B6D20E64639B5EBD0EB2B7ED111" : {
       "type" : "texture",
       "index" : 27,
       "assetRequest" : {
@@ -39,26 +81,12 @@
       "url" : {
         "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
       },
-      "width" : 492,
-      "height" : 31
-    },
-    "B05357DF693AEE0A4D3CD57F233D18D5" : {
-      "type" : "texture",
-      "index" : 15,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 469,
+      "width" : 485,
       "height" : 30
     },
-    "8C377F5AAF34F885BE9F93C67639889E" : {
+    "4433645FA66471C1B530AC9EB0BC46B8" : {
       "type" : "texture",
-      "index" : 28,
+      "index" : 30,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -67,12 +95,12 @@
       "url" : {
         "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
       },
-      "width" : 421,
-      "height" : 31
+      "width" : 133,
+      "height" : 25
     },
-    "F51FB73BD98E1CFA85A06F671B8E3281" : {
+    "A249A389D220ED51900CFA09D969F891" : {
       "type" : "texture",
-      "index" : 13,
+      "index" : 25,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -81,12 +109,12 @@
       "url" : {
         "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
       },
-      "width" : 492,
+      "width" : 491,
       "height" : 29
     },
     "2F9C3851B04B927A53A816E1B8A64BA3" : {
       "type" : "texture",
-      "index" : 20,
+      "index" : 19,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -112,9 +140,9 @@
       "width" : 401,
       "height" : 96
     },
-    "4FCD9586CFE29C8FA5E3D8B66D511F9D" : {
+    "4672C37C28A5DA006785DD638AFA4093" : {
       "type" : "texture",
-      "index" : 11,
+      "index" : 26,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -123,7 +151,7 @@
       "url" : {
         "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
       },
-      "width" : 505,
+      "width" : 493,
       "height" : 30
     },
     "C7529E10C0C5FE67D5EA2D095F206706" : {
@@ -254,7 +282,7 @@
     },
     "8E0AD7FCF3B933A06A44963717AE233D" : {
       "type" : "texture",
-      "index" : 18,
+      "index" : 17,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -268,7 +296,7 @@
     },
     "67711BD8CEB5D4A7D57EDEAD171B92FB" : {
       "type" : "texture",
-      "index" : 21,
+      "index" : 18,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -282,7 +310,7 @@
     },
     "95B02B654C200C520C36EA3EA800EDA2" : {
       "type" : "texture",
-      "index" : 14,
+      "index" : 13,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -324,7 +352,7 @@
     },
     "28508A426FCFE3B66B2BA8D4ACEBEE9C" : {
       "type" : "texture",
-      "index" : 17,
+      "index" : 20,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -364,6 +392,20 @@
       "width" : 622,
       "height" : 146
     },
+    "0071ACC2F9E518760329BA355C831769" : {
+      "type" : "texture",
+      "index" : 28,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 471,
+      "height" : 29
+    },
     "EF63D564D5BD84469C512207CFE837F3" : {
       "type" : "texture",
       "index" : 24,
@@ -380,7 +422,7 @@
     },
     "CECC0F93DEC0A86F49094E9747589E2F" : {
       "type" : "texture",
-      "index" : 12,
+      "index" : 15,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -394,7 +436,7 @@
     },
     "449091441CF6FEDA0586D29B54E20366" : {
       "type" : "texture",
-      "index" : 19,
+      "index" : 21,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -406,9 +448,9 @@
       "width" : 228,
       "height" : 26
     },
-    "464CF8A8777C219E5ED290EA9ADF7994" : {
+    "349D22A7554A258AAA5A09F9B34E91A3" : {
       "type" : "texture",
-      "index" : 29,
+      "index" : 12,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -417,8 +459,8 @@
       "url" : {
         "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
       },
-      "width" : 484,
-      "height" : 31
+      "width" : 468,
+      "height" : 30
     },
     "9F81B9E10A6152761C25779928FEC280" : {
       "type" : "texture",
@@ -434,6 +476,20 @@
       "width" : 75,
       "height" : 32
     },
+    "C9D818D459A60C4D22F95D94736DFCFA" : {
+      "type" : "texture",
+      "index" : 14,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 491,
+      "height" : 29
+    },
     "9C46280786EF0E385CBCC49FDA8DA135" : {
       "type" : "texture",
       "index" : 38,
@@ -448,20 +504,6 @@
       "width" : 17,
       "height" : 21
     },
-    "82117D93DBE5F16837D718D0F6CFCA3D" : {
-      "type" : "texture",
-      "index" : 25,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 277,
-      "height" : 31
-    },
     "3CF3BDCE3A90A9C11AA8E433000072E5" : {
       "type" : "texture",
       "index" : 5,
@@ -475,48 +517,6 @@
       },
       "width" : 127,
       "height" : 13
-    },
-    "03FE48DE4CE165E1699AA3B646D62CE8" : {
-      "type" : "texture",
-      "index" : 26,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 470,
-      "height" : 30
-    },
-    "EF8B3AEB582730E7A8ACD35124759175" : {
-      "type" : "texture",
-      "index" : 30,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 132,
-      "height" : 26
-    },
-    "4095F4F01E7B574BBED0E576946C51BC" : {
-      "type" : "texture",
-      "index" : 31,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 490,
-      "height" : 30
     },
     "430E213854B2CE4BD387FC3594DD3F4A" : {
       "type" : "texture",
@@ -546,20 +546,6 @@
       "width" : 257,
       "height" : 17
     },
-    "B83480753A2F1F6CCE1888CCE11D1861" : {
-      "type" : "texture",
-      "index" : 4,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
-      },
-      "width" : 71,
-      "height" : 13
-    },
     "56CF39380C9C76E730E9A1F366745C5E" : {
       "type" : "texture",
       "index" : 9,
@@ -573,6 +559,20 @@
       },
       "width" : 549,
       "height" : 351
+    },
+    "B83480753A2F1F6CCE1888CCE11D1861" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/D4B0D465-C13D-4EE3-886C-B129A5F97163.pdf"
+      },
+      "width" : 71,
+      "height" : 13
     }
   },
   "events" : [
@@ -705,7 +705,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "zPosition",
@@ -715,7 +715,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -856,7 +856,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -866,7 +866,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -936,7 +936,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -946,7 +946,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1036,7 +1036,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1046,7 +1046,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1116,7 +1116,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -1126,7 +1126,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1216,7 +1216,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1226,7 +1226,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1245,7 +1245,7 @@
                   "scale" : 1,
                   "position" : {
                     "pointX" : 970.1682739257812,
-                    "pointY" : 555.4115657806396
+                    "pointY" : 555.4115600585938
                   },
                   "width" : 1948.336547851562,
                   "sublayerTransform" : [
@@ -1274,7 +1274,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 1110.823131561279,
+                  "height" : 1110.823120117188,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -1296,7 +1296,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1309,19 +1309,19 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 0.23331,
+                            "beginTime" : 0.2333099960267544,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.46669,
+                            "duration" : 0.4666899920523166,
                             "to" : {
                               "scalar" : true
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1405,7 +1405,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1415,7 +1415,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1485,7 +1485,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1498,19 +1498,19 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 0.23331,
+                            "beginTime" : 0.2333099960267544,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.46669,
+                            "duration" : 0.4666899920523166,
                             "to" : {
                               "scalar" : true
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1600,7 +1600,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1610,7 +1610,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1680,7 +1680,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1693,19 +1693,19 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 0.23331,
+                            "beginTime" : 0.2333099960267544,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.46669,
+                            "duration" : 0.4666899920523166,
                             "to" : {
                               "scalar" : true
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1795,7 +1795,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1805,7 +1805,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1823,10 +1823,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 976.4531355140031,
-                    "pointY" : 498.2195844828761
+                    "pointX" : 976.453125,
+                    "pointY" : 498.2195739746094
                   },
-                  "width" : 636.157223284046,
+                  "width" : 636.1572265625,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -1872,10 +1872,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1888,19 +1888,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1929,7 +1929,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 301.6254762404353,
+                        "pointX" : 301.6254781662628,
                         "pointY" : 174.8536987304688
                       },
                       "width" : 549,
@@ -1962,8 +1962,8 @@
                       "height" : 351,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.4990892533923777,
-                        "pointY" : 0.4992010953928095
+                        "pointX" : 0.4990892347632292,
+                        "pointY" : 0.4992010654547276
                       }
                     },
                     "texture" : "56CF39380C9C76E730E9A1F366745C5E"
@@ -1984,7 +1984,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1994,7 +1994,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2013,7 +2013,7 @@
                   "scale" : 1,
                   "position" : {
                     "pointX" : 959.9999761581421,
-                    "pointY" : 287.3323514341245
+                    "pointY" : 287.3323664665222
                   },
                   "width" : 417.7947521209717,
                   "sublayerTransform" : [
@@ -2061,10 +2061,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2077,19 +2077,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2100,7 +2100,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.535,
-                      "textBaseline" : 0.8289606564122678,
+                      "textBaseline" : 0.8289615406709558,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2158,7 +2158,7 @@
                       "hidden" : true,
                       "anchorPoint" : {
                         "pointX" : 0.4980544153354511,
-                        "pointY" : 0.4313148182918634
+                        "pointY" : 0.4313157025505515
                       }
                     },
                     "texture" : "C0640390ECBB96C0613FF358092B53C8"
@@ -2179,7 +2179,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -2189,7 +2189,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2207,10 +2207,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
                   },
-                  "width" : 518.1537475585936,
+                  "width" : 518.1537475585939,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -2237,7 +2237,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
+                  "height" : 232.0000000000003,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -2256,10 +2256,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2272,19 +2272,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2295,7 +2295,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804101717383046,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2320,9 +2320,9 @@
                       "scale" : 1,
                       "position" : {
                         "pointX" : 259.076873779297,
-                        "pointY" : 116.0000000000002
+                        "pointY" : 116.0000000000003
                       },
-                      "width" : 505,
+                      "width" : 504,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -2352,11 +2352,11 @@
                       "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.505393296258656,
-                        "pointY" : 2.119064264646499
+                        "pointX" : 0.5044119395906963,
+                        "pointY" : 2.11906331380208
                       }
                     },
-                    "texture" : "4FCD9586CFE29C8FA5E3D8B66D511F9D"
+                    "texture" : "C085C16A2BB8778AAD4AB5B5C07871B8"
                   }
                 ]
               },
@@ -2374,7 +2374,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -2384,7 +2384,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2402,10 +2402,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
                   },
-                  "width" : 518.1537475585936,
+                  "width" : 518.1537475585939,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -2432,7 +2432,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
+                  "height" : 232.0000000000003,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -2451,10 +2451,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2467,19 +2467,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2489,203 +2489,8 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.6063333333333334,
-                      "textBaseline" : 0.9363962145162986,
-                      "isBackgroundTexture" : true,
-                      "isVerticalText" : false,
-                      "textColor" : [
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        1
-                      ],
-                      "textureType" : 6
-                    },
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 259.0768737792969,
-                        "pointY" : 116.0000000000002
-                      },
-                      "width" : 306,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 0,
-                      "height" : 31,
-                      "hidden" : true,
-                      "anchorPoint" : {
-                        "pointX" : 0.8275281523222917,
-                        "pointY" : 3.502320256109515
-                      }
-                    },
-                    "texture" : "CECC0F93DEC0A86F49094E9747589E2F"
-                  }
-                ]
-              },
-              {
-                "animations" : [
-                  {
-                    "timeOffset" : 0,
-                    "beginTime" : 0,
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 0.01
-                        },
-                        "beginTime" : 0,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "timingFunction" : "EaseInEaseOut",
-                        "property" : "zPosition",
-                        "to" : {
-                          "scalar" : 0.01
-                        }
-                      }
-                    ],
-                    "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
-                    "autoreverses" : false,
-                    "fillMode" : "both"
-                  }
-                ],
-                "initialState" : {
-                  "affineTransform" : [
-                    1,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0
-                  ],
-                  "masksToBounds" : false,
-                  "rotation" : 0,
-                  "scale" : 1,
-                  "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
-                  },
-                  "width" : 518.1537475585936,
-                  "sublayerTransform" : [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1
-                  ],
-                  "contentsRect" : {
-                    "y" : 0,
-                    "x" : 0,
-                    "width" : 1,
-                    "height" : 1
-                  },
-                  "opacity" : 1,
-                  "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
-                  "hidden" : false,
-                  "anchorPoint" : {
-                    "pointX" : 0.5,
-                    "pointY" : 0.5
-                  }
-                },
-                "layers" : [
-                  {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "beginTime" : 0,
-                        "animations" : [
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : 0
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "both",
-                            "duration" : 0.23331,
-                            "autoreverses" : false,
-                            "timingFunction" : "EaseInEaseOut",
-                            "property" : "opacity",
-                            "to" : {
-                              "scalar" : 1
-                            }
-                          },
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : false
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "forwards",
-                            "property" : "hidden",
-                            "autoreverses" : false,
-                            "duration" : 0.23331,
-                            "to" : {
-                              "scalar" : false
-                            }
-                          }
-                        ],
-                        "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "fillMode" : "both"
-                      }
-                    ],
-                    "layers" : [
-
-                    ],
-                    "texturedRectangle" : {
-                      "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.5158928571428572,
-                      "textBaseline" : 0.8082819635861013,
+                      "textXHeight" : 0.4981034482758621,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2710,9 +2515,9 @@
                       "scale" : 1,
                       "position" : {
                         "pointX" : 259.076873779297,
-                        "pointY" : 116.0000000000002
+                        "pointY" : 116.0000000000003
                       },
-                      "width" : 492,
+                      "width" : 468,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -2739,14 +2544,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 29,
+                      "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5187471841679295,
-                        "pointY" : -1.325105933124311
+                        "pointX" : 0.5432128580207498,
+                        "pointY" : 1.052396647135413
                       }
                     },
-                    "texture" : "F51FB73BD98E1CFA85A06F671B8E3281"
+                    "texture" : "349D22A7554A258AAA5A09F9B34E91A3"
                   }
                 ]
               },
@@ -2759,22 +2564,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.011
+                          "scalar" : 0.01
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.011
+                          "scalar" : 0.01
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2792,10 +2597,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
                   },
-                  "width" : 518.1537475585936,
+                  "width" : 518.1537475585939,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -2822,7 +2627,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
+                  "height" : 232.0000000000003,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -2841,10 +2646,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2857,19 +2662,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2880,7 +2685,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.5778,
-                      "textBaseline" : 0.9052757992164334,
+                      "textBaseline" : 0.905274658203125,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2904,8 +2709,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 259.0768737792969,
-                        "pointY" : 116.0000000000002
+                        "pointX" : 259.076873779297,
+                        "pointY" : 116.0000000000003
                       },
                       "width" : 242,
                       "sublayerTransform" : [
@@ -2937,8 +2742,8 @@
                       "height" : 26,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 1.058775266986038,
-                        "pointY" : -0.01646431002326995
+                        "pointX" : 1.058775279147566,
+                        "pointY" : -0.01646540715144685
                       }
                     },
                     "texture" : "95B02B654C200C520C36EA3EA800EDA2"
@@ -2954,22 +2759,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.012
+                          "scalar" : 0.011
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.012
+                          "scalar" : 0.011
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2987,10 +2792,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
                   },
-                  "width" : 518.1537475585936,
+                  "width" : 518.1537475585939,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -3017,7 +2822,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
+                  "height" : 232.0000000000003,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -3036,10 +2841,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3052,19 +2857,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3074,8 +2879,8 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804101717383046,
+                      "textXHeight" : 0.5158928571428572,
+                      "textBaseline" : 0.8082809448242188,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -3100,9 +2905,9 @@
                       "scale" : 1,
                       "position" : {
                         "pointX" : 259.076873779297,
-                        "pointY" : 116.0000000000002
+                        "pointY" : 116.0000000000003
                       },
-                      "width" : 469,
+                      "width" : 491,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -3129,14 +2934,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 30,
+                      "height" : 29,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5441868115365059,
-                        "pointY" : 1.052397597979833
+                        "pointX" : 0.5177670418609184,
+                        "pointY" : -1.32510691675647
                       }
                     },
-                    "texture" : "B05357DF693AEE0A4D3CD57F233D18D5"
+                    "texture" : "C9D818D459A60C4D22F95D94736DFCFA"
                   }
                 ]
               },
@@ -3149,22 +2954,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.013
+                          "scalar" : 0.012
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.013
+                          "scalar" : 0.012
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3182,10 +2987,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.2236146106212,
-                    "pointY" : 821.5719279393948
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
                   },
-                  "width" : 518.1537475585936,
+                  "width" : 518.1537475585939,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -3212,7 +3017,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 231.9999999999999,
+                  "height" : 232.0000000000003,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -3231,10 +3036,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3247,19 +3052,214 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "fillMode" : "both"
+                      }
+                    ],
+                    "layers" : [
+
+                    ],
+                    "texturedRectangle" : {
+                      "singleTextureOpacity" : 1,
+                      "textXHeight" : 0.6063333333333334,
+                      "textBaseline" : 0.936395263671875,
+                      "isBackgroundTexture" : true,
+                      "isVerticalText" : false,
+                      "textColor" : [
+                        0.2000000029802322,
+                        0.2000000029802322,
+                        0.2000000029802322,
+                        1
+                      ],
+                      "textureType" : 6
+                    },
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "masksToBounds" : false,
+                      "rotation" : 0,
+                      "scale" : 1,
+                      "position" : {
+                        "pointX" : 259.076873779297,
+                        "pointY" : 116.0000000000003
+                      },
+                      "width" : 306,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 0,
+                      "height" : 31,
+                      "hidden" : true,
+                      "anchorPoint" : {
+                        "pointX" : 0.8275281619402318,
+                        "pointY" : 3.502319335937496
+                      }
+                    },
+                    "texture" : "CECC0F93DEC0A86F49094E9747589E2F"
+                  }
+                ]
+              },
+              {
+                "animations" : [
+                  {
+                    "timeOffset" : 0,
+                    "beginTime" : 0,
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "from" : {
+                          "scalar" : 0.013
+                        },
+                        "beginTime" : 0,
+                        "repeatCount" : 0,
+                        "fillMode" : "both",
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "timingFunction" : "EaseInEaseOut",
+                        "property" : "zPosition",
+                        "to" : {
+                          "scalar" : 0.013
+                        }
+                      }
+                    ],
+                    "repeatCount" : 0,
+                    "duration" : 0.699999988079071,
+                    "autoreverses" : false,
+                    "fillMode" : "both"
+                  }
+                ],
+                "initialState" : {
+                  "affineTransform" : [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "masksToBounds" : false,
+                  "rotation" : 0,
+                  "scale" : 1,
+                  "position" : {
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 821.5718994140623
+                  },
+                  "width" : 518.1537475585939,
+                  "sublayerTransform" : [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "contentsRect" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 1,
+                    "height" : 1
+                  },
+                  "opacity" : 1,
+                  "edgeAntialiasingMask" : 251658240,
+                  "height" : 232.0000000000003,
+                  "hidden" : false,
+                  "anchorPoint" : {
+                    "pointX" : 0.5,
+                    "pointY" : 0.5
+                  }
+                },
+                "layers" : [
+                  {
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "beginTime" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : 0
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "duration" : 0.2333099960267544,
+                            "autoreverses" : false,
+                            "timingFunction" : "EaseInEaseOut",
+                            "property" : "opacity",
+                            "to" : {
+                              "scalar" : 1
+                            }
+                          },
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : false
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "forwards",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.2333099960267543,
+                            "to" : {
+                              "scalar" : false
+                            }
+                          }
+                        ],
+                        "repeatCount" : 0,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3270,7 +3270,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.5555769230769231,
-                      "textBaseline" : 0.908919037708109,
+                      "textBaseline" : 0.9089179405799279,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -3294,8 +3294,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 259.0768737792969,
-                        "pointY" : 116.0000000000002
+                        "pointX" : 259.076873779297,
+                        "pointY" : 116.0000000000003
                       },
                       "width" : 303,
                       "sublayerTransform" : [
@@ -3327,8 +3327,8 @@
                       "height" : 27,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.8423221604310933,
-                        "pointY" : -2.571410076318704
+                        "pointX" : 0.8423221701442605,
+                        "pointY" : -2.571411132812504
                       }
                     },
                     "texture" : "2DB3FCF0232BE90CA015DBC8E5247B5D"
@@ -3349,7 +3349,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -3359,7 +3359,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3377,8 +3377,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
                   },
                   "width" : 551.9000244140626,
                   "sublayerTransform" : [
@@ -3426,10 +3426,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3442,214 +3442,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "fillMode" : "both"
-                      }
-                    ],
-                    "layers" : [
-
-                    ],
-                    "texturedRectangle" : {
-                      "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.5867741935483871,
-                      "textBaseline" : 0.9384470293598717,
-                      "isBackgroundTexture" : true,
-                      "isVerticalText" : false,
-                      "textColor" : [
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        1
-                      ],
-                      "textureType" : 6
-                    },
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 275.9500122070313,
-                        "pointY" : 133.6138916015625
-                      },
-                      "width" : 257,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 0,
-                      "height" : 31,
-                      "hidden" : true,
-                      "anchorPoint" : {
-                        "pointX" : 1.050583657636902,
-                        "pointY" : 4.070509387600799
-                      }
-                    },
-                    "texture" : "28508A426FCFE3B66B2BA8D4ACEBEE9C"
-                  }
-                ]
-              },
-              {
-                "animations" : [
-                  {
-                    "timeOffset" : 0,
-                    "beginTime" : 0,
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 0.015
-                        },
-                        "beginTime" : 0,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "timingFunction" : "EaseInEaseOut",
-                        "property" : "zPosition",
-                        "to" : {
-                          "scalar" : 0.015
-                        }
-                      }
-                    ],
-                    "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
-                    "autoreverses" : false,
-                    "fillMode" : "both"
-                  }
-                ],
-                "initialState" : {
-                  "affineTransform" : [
-                    1,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0
-                  ],
-                  "masksToBounds" : false,
-                  "rotation" : 0,
-                  "scale" : 1,
-                  "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
-                  },
-                  "width" : 551.9000244140626,
-                  "sublayerTransform" : [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1
-                  ],
-                  "contentsRect" : {
-                    "y" : 0,
-                    "x" : 0,
-                    "width" : 1,
-                    "height" : 1
-                  },
-                  "opacity" : 1,
-                  "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.227783203125,
-                  "hidden" : false,
-                  "anchorPoint" : {
-                    "pointX" : 0.5,
-                    "pointY" : 0.5
-                  }
-                },
-                "layers" : [
-                  {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "beginTime" : 0,
-                        "animations" : [
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : 0
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "both",
-                            "duration" : 0.23331,
-                            "autoreverses" : false,
-                            "timingFunction" : "EaseInEaseOut",
-                            "property" : "opacity",
-                            "to" : {
-                              "scalar" : 1
-                            }
-                          },
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : false
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "forwards",
-                            "property" : "hidden",
-                            "autoreverses" : false,
-                            "duration" : 0.23331,
-                            "to" : {
-                              "scalar" : false
-                            }
-                          }
-                        ],
-                        "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3660,7 +3465,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4904166666666667,
-                      "textBaseline" : 0.7804946899413968,
+                      "textBaseline" : 0.7804946899414062,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -3717,8 +3522,8 @@
                       "height" : 24,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.6310904872684081,
-                        "pointY" : -2.033925374348968
+                        "pointX" : 0.6310904872389793,
+                        "pointY" : -2.033925374348958
                       }
                     },
                     "texture" : "8E0AD7FCF3B933A06A44963717AE233D"
@@ -3734,22 +3539,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.016
+                          "scalar" : 0.015
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.016
+                          "scalar" : 0.015
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3767,8 +3572,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
                   },
                   "width" : 551.9000244140626,
                   "sublayerTransform" : [
@@ -3816,10 +3621,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3832,19 +3637,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3854,8 +3659,8 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.5555769230769231,
-                      "textBaseline" : 0.9089179405799191,
+                      "textXHeight" : 0.4708,
+                      "textBaseline" : 0.78927490234375,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -3879,10 +3684,10 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 275.9500122070314,
+                        "pointX" : 275.9500122070313,
                         "pointY" : 133.6138916015625
                       },
-                      "width" : 228,
+                      "width" : 461,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -3909,14 +3714,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 26,
+                      "height" : 25,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 1.192982456195982,
-                        "pointY" : 0.6609919621394144
+                        "pointX" : 0.5900216919739698,
+                        "pointY" : -0.832568359375
                       }
                     },
-                    "texture" : "449091441CF6FEDA0586D29B54E20366"
+                    "texture" : "67711BD8CEB5D4A7D57EDEAD171B92FB"
                   }
                 ]
               },
@@ -3929,22 +3734,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.017
+                          "scalar" : 0.016
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.017
+                          "scalar" : 0.016
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3962,8 +3767,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
                   },
                   "width" : 551.9000244140626,
                   "sublayerTransform" : [
@@ -4011,10 +3816,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4027,19 +3832,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4050,7 +3855,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804091881061344,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -4107,8 +3912,8 @@
                       "height" : 29,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5643153527234106,
-                        "pointY" : 2.765027276400854
+                        "pointX" : 0.5643153526970957,
+                        "pointY" : 2.765027276400862
                       }
                     },
                     "texture" : "2F9C3851B04B927A53A816E1B8A64BA3"
@@ -4124,22 +3929,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.018
+                          "scalar" : 0.017
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.018
+                          "scalar" : 0.017
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4157,8 +3962,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
                   },
                   "width" : 551.9000244140626,
                   "sublayerTransform" : [
@@ -4206,10 +4011,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4222,19 +4027,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4244,14 +4049,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4708,
-                      "textBaseline" : 0.7892749023437409,
+                      "textXHeight" : 0.5867741935483871,
+                      "textBaseline" : 0.938447029359879,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.5411764979362488,
-                        0.5411764979362488,
-                        0.5607843399047852,
+                        0.2000000029802322,
+                        0.2000000029802322,
+                        0.2000000029802322,
                         1
                       ],
                       "textureType" : 6
@@ -4272,7 +4077,7 @@
                         "pointX" : 275.9500122070314,
                         "pointY" : 133.6138916015625
                       },
-                      "width" : 461,
+                      "width" : 257,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -4299,14 +4104,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 25,
+                      "height" : 31,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5900216920014836,
-                        "pointY" : -0.8325683593750091
+                        "pointX" : 1.050583657587549,
+                        "pointY" : 4.070509387600806
                       }
                     },
-                    "texture" : "67711BD8CEB5D4A7D57EDEAD171B92FB"
+                    "texture" : "28508A426FCFE3B66B2BA8D4ACEBEE9C"
                   }
                 ]
               },
@@ -4319,22 +4124,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.019
+                          "scalar" : 0.018
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.019
+                          "scalar" : 0.018
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4352,8 +4157,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 960.0000000126838,
-                    "pointY" : 839.1857910156248
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
                   },
                   "width" : 551.9000244140626,
                   "sublayerTransform" : [
@@ -4401,10 +4206,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4417,19 +4222,214 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "fillMode" : "both"
+                      }
+                    ],
+                    "layers" : [
+
+                    ],
+                    "texturedRectangle" : {
+                      "singleTextureOpacity" : 1,
+                      "textXHeight" : 0.5555769230769231,
+                      "textBaseline" : 0.9089179405799279,
+                      "isBackgroundTexture" : true,
+                      "isVerticalText" : false,
+                      "textColor" : [
+                        0.5411764979362488,
+                        0.5411764979362488,
+                        0.5607843399047852,
+                        1
+                      ],
+                      "textureType" : 6
+                    },
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "masksToBounds" : false,
+                      "rotation" : 0,
+                      "scale" : 1,
+                      "position" : {
+                        "pointX" : 275.9500122070314,
+                        "pointY" : 133.6138916015625
+                      },
+                      "width" : 228,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 0,
+                      "height" : 26,
+                      "hidden" : true,
+                      "anchorPoint" : {
+                        "pointX" : 1.192982456140351,
+                        "pointY" : 0.6609919621394231
+                      }
+                    },
+                    "texture" : "449091441CF6FEDA0586D29B54E20366"
+                  }
+                ]
+              },
+              {
+                "animations" : [
+                  {
+                    "timeOffset" : 0,
+                    "beginTime" : 0,
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "from" : {
+                          "scalar" : 0.019
+                        },
+                        "beginTime" : 0,
+                        "repeatCount" : 0,
+                        "fillMode" : "both",
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "timingFunction" : "EaseInEaseOut",
+                        "property" : "zPosition",
+                        "to" : {
+                          "scalar" : 0.019
+                        }
+                      }
+                    ],
+                    "repeatCount" : 0,
+                    "duration" : 0.699999988079071,
+                    "autoreverses" : false,
+                    "fillMode" : "both"
+                  }
+                ],
+                "initialState" : {
+                  "affineTransform" : [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "masksToBounds" : false,
+                  "rotation" : 0,
+                  "scale" : 1,
+                  "position" : {
+                    "pointX" : 960,
+                    "pointY" : 839.185791015625
+                  },
+                  "width" : 551.9000244140626,
+                  "sublayerTransform" : [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "contentsRect" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 1,
+                    "height" : 1
+                  },
+                  "opacity" : 1,
+                  "edgeAntialiasingMask" : 251658240,
+                  "height" : 267.227783203125,
+                  "hidden" : false,
+                  "anchorPoint" : {
+                    "pointX" : 0.5,
+                    "pointY" : 0.5
+                  }
+                },
+                "layers" : [
+                  {
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "beginTime" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : 0
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "duration" : 0.2333099960267544,
+                            "autoreverses" : false,
+                            "timingFunction" : "EaseInEaseOut",
+                            "property" : "opacity",
+                            "to" : {
+                              "scalar" : 1
+                            }
+                          },
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : false
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "forwards",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.2333099960267543,
+                            "to" : {
+                              "scalar" : false
+                            }
+                          }
+                        ],
+                        "repeatCount" : 0,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4440,7 +4440,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804091881061344,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -4497,8 +4497,8 @@
                       "height" : 29,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5343811395141138,
-                        "pointY" : 1.661579000538785
+                        "pointX" : 0.5343811394891947,
+                        "pointY" : 1.661579000538793
                       }
                     },
                     "texture" : "AAE0D7C3044A48C3AE08F510676D110B"
@@ -4519,7 +4519,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -4529,7 +4529,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4547,10 +4547,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 356.223614794124,
-                    "pointY" : 498.219584425644
+                    "pointX" : 356.2236175537109,
+                    "pointY" : 498.2195739746094
                   },
-                  "width" : 504.9926452636721,
+                  "width" : 504.9926452636719,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -4596,10 +4596,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4612,19 +4612,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4653,7 +4653,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 252.4963226318361,
+                        "pointX" : 252.496322631836,
                         "pointY" : 174.8536987304688
                       },
                       "width" : 508,
@@ -4686,8 +4686,8 @@
                       "height" : 353,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5004401866026064,
-                        "pointY" : 0.499205621602391
+                        "pointX" : 0.5004401920348641,
+                        "pointY" : 0.4992055919960606
                       }
                     },
                     "texture" : "C7529E10C0C5FE67D5EA2D095F206706"
@@ -4708,7 +4708,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -4718,7 +4718,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4736,10 +4736,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1576.793181180954,
-                    "pointY" : 483.8447762216165
+                    "pointX" : 1576.793212890625,
+                    "pointY" : 483.8447723388672
                   },
-                  "width" : 533.1511254310608,
+                  "width" : 533.151123046875,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -4766,7 +4766,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 377.4565812518267,
+                  "height" : 377.4565734863281,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -4785,10 +4785,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4801,19 +4801,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4842,7 +4842,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 266.5755627155304,
+                        "pointX" : 266.5755615234375,
                         "pointY" : 188.7282906259134
                       },
                       "width" : 534,
@@ -4875,7 +4875,7 @@
                       "height" : 379,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.4996126988407378,
+                        "pointX" : 0.4996127582221442,
                         "pointY" : 0.4982711773657427
                       }
                     },
@@ -4897,7 +4897,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -4907,7 +4907,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4925,10 +4925,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -4955,7 +4955,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -4974,10 +4974,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -4990,214 +4990,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "fillMode" : "both"
-                      }
-                    ],
-                    "layers" : [
-
-                    ],
-                    "texturedRectangle" : {
-                      "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.6063333333333334,
-                      "textBaseline" : 0.9363952636718637,
-                      "isBackgroundTexture" : true,
-                      "isVerticalText" : false,
-                      "textColor" : [
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        1
-                      ],
-                      "textureType" : 6
-                    },
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 259.0768737792971,
-                        "pointY" : 133.6138916015628
-                      },
-                      "width" : 277,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 0,
-                      "height" : 31,
-                      "hidden" : true,
-                      "anchorPoint" : {
-                        "pointX" : 0.9254763049855105,
-                        "pointY" : 4.038251323084671
-                      }
-                    },
-                    "texture" : "82117D93DBE5F16837D718D0F6CFCA3D"
-                  }
-                ]
-              },
-              {
-                "animations" : [
-                  {
-                    "timeOffset" : 0,
-                    "beginTime" : 0,
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 0.023
-                        },
-                        "beginTime" : 0,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "timingFunction" : "EaseInEaseOut",
-                        "property" : "zPosition",
-                        "to" : {
-                          "scalar" : 0.023
-                        }
-                      }
-                    ],
-                    "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
-                    "autoreverses" : false,
-                    "fillMode" : "both"
-                  }
-                ],
-                "initialState" : {
-                  "affineTransform" : [
-                    1,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0
-                  ],
-                  "masksToBounds" : false,
-                  "rotation" : 0,
-                  "scale" : 1,
-                  "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
-                  },
-                  "width" : 518.1537475585938,
-                  "sublayerTransform" : [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1
-                  ],
-                  "contentsRect" : {
-                    "y" : 0,
-                    "x" : 0,
-                    "width" : 1,
-                    "height" : 1
-                  },
-                  "opacity" : 1,
-                  "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
-                  "hidden" : false,
-                  "anchorPoint" : {
-                    "pointX" : 0.5,
-                    "pointY" : 0.5
-                  }
-                },
-                "layers" : [
-                  {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "beginTime" : 0,
-                        "animations" : [
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : 0
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "both",
-                            "duration" : 0.23331,
-                            "autoreverses" : false,
-                            "timingFunction" : "EaseInEaseOut",
-                            "property" : "opacity",
-                            "to" : {
-                              "scalar" : 1
-                            }
-                          },
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : false
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "forwards",
-                            "property" : "hidden",
-                            "autoreverses" : false,
-                            "duration" : 0.23331,
-                            "to" : {
-                              "scalar" : false
-                            }
-                          }
-                        ],
-                        "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -5208,7 +5013,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804091881061305,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -5235,7 +5040,202 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 470,
+                      "width" : 491,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 0,
+                      "height" : 29,
+                      "hidden" : true,
+                      "anchorPoint" : {
+                        "pointX" : 0.5180384991368067,
+                        "pointY" : 2.765027276400862
+                      }
+                    },
+                    "texture" : "A249A389D220ED51900CFA09D969F891"
+                  }
+                ]
+              },
+              {
+                "animations" : [
+                  {
+                    "timeOffset" : 0,
+                    "beginTime" : 0,
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "from" : {
+                          "scalar" : 0.023
+                        },
+                        "beginTime" : 0,
+                        "repeatCount" : 0,
+                        "fillMode" : "both",
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "timingFunction" : "EaseInEaseOut",
+                        "property" : "zPosition",
+                        "to" : {
+                          "scalar" : 0.023
+                        }
+                      }
+                    ],
+                    "repeatCount" : 0,
+                    "duration" : 0.699999988079071,
+                    "autoreverses" : false,
+                    "fillMode" : "both"
+                  }
+                ],
+                "initialState" : {
+                  "affineTransform" : [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "masksToBounds" : false,
+                  "rotation" : 0,
+                  "scale" : 1,
+                  "position" : {
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
+                  },
+                  "width" : 518.153747558594,
+                  "sublayerTransform" : [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "contentsRect" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 1,
+                    "height" : 1
+                  },
+                  "opacity" : 1,
+                  "edgeAntialiasingMask" : 251658240,
+                  "height" : 267.2277832031252,
+                  "hidden" : false,
+                  "anchorPoint" : {
+                    "pointX" : 0.5,
+                    "pointY" : 0.5
+                  }
+                },
+                "layers" : [
+                  {
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "beginTime" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : 0
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "duration" : 0.2333099960267544,
+                            "autoreverses" : false,
+                            "timingFunction" : "EaseInEaseOut",
+                            "property" : "opacity",
+                            "to" : {
+                              "scalar" : 1
+                            }
+                          },
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : false
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "forwards",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.2333099960267543,
+                            "to" : {
+                              "scalar" : false
+                            }
+                          }
+                        ],
+                        "repeatCount" : 0,
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "fillMode" : "both"
+                      }
+                    ],
+                    "layers" : [
+
+                    ],
+                    "texturedRectangle" : {
+                      "singleTextureOpacity" : 1,
+                      "textXHeight" : 0.4815,
+                      "textBaseline" : 0.7877288818359375,
+                      "isBackgroundTexture" : true,
+                      "isVerticalText" : false,
+                      "textColor" : [
+                        0.5411764979362488,
+                        0.5411764979362488,
+                        0.5607843399047852,
+                        1
+                      ],
+                      "textureType" : 6
+                    },
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "masksToBounds" : false,
+                      "rotation" : 0,
+                      "scale" : 1,
+                      "position" : {
+                        "pointX" : 259.0768737792971,
+                        "pointY" : 133.6138916015627
+                      },
+                      "width" : 493,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -5265,11 +5265,11 @@
                       "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5433126308106093,
-                        "pointY" : -0.7271402994791739
+                        "pointX" : 0.5159369230753998,
+                        "pointY" : 0.3728597005208333
                       }
                     },
-                    "texture" : "03FE48DE4CE165E1699AA3B646D62CE8"
+                    "texture" : "4672C37C28A5DA006785DD638AFA4093"
                   }
                 ]
               },
@@ -5287,7 +5287,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -5297,7 +5297,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -5315,10 +5315,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -5345,7 +5345,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -5364,10 +5364,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -5380,19 +5380,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -5403,7 +5403,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4815,
-                      "textBaseline" : 0.7877288818359262,
+                      "textBaseline" : 0.7877288818359375,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -5430,7 +5430,7 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 492,
+                      "width" : 485,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -5457,14 +5457,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 31,
+                      "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5169856432540374,
-                        "pointY" : 0.3608319682459605
+                        "pointX" : 0.5265090785075713,
+                        "pointY" : -1.7604736328125
                       }
                     },
-                    "texture" : "D366F3E6E4ECCA1DE4EEE17090297088"
+                    "texture" : "16D77B6D20E64639B5EBD0EB2B7ED111"
                   }
                 ]
               },
@@ -5482,7 +5482,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -5492,7 +5492,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -5510,10 +5510,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -5540,7 +5540,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -5559,10 +5559,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -5575,19 +5575,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -5597,8 +5597,8 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4815,
-                      "textBaseline" : 0.7877288818359262,
+                      "textXHeight" : 0.4981034482758621,
+                      "textBaseline" : 0.7804091881061422,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -5625,7 +5625,7 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 421,
+                      "width" : 471,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -5652,14 +5652,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 31,
+                      "height" : 29,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.6065485427101814,
-                        "pointY" : 1.586638419858863
+                        "pointX" : 0.5421590298857157,
+                        "pointY" : -0.7522141029094828
                       }
                     },
-                    "texture" : "8C377F5AAF34F885BE9F93C67639889E"
+                    "texture" : "0071ACC2F9E518760329BA355C831769"
                   }
                 ]
               },
@@ -5677,7 +5677,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -5687,7 +5687,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -5705,10 +5705,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -5735,7 +5735,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -5754,10 +5754,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -5770,19 +5770,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -5793,7 +5793,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.4815,
-                      "textBaseline" : 0.7877288818359262,
+                      "textBaseline" : 0.7877288818359375,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -5820,7 +5820,7 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 484,
+                      "width" : 422,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -5847,14 +5847,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 31,
+                      "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5275969762003851,
-                        "pointY" : -1.703684160786298
+                        "pointX" : 0.6051111447302656,
+                        "pointY" : 1.6395263671875
                       }
                     },
-                    "texture" : "464CF8A8777C219E5ED290EA9ADF7994"
+                    "texture" : "3D5CCB56384422E21742D45729E29F76"
                   }
                 ]
               },
@@ -5872,7 +5872,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -5882,7 +5882,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -5900,10 +5900,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -5930,7 +5930,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -5949,10 +5949,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -5965,19 +5965,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -5988,7 +5988,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.5778,
-                      "textBaseline" : 0.9052746582031114,
+                      "textBaseline" : 0.905274658203125,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -6015,7 +6015,7 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 132,
+                      "width" : 133,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -6042,14 +6042,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 26,
+                      "height" : 25,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 1.934522246068079,
-                        "pointY" : -3.300546499399047
+                        "pointX" : 1.919976714858437,
+                        "pointY" : -3.432568359375
                       }
                     },
-                    "texture" : "EF8B3AEB582730E7A8ACD35124759175"
+                    "texture" : "4433645FA66471C1B530AC9EB0BC46B8"
                   }
                 ]
               },
@@ -6067,7 +6067,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -6077,7 +6077,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -6095,10 +6095,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1570.356936480986,
-                    "pointY" : 839.1857910156245
+                    "pointX" : 1570.356903076172,
+                    "pointY" : 839.1857910156249
                   },
-                  "width" : 518.1537475585938,
+                  "width" : 518.153747558594,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -6125,7 +6125,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 267.2277832031251,
+                  "height" : 267.2277832031252,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -6144,10 +6144,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -6160,19 +6160,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -6182,14 +6182,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7804091881061305,
+                      "textXHeight" : 0.6063333333333334,
+                      "textBaseline" : 0.936395263671875,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.5411764979362488,
-                        0.5411764979362488,
-                        0.5607843399047852,
+                        0.2000000029802322,
+                        0.2000000029802322,
+                        0.2000000029802322,
                         1
                       ],
                       "textureType" : 6
@@ -6210,7 +6210,7 @@
                         "pointX" : 259.0768737792971,
                         "pointY" : 133.6138916015627
                       },
-                      "width" : 490,
+                      "width" : 278,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -6240,11 +6240,11 @@
                       "height" : 30,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.5190957887367069,
-                        "pointY" : 2.672859700520826
+                        "pointX" : 0.9221471333675255,
+                        "pointY" : 4.172859700520833
                       }
                     },
-                    "texture" : "4095F4F01E7B574BBED0E576946C51BC"
+                    "texture" : "9BD79F109D0978606E1DD971D5263273"
                   }
                 ]
               },
@@ -6262,7 +6262,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -6272,7 +6272,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -6342,7 +6342,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -6359,7 +6359,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -6370,7 +6370,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -6460,7 +6460,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -6470,7 +6470,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -6540,7 +6540,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -6556,7 +6556,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -6572,7 +6572,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -6589,7 +6589,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -6600,7 +6600,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -6690,7 +6690,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -6700,7 +6700,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -6770,7 +6770,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -6786,7 +6786,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -6802,7 +6802,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -6819,7 +6819,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -6830,7 +6830,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -6920,7 +6920,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -6930,7 +6930,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -7000,7 +7000,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -7016,7 +7016,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -7032,7 +7032,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -7049,7 +7049,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -7060,7 +7060,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -7150,7 +7150,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -7160,7 +7160,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -7230,7 +7230,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -7246,7 +7246,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -7262,7 +7262,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -7279,7 +7279,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -7290,7 +7290,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -7371,7 +7371,7 @@
           "effects" : [
 
           ],
-          "duration" : 0.7000000000000001,
+          "duration" : 0.699999988079071,
           "type" : "transition",
           "name" : "apple:magic-move-implied-motion-path",
           "objectID" : "0"
@@ -7383,21 +7383,21 @@
       ],
       "accessibility" : [
         {
-          "text" : "( 3 )   ",
+          "text" : "Confidential",
           "targetRectangle" : {
-            "y" : 482.4999990463257,
-            "x" : 570.5950011253357,
-            "width" : 81.36000000000001,
-            "height" : 115
+            "y" : 1037.029174506664,
+            "x" : 128.3999633789062,
+            "width" : 68.256,
+            "height" : 15
           }
         },
         {
-          "text" : "lucas terra for nubank",
+          "text" : "￼",
           "targetRectangle" : {
-            "y" : 1037.029174506664,
-            "x" : 897.7500002384186,
-            "width" : 124.5,
-            "height" : 15
+            "y" : 1030.029174804688,
+            "x" : 1786.401582956314,
+            "width" : 9.366999999999962,
+            "height" : 21
           }
         },
         {
@@ -7415,15 +7415,6 @@
             "y" : 1037.029174506664,
             "x" : 897.7500002384186,
             "width" : 124.5,
-            "height" : 15
-          }
-        },
-        {
-          "text" : "Confidential",
-          "targetRectangle" : {
-            "y" : 1037.029174506664,
-            "x" : 128.3999633789062,
-            "width" : 68.256,
             "height" : 15
           }
         },
@@ -7437,12 +7428,21 @@
           }
         },
         {
-          "text" : "￼",
+          "text" : "lucas terra for nubank",
           "targetRectangle" : {
-            "y" : 1030.029174804688,
-            "x" : 1786.401582956314,
-            "width" : 9.366999999999962,
-            "height" : 21
+            "y" : 1037.029174506664,
+            "x" : 897.7500002384186,
+            "width" : 124.5,
+            "height" : 15
+          }
+        },
+        {
+          "text" : "( 3 )   ",
+          "targetRectangle" : {
+            "y" : 482.4999990463257,
+            "x" : 570.5950011253357,
+            "width" : 81.36000000000001,
+            "height" : 115
           }
         },
         {

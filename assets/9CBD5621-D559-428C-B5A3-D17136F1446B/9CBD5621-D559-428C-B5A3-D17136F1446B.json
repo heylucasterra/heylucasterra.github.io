@@ -14,9 +14,9 @@
       "width" : 1920,
       "height" : 1080
     },
-    "5229A4D0FE7BC6DF4754AD5DC94C75B8" : {
+    "BB6C51B61FE1E32983ACB6E67FDA79B9" : {
       "type" : "texture",
-      "index" : 4,
+      "index" : 7,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -25,8 +25,8 @@
       "url" : {
         "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
       },
-      "width" : 105,
-      "height" : 15
+      "width" : 520,
+      "height" : 124
     },
     "8D4895464AC9FAE938C978B99BDDE433" : {
       "type" : "texture",
@@ -100,7 +100,7 @@
     },
     "2FA3B1A9930C8879247E8D3C617093FC" : {
       "type" : "texture",
-      "index" : 15,
+      "index" : 14,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -142,7 +142,7 @@
     },
     "F7C8ECD39E7E96727C7EC11A712C1432" : {
       "type" : "texture",
-      "index" : 10,
+      "index" : 13,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -153,6 +153,20 @@
       },
       "width" : 729,
       "height" : 29
+    },
+    "5229A4D0FE7BC6DF4754AD5DC94C75B8" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
+      },
+      "width" : 105,
+      "height" : 15
     },
     "2971FF440A97219B82B7C6AC4C20475A" : {
       "type" : "texture",
@@ -254,7 +268,7 @@
     },
     "6DBEE26D25E0B8920B3C0C12B2DE0496" : {
       "type" : "texture",
-      "index" : 14,
+      "index" : 10,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -280,20 +294,6 @@
       "width" : 127,
       "height" : 13
     },
-    "F4E46D660CCABA44560DFF272B4089BB" : {
-      "type" : "texture",
-      "index" : 7,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
-      },
-      "width" : 521,
-      "height" : 124
-    },
     "62B595AA5962B09672A94B420E6942B7" : {
       "type" : "texture",
       "index" : 2,
@@ -307,20 +307,6 @@
       },
       "width" : 127,
       "height" : 13
-    },
-    "2D453A62B6A170D71A616045FF4B07C0" : {
-      "type" : "texture",
-      "index" : 16,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
-      },
-      "width" : 724,
-      "height" : 30
     },
     "8DD4F0F41D322E52DFAD27A39E6B4BCA" : {
       "type" : "texture",
@@ -336,9 +322,37 @@
       "width" : 1952,
       "height" : 1110
     },
+    "2D453A62B6A170D71A616045FF4B07C0" : {
+      "type" : "texture",
+      "index" : 16,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
+      },
+      "width" : 724,
+      "height" : 30
+    },
+    "A6DAD1E0C0120ACD33495A267DCF9160" : {
+      "type" : "texture",
+      "index" : 25,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
+      },
+      "width" : 12,
+      "height" : 21
+    },
     "744FBC53E844343EDE7D5B2B4F6913C3" : {
       "type" : "texture",
-      "index" : 13,
+      "index" : 15,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -377,20 +391,6 @@
       },
       "width" : 13,
       "height" : 25
-    },
-    "A6DAD1E0C0120ACD33495A267DCF9160" : {
-      "type" : "texture",
-      "index" : 25,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/9CBD5621-D559-428C-B5A3-D17136F1446B.pdf"
-      },
-      "width" : 12,
-      "height" : 21
     }
   },
   "events" : [
@@ -523,7 +523,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "zPosition",
@@ -533,7 +533,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -674,7 +674,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -684,7 +684,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -754,7 +754,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -764,7 +764,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -854,7 +854,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -864,7 +864,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -934,7 +934,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -944,7 +944,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1034,7 +1034,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1044,7 +1044,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1063,7 +1063,7 @@
                   "scale" : 1,
                   "position" : {
                     "pointX" : 970.1682739257812,
-                    "pointY" : 554.2026119232178
+                    "pointY" : 554.20263671875
                   },
                   "width" : 1948.336547851562,
                   "sublayerTransform" : [
@@ -1092,7 +1092,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 1108.405223846436,
+                  "height" : 1108.4052734375,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -1114,7 +1114,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1127,19 +1127,19 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 0.23331,
+                            "beginTime" : 0.2333099960267544,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.46669,
+                            "duration" : 0.4666899920523166,
                             "to" : {
                               "scalar" : true
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1223,7 +1223,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1233,7 +1233,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1303,7 +1303,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1316,19 +1316,19 @@
                             "from" : {
                               "scalar" : true
                             },
-                            "beginTime" : 0.23331,
+                            "beginTime" : 0.2333099960267544,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.46669,
+                            "duration" : 0.4666899920523166,
                             "to" : {
                               "scalar" : true
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1418,7 +1418,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1428,7 +1428,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1498,7 +1498,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -1508,7 +1508,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1598,7 +1598,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1608,7 +1608,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1675,10 +1675,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1691,19 +1691,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1713,14 +1713,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4981034482758621,
-                      "textBaseline" : 0.7606882226878199,
+                      "textXHeight" : 0.5052777777777778,
+                      "textBaseline" : 0.7866651746961806,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.5411764979362488,
-                        0.5411764979362488,
-                        0.5607843399047852,
+                        0.2000000029802322,
+                        0.2000000029802322,
+                        0.2000000029802322,
                         1
                       ],
                       "textureType" : 6
@@ -1741,7 +1741,7 @@
                         "pointX" : 374.32421875,
                         "pointY" : 191.8250041007996
                       },
-                      "width" : 729,
+                      "width" : 684,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -1768,14 +1768,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 29,
+                      "height" : 36,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.4993141289437586,
-                        "pointY" : 1.172413513578218
+                        "pointX" : 0.5,
+                        "pointY" : 5.055555330382453
                       }
                     },
-                    "texture" : "F7C8ECD39E7E96727C7EC11A712C1432"
+                    "texture" : "6DBEE26D25E0B8920B3C0C12B2DE0496"
                   }
                 ]
               },
@@ -1793,7 +1793,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1803,7 +1803,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -1870,10 +1870,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -1886,19 +1886,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -1988,7 +1988,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -1998,7 +1998,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2065,10 +2065,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2081,19 +2081,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2183,7 +2183,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -2193,7 +2193,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2260,10 +2260,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2276,19 +2276,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2298,8 +2298,8 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.4815,
-                      "textBaseline" : 0.775331974029541,
+                      "textXHeight" : 0.4981034482758621,
+                      "textBaseline" : 0.7606882226878199,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -2326,7 +2326,7 @@
                         "pointX" : 374.32421875,
                         "pointY" : 191.8250041007996
                       },
-                      "width" : 707,
+                      "width" : 729,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -2353,14 +2353,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 30,
+                      "height" : 29,
                       "hidden" : true,
                       "anchorPoint" : {
-                        "pointX" : 0.4992927864214993,
-                        "pointY" : -2.702077229817708e-07
+                        "pointX" : 0.4993141289437586,
+                        "pointY" : 1.172413513578218
                       }
                     },
-                    "texture" : "744FBC53E844343EDE7D5B2B4F6913C3"
+                    "texture" : "F7C8ECD39E7E96727C7EC11A712C1432"
                   }
                 ]
               },
@@ -2378,7 +2378,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -2388,7 +2388,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2455,10 +2455,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2471,214 +2471,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "fillMode" : "both"
-                      }
-                    ],
-                    "layers" : [
-
-                    ],
-                    "texturedRectangle" : {
-                      "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.5052777777777778,
-                      "textBaseline" : 0.7866651746961806,
-                      "isBackgroundTexture" : true,
-                      "isVerticalText" : false,
-                      "textColor" : [
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        0.2000000029802322,
-                        1
-                      ],
-                      "textureType" : 6
-                    },
-                    "initialState" : {
-                      "affineTransform" : [
-                        1,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0
-                      ],
-                      "masksToBounds" : false,
-                      "rotation" : 0,
-                      "scale" : 1,
-                      "position" : {
-                        "pointX" : 374.32421875,
-                        "pointY" : 191.8250041007996
-                      },
-                      "width" : 684,
-                      "sublayerTransform" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                      ],
-                      "contentsRect" : {
-                        "y" : 0,
-                        "x" : 0,
-                        "width" : 1,
-                        "height" : 1
-                      },
-                      "opacity" : 1,
-                      "edgeAntialiasingMask" : 0,
-                      "height" : 36,
-                      "hidden" : true,
-                      "anchorPoint" : {
-                        "pointX" : 0.5,
-                        "pointY" : 5.055555330382453
-                      }
-                    },
-                    "texture" : "6DBEE26D25E0B8920B3C0C12B2DE0496"
-                  }
-                ]
-              },
-              {
-                "animations" : [
-                  {
-                    "timeOffset" : 0,
-                    "beginTime" : 0,
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "from" : {
-                          "scalar" : 0.011
-                        },
-                        "beginTime" : 0,
-                        "repeatCount" : 0,
-                        "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
-                        "autoreverses" : false,
-                        "timingFunction" : "EaseInEaseOut",
-                        "property" : "zPosition",
-                        "to" : {
-                          "scalar" : 0.011
-                        }
-                      }
-                    ],
-                    "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
-                    "autoreverses" : false,
-                    "fillMode" : "both"
-                  }
-                ],
-                "initialState" : {
-                  "affineTransform" : [
-                    1,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0
-                  ],
-                  "masksToBounds" : false,
-                  "rotation" : 0,
-                  "scale" : 1,
-                  "position" : {
-                    "pointX" : 960.0000076293945,
-                    "pointY" : 539.9999961853027
-                  },
-                  "width" : 748.6484527587891,
-                  "sublayerTransform" : [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1
-                  ],
-                  "contentsRect" : {
-                    "y" : 0,
-                    "x" : 0,
-                    "width" : 1,
-                    "height" : 1
-                  },
-                  "opacity" : 1,
-                  "edgeAntialiasingMask" : 251658240,
-                  "height" : 383.650016784668,
-                  "hidden" : false,
-                  "anchorPoint" : {
-                    "pointX" : 0.5,
-                    "pointY" : 0.5
-                  }
-                },
-                "layers" : [
-                  {
-                    "animations" : [
-                      {
-                        "timeOffset" : 0,
-                        "beginTime" : 0,
-                        "animations" : [
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : 0
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "both",
-                            "duration" : 0.23331,
-                            "autoreverses" : false,
-                            "timingFunction" : "EaseInEaseOut",
-                            "property" : "opacity",
-                            "to" : {
-                              "scalar" : 1
-                            }
-                          },
-                          {
-                            "timeOffset" : 0,
-                            "from" : {
-                              "scalar" : false
-                            },
-                            "beginTime" : 0.4666900000000001,
-                            "repeatCount" : 0,
-                            "fillMode" : "forwards",
-                            "property" : "hidden",
-                            "autoreverses" : false,
-                            "duration" : 0.23331,
-                            "to" : {
-                              "scalar" : false
-                            }
-                          }
-                        ],
-                        "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2763,22 +2568,22 @@
                       {
                         "timeOffset" : 0,
                         "from" : {
-                          "scalar" : 0.012
+                          "scalar" : 0.011
                         },
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
                         "to" : {
-                          "scalar" : 0.012
+                          "scalar" : 0.011
                         }
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -2845,10 +2650,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -2861,19 +2666,214 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "fillMode" : "both"
+                      }
+                    ],
+                    "layers" : [
+
+                    ],
+                    "texturedRectangle" : {
+                      "singleTextureOpacity" : 1,
+                      "textXHeight" : 0.4815,
+                      "textBaseline" : 0.775331974029541,
+                      "isBackgroundTexture" : true,
+                      "isVerticalText" : false,
+                      "textColor" : [
+                        0.5411764979362488,
+                        0.5411764979362488,
+                        0.5607843399047852,
+                        1
+                      ],
+                      "textureType" : 6
+                    },
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "masksToBounds" : false,
+                      "rotation" : 0,
+                      "scale" : 1,
+                      "position" : {
+                        "pointX" : 374.32421875,
+                        "pointY" : 191.8250041007996
+                      },
+                      "width" : 707,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 0,
+                      "height" : 30,
+                      "hidden" : true,
+                      "anchorPoint" : {
+                        "pointX" : 0.4992927864214993,
+                        "pointY" : -2.702077229817708e-07
+                      }
+                    },
+                    "texture" : "744FBC53E844343EDE7D5B2B4F6913C3"
+                  }
+                ]
+              },
+              {
+                "animations" : [
+                  {
+                    "timeOffset" : 0,
+                    "beginTime" : 0,
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "from" : {
+                          "scalar" : 0.012
+                        },
+                        "beginTime" : 0,
+                        "repeatCount" : 0,
+                        "fillMode" : "both",
+                        "duration" : 0.699999988079071,
+                        "autoreverses" : false,
+                        "timingFunction" : "EaseInEaseOut",
+                        "property" : "zPosition",
+                        "to" : {
+                          "scalar" : 0.012
+                        }
+                      }
+                    ],
+                    "repeatCount" : 0,
+                    "duration" : 0.699999988079071,
+                    "autoreverses" : false,
+                    "fillMode" : "both"
+                  }
+                ],
+                "initialState" : {
+                  "affineTransform" : [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "masksToBounds" : false,
+                  "rotation" : 0,
+                  "scale" : 1,
+                  "position" : {
+                    "pointX" : 960.0000076293945,
+                    "pointY" : 539.9999961853027
+                  },
+                  "width" : 748.6484527587891,
+                  "sublayerTransform" : [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "contentsRect" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 1,
+                    "height" : 1
+                  },
+                  "opacity" : 1,
+                  "edgeAntialiasingMask" : 251658240,
+                  "height" : 383.650016784668,
+                  "hidden" : false,
+                  "anchorPoint" : {
+                    "pointX" : 0.5,
+                    "pointY" : 0.5
+                  }
+                },
+                "layers" : [
+                  {
+                    "animations" : [
+                      {
+                        "timeOffset" : 0,
+                        "beginTime" : 0,
+                        "animations" : [
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : 0
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "both",
+                            "duration" : 0.2333099960267544,
+                            "autoreverses" : false,
+                            "timingFunction" : "EaseInEaseOut",
+                            "property" : "opacity",
+                            "to" : {
+                              "scalar" : 1
+                            }
+                          },
+                          {
+                            "timeOffset" : 0,
+                            "from" : {
+                              "scalar" : false
+                            },
+                            "beginTime" : 0.4666899920523167,
+                            "repeatCount" : 0,
+                            "fillMode" : "forwards",
+                            "property" : "hidden",
+                            "autoreverses" : false,
+                            "duration" : 0.2333099960267543,
+                            "to" : {
+                              "scalar" : false
+                            }
+                          }
+                        ],
+                        "repeatCount" : 0,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -2963,7 +2963,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -2973,7 +2973,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3040,10 +3040,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3056,19 +3056,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3158,7 +3158,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -3168,7 +3168,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3235,10 +3235,10 @@
                             "from" : {
                               "scalar" : 0
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267544,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "opacity",
@@ -3251,19 +3251,19 @@
                             "from" : {
                               "scalar" : false
                             },
-                            "beginTime" : 0.4666900000000001,
+                            "beginTime" : 0.4666899920523167,
                             "repeatCount" : 0,
                             "fillMode" : "forwards",
                             "property" : "hidden",
                             "autoreverses" : false,
-                            "duration" : 0.23331,
+                            "duration" : 0.2333099960267543,
                             "to" : {
                               "scalar" : false
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3353,7 +3353,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -3363,7 +3363,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3433,7 +3433,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -3450,7 +3450,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -3461,7 +3461,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3551,7 +3551,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -3561,7 +3561,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3579,8 +3579,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 959.9999999999992,
-                    "pointY" : 539.9999999999985
+                    "pointX" : 960,
+                    "pointY" : 540
                   },
                   "width" : 1080,
                   "sublayerTransform" : [
@@ -3631,12 +3631,12 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
                             "to" : {
-                              "scalar" : 0.6449136276391555
+                              "scalar" : 0.6461538461538462
                             }
                           },
                           {
@@ -3647,7 +3647,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -3658,12 +3658,12 @@
                           {
                             "timeOffset" : 0,
                             "from" : {
-                              "texture" : "F4E46D660CCABA44560DFF272B4089BB"
+                              "texture" : "BB6C51B61FE1E32983ACB6E67FDA79B9"
                             },
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -3680,18 +3680,18 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
                             "to" : {
-                              "pointX" : 0.3877159309023455,
-                              "pointY" : -433.4999999999995
+                              "pointX" : 0.06153846153847553,
+                              "pointY" : -433.5
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3702,7 +3702,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.666075,
-                      "textBaseline" : 0.9656186454526721,
+                      "textBaseline" : 0.9656186454526839,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -3726,10 +3726,10 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 539.9999999999999,
+                        "pointX" : 540,
                         "pointY" : 97.29949951171875
                       },
-                      "width" : 521,
+                      "width" : 520,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -3759,11 +3759,11 @@
                       "height" : 124,
                       "hidden" : false,
                       "anchorPoint" : {
-                        "pointX" : 0.4952015355086357,
-                        "pointY" : 0.4999999999999881
+                        "pointX" : 0.4942307692307693,
+                        "pointY" : 0.5
                       }
                     },
-                    "texture" : "F4E46D660CCABA44560DFF272B4089BB"
+                    "texture" : "BB6C51B61FE1E32983ACB6E67FDA79B9"
                   }
                 ]
               },
@@ -3781,7 +3781,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -3791,7 +3791,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -3809,7 +3809,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 637.9999986038208,
+                    "pointX" : 638,
                     "pointY" : 540
                   },
                   "width" : 85.97999811172485,
@@ -3861,7 +3861,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -3877,7 +3877,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -3893,7 +3893,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -3910,7 +3910,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
@@ -3921,7 +3921,7 @@
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -3989,7 +3989,7 @@
                       "height" : 32,
                       "hidden" : false,
                       "anchorPoint" : {
-                        "pointX" : 2.272727231632581,
+                        "pointX" : 2.272727358557962,
                         "pointY" : 1.656249970197678
                       }
                     },
@@ -4011,7 +4011,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -4021,7 +4021,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4039,7 +4039,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 637.9999986038208,
+                    "pointX" : 638,
                     "pointY" : 540
                   },
                   "width" : 85.97999811172485,
@@ -4091,7 +4091,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -4107,7 +4107,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -4123,7 +4123,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -4140,18 +4140,18 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
                             "to" : {
-                              "pointX" : 116.4615384963109,
+                              "pointX" : 116.4615383889125,
                               "pointY" : -422.1599998474121
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4219,7 +4219,7 @@
                       "height" : 25,
                       "hidden" : false,
                       "anchorPoint" : {
-                        "pointX" : 0.5384615036891074,
+                        "pointX" : 0.5384616110875063,
                         "pointY" : 2.039999961853027
                       }
                     },
@@ -4241,7 +4241,7 @@
                         "beginTime" : 0,
                         "repeatCount" : 0,
                         "fillMode" : "both",
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "timingFunction" : "EaseInEaseOut",
                         "property" : "zPosition",
@@ -4251,7 +4251,7 @@
                       }
                     ],
                     "repeatCount" : 0,
-                    "duration" : 0.7000000000000001,
+                    "duration" : 0.699999988079071,
                     "autoreverses" : false,
                     "fillMode" : "both"
                   }
@@ -4269,7 +4269,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 637.9999986038208,
+                    "pointX" : 638,
                     "pointY" : 540
                   },
                   "width" : 85.97999811172485,
@@ -4321,7 +4321,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.x",
@@ -4337,7 +4337,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.scale.y",
@@ -4353,7 +4353,7 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "contents",
@@ -4370,18 +4370,18 @@
                             "beginTime" : 0,
                             "repeatCount" : 0,
                             "fillMode" : "both",
-                            "duration" : 0.7000000000000001,
+                            "duration" : 0.699999988079071,
                             "autoreverses" : false,
                             "timingFunction" : "EaseInEaseOut",
                             "property" : "transform.translation",
                             "to" : {
-                              "pointX" : 114.3636364047311,
+                              "pointX" : 114.3636362778057,
                               "pointY" : -422.9374998211861
                             }
                           }
                         ],
                         "repeatCount" : 0,
-                        "duration" : 0.7000000000000001,
+                        "duration" : 0.699999988079071,
                         "autoreverses" : false,
                         "fillMode" : "both"
                       }
@@ -4449,7 +4449,7 @@
                       "height" : 32,
                       "hidden" : false,
                       "anchorPoint" : {
-                        "pointX" : -1.363636404731055,
+                        "pointX" : -1.363636277805674,
                         "pointY" : 1.656249970197678
                       }
                     },
@@ -4462,7 +4462,7 @@
           "effects" : [
 
           ],
-          "duration" : 0.7000000000000001,
+          "duration" : 0.699999988079071,
           "type" : "transition",
           "name" : "apple:magic-move-implied-motion-path",
           "objectID" : "0"
@@ -4474,20 +4474,20 @@
       ],
       "accessibility" : [
         {
-          "text" : "lucas terra for nubank",
+          "text" : "( 1 )   ",
           "targetRectangle" : {
-            "y" : 1037.029174506664,
-            "x" : 897.7500002384186,
-            "width" : 124.5,
-            "height" : 15
+            "y" : 482.4999990463257,
+            "x" : 612.7850009441376,
+            "width" : 76.98000000000002,
+            "height" : 115
           }
         },
         {
-          "text" : "All rights reserved",
+          "text" : "Confidential",
           "targetRectangle" : {
             "y" : 1037.029174506664,
             "x" : 128.3999633789062,
-            "width" : 102.42,
+            "width" : 68.256,
             "height" : 15
           }
         },
@@ -4495,9 +4495,27 @@
           "text" : "Frame 2.5 (2).png",
           "targetRectangle" : {
             "y" : 20.97163009643555,
-            "x" : -1.13242748511766e-13,
+            "x" : 0,
             "width" : 1920,
             "height" : 1087.43359375
+          }
+        },
+        {
+          "text" : "Desafio",
+          "targetRectangle" : {
+            "y" : 446.7005004882812,
+            "x" : 690.7612799999999,
+            "width" : 538.4774400000001,
+            "height" : 185
+          }
+        },
+        {
+          "text" : "lucas terra for nubank",
+          "targetRectangle" : {
+            "y" : 1037.029174506664,
+            "x" : 897.7500002384186,
+            "width" : 124.5,
+            "height" : 15
           }
         },
         {
@@ -4519,30 +4537,12 @@
           }
         },
         {
-          "text" : "Confidential",
+          "text" : "All rights reserved",
           "targetRectangle" : {
             "y" : 1037.029174506664,
             "x" : 128.3999633789062,
-            "width" : 68.256,
+            "width" : 102.42,
             "height" : 15
-          }
-        },
-        {
-          "text" : "Desafio",
-          "targetRectangle" : {
-            "y" : 446.7005004882798,
-            "x" : 690.7612799999993,
-            "width" : 538.4774399999999,
-            "height" : 185
-          }
-        },
-        {
-          "text" : "( 1 )   ",
-          "targetRectangle" : {
-            "y" : 482.4999990463257,
-            "x" : 612.7849995479584,
-            "width" : 76.98000000000002,
-            "height" : 115
           }
         }
       ],
@@ -5971,10 +5971,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 680.4999999999993,
-                    "pointY" : 504.7005004882798
+                    "pointX" : 680,
+                    "pointY" : 504.7005004882812
                   },
-                  "width" : 521,
+                  "width" : 520,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -6019,7 +6019,7 @@
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
                       "textXHeight" : 0.666075,
-                      "textBaseline" : 0.9656186454526721,
+                      "textBaseline" : 0.9656186454526839,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
@@ -6043,10 +6043,10 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 542.5000000000007,
-                        "pointY" : 97.29949951172023
+                        "pointX" : 543,
+                        "pointY" : 97.29949951171875
                       },
-                      "width" : 521,
+                      "width" : 520,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -6080,7 +6080,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "F4E46D660CCABA44560DFF272B4089BB"
+                    "texture" : "BB6C51B61FE1E32983ACB6E67FDA79B9"
                   }
                 ]
               }
@@ -6158,7 +6158,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 630.0099995479584,
+                    "pointX" : 630.0100009441376,
                     "pointY" : 494.4999990463257
                   },
                   "width" : 70,
@@ -6230,7 +6230,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 52.99000045204161,
+                        "pointX" : 52.98999905586243,
                         "pointY" : 24.50000095367432
                       },
                       "width" : 70,
