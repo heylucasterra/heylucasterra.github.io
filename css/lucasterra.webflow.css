@@ -947,12 +947,12 @@ a {
   text-decoration: none;
 }
 
-.simplelink._333 {
+.simplelink._999 {
   border-bottom-color: rgba(51, 51, 51, 0);
-  color: #333;
+  color: #999;
 }
 
-.simplelink._333:hover {
+.simplelink._999:hover {
   border-bottom-color: rgba(51, 51, 51, .31);
 }
 
