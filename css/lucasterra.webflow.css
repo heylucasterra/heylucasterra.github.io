@@ -899,8 +899,8 @@ a {
 .image.horizontal {
   position: relative;
   top: 95px;
-  right: -14px;
-  width: 330px;
+  right: -40px;
+  width: 276px;
   height: 220px;
   float: right;
 }
@@ -1221,9 +1221,10 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     padding-left: 8px;
   }
   .image.horizontal {
-    top: -138px;
+    width: 130px;
+    height: 130px;
+    top: -100px;
     right: 17px;
-    margin-top: -32px;
   }
   .image.horizontal._2 {
     top: 84px;
@@ -1453,8 +1454,8 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     padding-bottom: 0rem;
   }
   .image.horizontal {
-    top: -168px;
-    right: 18px;
+    top: 168px;
+    right: -100px;
   }
   .image.horizontal._2 {
     top: -12px;
@@ -1571,6 +1572,9 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   .image.horizontal {
     width: 280px;
     height: 160px;
+      right:20px;
+      top:-100px;
+          
   }
   .image.curvy {
     width: 220px;
