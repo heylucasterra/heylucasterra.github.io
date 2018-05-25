@@ -782,8 +782,11 @@ a {
 .professionalblock.nubank {
   padding: 3rem 2rem;
   background-color: #8d22ad;
-  background-image: -webkit-linear-gradient(270deg, #8d22ad, #8425a0);
-  background-image: linear-gradient(180deg, #8d22ad, #8425a0);
+  background-image: url('../images/device-card.png'), -webkit-linear-gradient(270deg, #8d22ad, #8425a0);
+  background-image: url('../images/device-card.png'), linear-gradient(180deg, #8d22ad, #8425a0);
+  background-position: 90% 75%, 0px 0px;
+  background-size: 480px, auto;
+  background-repeat: no-repeat, repeat;
 }
 
 .professionalblock.timtim {
@@ -1213,8 +1216,12 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     padding-left: 5px;
   }
   .professionalblock.nubank {
-    min-height: 30vh;
     padding-bottom: 1rem;
+
+      min-height: 680px;
+      background-position: 40% 95%, 0px 0px;
+      background-size: 420px, auto;
+    }
   }
   .image {
     margin-top: 44px;
@@ -1500,6 +1507,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     line-height: 24px;
     font-weight: 300;
   }
+  .professionalblock.nubank {
+      min-height: 680px;
+      background-position: 40% 95%, 0px 0px;
+      background-size: 420px, auto;
+    }
 }
 
 @media (max-width: 479px) {
@@ -1544,6 +1556,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     background-size: auto, 150%;
     background-repeat: repeat, no-repeat;
   }
+    .professionalblock.nubank {
+      min-height: 680px;
+      background-position: 20% 95%, 0px 0px;
+      background-size: 380px, auto;
+    }
   .logo {
     text-align: center;
   }
