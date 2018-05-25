@@ -911,9 +911,19 @@ a {
   height: 110px;
 }
 
+.image.curvy {
+  height: 220px;
+  border-color: #333;
+  border-radius: 50%;
+}
+
 .pink {
   color: #ff91d3;
   font-weight: 300;
+}
+
+.pink.fade {
+  opacity: 0;
 }
 
 .simplelink {
