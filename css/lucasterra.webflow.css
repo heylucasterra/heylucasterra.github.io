@@ -1143,6 +1143,10 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     float: none;
     background-color: #ffa061;
   }
+    .professionalblock {
+              min-height: 780px;
+padding-bottom: 2rem;
+    }
   .menu-button.w--open {
     background-color: hsla(0, 0%, 100%, .15);
   }
@@ -1217,7 +1221,6 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   }
   .professionalblock.nubank {
     padding-bottom: 1rem;
-        .professionalblock.nubank {
       min-height: 680px;
       background-position: 40% 95%, 0px 0px;
       background-size: 420px, auto;
