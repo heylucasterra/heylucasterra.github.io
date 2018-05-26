@@ -92,6 +92,8 @@ a {
   overflow: scroll;
   width: 100vw;
   max-height: 70px;
+  max-width: 1442px;
+  margin: auto;
   margin-right: auto;
   margin-left: auto;
   padding-top: 5px;
@@ -795,7 +797,8 @@ a {
 }
 
 .professionalblock.previousprojects {
-  background-color: #6295cc;
+  
+    background-color: #6295cc;
   background-image: -webkit-linear-gradient(270deg, #6295cc, #568bc3);
   background-image: linear-gradient(180deg, #6295cc, #568bc3);
 }
@@ -986,6 +989,7 @@ a {
   max-width: 1440px;
   padding-left: 2rem;
   background-color: #fff;
+    margin:auto;
 }
 
 .brand-3 {
