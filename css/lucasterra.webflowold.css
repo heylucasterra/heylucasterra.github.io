@@ -774,7 +774,6 @@ a {
 }
 
 .professionalblock {
-  height: 640px;
   min-height: 87vh;
   padding: 3rem 2rem;
   background-color: #dfdfdf;
@@ -795,16 +794,13 @@ a {
 }
 
 .professionalblock.previousprojects {
+  min-height: 40vh;
   background-color: #6295cc;
   background-image: -webkit-linear-gradient(270deg, #6295cc, #568bc3);
   background-image: linear-gradient(180deg, #6295cc, #568bc3);
 }
 
 .body-2 {
-  display: block;
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
   background-color: #fff;
 }
 
@@ -882,13 +878,14 @@ a {
 }
 
 .aboutblock.lightpink {
-  position: fixed;
-  overflow: hidden;
-  width: 100%;
-  max-width: 41.7%;
-  min-height: 100vh;
-  padding: 3rem 2rem;
-  background-color: #fff2fa;
+  position: static;
+    overflow: visible;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 680;
+    padding-bottom: 0rem;
+      background-color: #fff2fa;
+
 }
 
 .image-10 {
@@ -898,43 +895,31 @@ a {
 
 .image {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 220px;
+  height: 330px;
   float: right;
-  border: 1px none #fff;
-  background-image: url('../images/device-card.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
+  border: 1px solid #fff;
 }
 
 .image.horizontal {
   position: relative;
   top: 95px;
-  right: -14px;
-  width: 330px;
+  right: -40px;
+  width: 276px;
   height: 220px;
   float: right;
 }
 
 .image.horizontal._2 {
   top: 3px;
-  width: 220px;
-  height: 330px;
-  background-image: none;
-  background-position: 0px 0px;
-  background-size: auto;
-  background-repeat: repeat;
+  width: 200px;
+  height: 110px;
 }
 
 .image.curvy {
-  height: 100%;
-  border-style: solid;
-  border-color: #d3d3d3;
+  height: 220px;
+  border-color: #333;
   border-radius: 50%;
-  background-image: none;
-  background-size: auto;
-  background-repeat: repeat;
 }
 
 .pink {
@@ -969,7 +954,7 @@ a {
 
 .simplelink._999 {
   border-bottom-color: rgba(51, 51, 51, 0);
-  color: #333;
+  color: #999;
 }
 
 .simplelink._999:hover {
@@ -982,8 +967,8 @@ a {
   top: 0px;
   right: 0px;
   overflow: visible;
+  width: 100%;
   height: 70px;
-  max-width: 1440px;
   padding-left: 2rem;
   background-color: #fff;
 }
@@ -1047,8 +1032,8 @@ a {
   font-weight: 300;
 }
 
-.light-blue {
-  color: #cce1f1;
+.white {
+  color: #c2def3;
   font-weight: 300;
 }
 
@@ -1063,8 +1048,6 @@ a {
 }
 
 .div-block-4 {
-  width: 300px;
-  height: 300px;
   float: right;
 }
 
@@ -1161,6 +1144,10 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     float: none;
     background-color: #ffa061;
   }
+    .professionalblock {
+              min-height: 780px;
+padding-bottom: 2rem;
+    }
   .menu-button.w--open {
     background-color: hsla(0, 0%, 100%, .15);
   }
@@ -1235,8 +1222,10 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   }
   .professionalblock.nubank {
     padding-bottom: 1rem;
-    background-position: 53% 89%, 0px 0px;
-    background-size: 400px, auto;
+      min-height: 680px;
+      background-position: 40% 95%, 0px 0px;
+      background-size: 420px, auto;
+    }
   }
   .image {
     margin-top: 44px;
@@ -1244,18 +1233,17 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     padding-left: 8px;
   }
   .image.horizontal {
-    top: -138px;
+    width: 130px;
+    height: 130px;
+    top: -100px;
     right: 17px;
-    margin-top: -32px;
   }
   .image.horizontal._2 {
     top: 84px;
   }
   .image.curvy {
-    width: 80%;
-    height: 80%;
-    margin-top: 0px;
-    border-color: #d3d3d3;
+    height: 220px;
+    border-color: #333;
     border-radius: 50%;
   }
   .pink.fade {
@@ -1263,11 +1251,6 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   }
   .menu-button-3 {
     position: static;
-  }
-  .div-block-4 {
-    width: 200px;
-    height: 200px;
-    float: right;
   }
 }
 
@@ -1475,6 +1458,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-bottom: 0px;
   }
   .aboutblock.lightpink {
+
     position: static;
     overflow: visible;
     width: 100vw;
@@ -1483,20 +1467,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     padding-bottom: 0rem;
   }
   .image.horizontal {
-    top: -168px;
-    right: 18px;
+    top: 168px;
+    right: -100px;
   }
   .image.horizontal._2 {
     top: -12px;
-  }
-  .image.curvy {
-    position: static;
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-left: auto;
   }
   .pink {
     max-width: 450px;
@@ -1518,7 +1493,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-bottom: 0px;
     margin-left: -2rem;
   }
-  .light-blue {
+  .white {
     max-width: 450px;
     font-size: 16px;
     line-height: 24px;
@@ -1537,10 +1512,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     line-height: 24px;
     font-weight: 300;
   }
-  .div-block-4 {
-    width: 200px;
-    height: 200px;
-  }
+  .professionalblock.nubank {
+      min-height: 680px;
+      background-position: 40% 95%, 0px 0px;
+      background-size: 420px, auto;
+    }
 }
 
 @media (max-width: 479px) {
@@ -1576,7 +1552,8 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-bottom: 10px;
     line-height: 1.1em;
   }
-  .basesection.models {
+
+    .basesection.models {
     min-height: 650px;
     background-color: #000024;
     background-image: -webkit-linear-gradient(270deg, #000024 52%, transparent 78%), url('../images/camper_models.png');
@@ -1585,6 +1562,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     background-size: auto, 150%;
     background-repeat: repeat, no-repeat;
   }
+    .professionalblock.nubank {
+      min-height: 680px;
+      background-position: 20% 95%, 0px 0px;
+      background-size: 380px, auto;
+    }
   .logo {
     text-align: center;
   }
@@ -1607,17 +1589,6 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-bottom: 13px;
     line-height: 1.4em;
   }
-  .professionalblock.nubank {
-    height: auto;
-    min-height: 680px;
-    background-size: 350px, auto;
-  }
-  .professionalblock.timtim {
-    height: auto;
-  }
-  .professionalblock.previousprojects {
-    min-height: 40vh;
-  }
   .image {
     width: 160px;
     height: 280px;
@@ -1625,20 +1596,12 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   .image.horizontal {
     width: 280px;
     height: 160px;
+      right:20px;
+      top:-100px;
+          
   }
   .image.curvy {
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-  }
-  .simplelink._999 {
-    color: #999;
-  }
-  .light-blue {
-    color: #c2def3;
-  }
-  .div-block-4 {
-    height: auto;
+    width: 220px;
   }
 }
 
