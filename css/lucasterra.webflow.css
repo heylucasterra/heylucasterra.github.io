@@ -1,10 +1,43 @@
+/*FONTS */
 h1 {
-  margin-top: 20px;
-  margin-bottom: 10px;
   font-family: Muli, sans-serif;
   font-size: 38px;
   line-height: 44px;
   font-weight: 700;
+  clear: none;
+}
+
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.h1.white {
+  color: #fff;
+  font-weight: 600;
+}
+
+.h1.light {
+  float: left;
+  opacity: 0.7;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+.h1.arrow {
+  float: right;
+  opacity: 0.7;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.h1.aboutme {
+  max-width: 380px;
 }
 
 p {
@@ -19,395 +52,10 @@ a {
   text-decoration: underline;
 }
 
-.section {
-  min-height: 50vh;
-}
+.link999{
+    color: #999;
+    text-decoration: none;
 
-.hero-section {
-  height: 80vh;
-  background-image: -webkit-linear-gradient(270deg, rgba(51, 51, 51, 0) 78%, rgba(34, 34, 34, .5)), url('../images/camino_use.jpg');
-  background-image: linear-gradient(180deg, rgba(51, 51, 51, 0) 78%, rgba(34, 34, 34, .5)), url('../images/camino_use.jpg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
-
-.container-8 {
-  position: relative;
-  left: 0px;
-  top: 35em;
-  right: 0px;
-  bottom: 0px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 0px;
-  padding-left: 0px;
-  color: #fff;
-  text-align: left;
-}
-
-.heading-6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  float: left;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: baseline;
-  -webkit-align-items: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  font-family: Inconsolata, monospace;
-  color: #fff;
-  line-height: 1em;
-  font-weight: 400;
-  text-align: center;
-  text-shadow: 5px 5px 14px rgba(0, 0, 0, .15);
-}
-
-.container-9 {
-  position: absolute;
-  left: 0px;
-  right: -1px;
-  bottom: 180px;
-  height: auto;
-  min-height: 60px;
-}
-
-.h1-white {
-  color: #fff;
-  font-size: 42px;
-}
-
-.navbar {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  display: block;
-  overflow: scroll;
-  width: 100vw;
-  max-height: 70px;
-  max-width: 1442px;
-  margin: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 5px;
-  padding-bottom: 0px;
-  background-color: hsla(0, 0%, 100%, 0);
-  opacity: 1;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.navbar:hover {
-  background-color: #fff;
-  box-shadow: 0 0 20px 14px #fff;
-}
-
-.navbar.fill {
-  background-image: -webkit-linear-gradient(270deg, #fff, transparent);
-  background-image: linear-gradient(180deg, #fff, transparent);
-  opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.navbar.fill:hover {
-  opacity: 1;
-}
-
-.container-4 {
-  position: static;
-  width: 90vw;
-  max-height: 70px;
-  max-width: 1400px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.brand {
-  max-height: 70px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  float: left;
-  color: #333;
-  font-size: 1.3em;
-  font-weight: 300;
-}
-
-.nav-link {
-  margin-left: 25px;
-  padding: 15px 0px 15px 25px;
-  color: #a7a7a7;
-  font-size: 1.1em;
-  font-weight: 300;
-}
-
-.menu-button {
-  padding: 10px;
-  float: right;
-  border-radius: 10000px;
-  background-color: hsla(0, 0%, 100%, .15);
-}
-
-.hero {
-  height: 100vh;
-  min-height: 80vh;
-  background-image: -webkit-linear-gradient(270deg, transparent 75%, rgba(51, 51, 51, .5)), url('../images/camino_use.jpg');
-  background-image: linear-gradient(180deg, transparent 75%, rgba(51, 51, 51, .5)), url('../images/camino_use.jpg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.hero:hover {
-  background-image: -webkit-linear-gradient(270deg, transparent 75%, rgba(51, 51, 51, .5)), url('../images/camino_use.jpg');
-  background-image: linear-gradient(180deg, transparent 75%, rgba(51, 51, 51, .5)), url('../images/camino_use.jpg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
-
-.containerprojecttitle {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 50px;
-  min-height: 50px;
-}
-
-.projecttitle {
-  font-family: Muli, sans-serif;
-  color: #fff;
-  font-size: 5em;
-  font-weight: 300;
-  text-shadow: 0 0 24px rgba(0, 0, 0, .37);
-}
-
-.heading-1 {
-  max-width: 700px;
-  margin-top: 0px;
-  font-family: Muli, sans-serif;
-  font-size: 2.8em;
-  font-weight: 400;
-}
-
-.heading-1.description {
-  margin-top: 0px;
-}
-
-.section-2 {
-  min-height: 300px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.paragraph {
-  display: block;
-  margin-top: 10px;
-  padding-left: 0px;
-  float: none;
-  font-family: Muli, sans-serif;
-  color: #555;
-  font-size: 1.2em;
-  line-height: 1.4em;
-  font-weight: 300;
-}
-
-.paragraph.description {
-  margin-top: 8px;
-  margin-right: 1px;
-  margin-left: auto;
-  float: left;
-  font-size: 1.2em;
-  text-align: left;
-  -webkit-column-count: 2;
-  column-count: 2;
-}
-
-.paragraph.white {
-  color: #fff;
-}
-
-.paragraph._2-column {
-  margin-top: 20px;
-  -webkit-column-count: 2;
-  column-count: 2;
-  -webkit-column-rule-color: #000;
-  column-rule-color: #000;
-  -webkit-column-rule-width: 1px;
-  column-rule-width: 1px;
-}
-
-.projectdata {
-  font-family: Inconsolata, monospace;
-  font-size: 1em;
-  line-height: 1.4em;
-  font-weight: 400;
-}
-
-.column-2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 10px;
-  text-align: center;
-}
-
-.image-8 {
-  width: 400px;
-}
-
-.paragraph-2 {
-  display: block;
-  max-width: 700px;
-  margin-top: 0px;
-  padding-top: 16px;
-  padding-left: 0px;
-  float: none;
-  font-family: Muli, sans-serif;
-  color: #555;
-  font-size: 1.3em;
-  font-weight: 300;
-}
-
-.paragraph-2.white {
-  position: static;
-  max-width: 700px;
-  margin-bottom: 8px;
-  padding-right: 32px;
-  padding-left: 0px;
-  float: none;
-  clear: none;
-  color: #fff;
-  font-size: 1.2em;
-  text-align: left;
-}
-
-.highlightsection {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  background-image: -webkit-linear-gradient(270deg, #ff2020, #dd0009);
-  background-image: linear-gradient(180deg, #ff2020, #dd0009);
-  text-align: left;
-}
-
-.heading {
-  position: static;
-  display: block;
-  width: 90vw;
-  max-width: 1000px;
-  margin: 0px auto 8px;
-  float: none;
-  font-family: Muli, sans-serif;
-  font-size: 2.8em;
-  line-height: 1.4em;
-  font-weight: 400;
-  text-align: left;
-}
-
-.heading.white {
-  position: static;
-  width: auto;
-  max-width: auto;
-  margin-bottom: 8px;
-  float: none;
-  color: #fff;
-  text-align: left;
-}
-
-.column {
-  min-height: 1px;
-  padding-right: 0px;
-  padding-left: 20px;
-}
-
-.row {
-  display: block;
-  width: 90vw;
-  max-width: 1000px;
-  margin: 0px auto;
-  clear: none;
-}
-
-.bold-text {
-  font-weight: 600;
-}
-
-.basesection {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.basesection.grey {
-  background-color: #f5f5f5;
-}
-
-.basesection.models {
-  min-height: 90vh;
-  background-image: -webkit-linear-gradient(270deg, #000024 31%, transparent 46%), url('../images/camper_models.png');
-  background-image: linear-gradient(180deg, #000024 31%, transparent 46%), url('../images/camper_models.png');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
-
-.bold {
-  font-weight: 600;
-}
-
-.image-9 {
-  display: block;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
-  text-align: center;
-}
-
-.navbarfill {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  z-index: 999;
-  min-height: 60px;
-  padding-right: 0px;
-  background-color: transparent;
-  opacity: 0;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-}
-
-.navbarfill:hover {
-  background-color: transparent;
-  opacity: 1;
-}
-
-.nav-link-2 {
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-  font-family: Muli, sans-serif;
-}
-
-.nav-link-2:hover {
-  -webkit-transform: translate(0px, -5px);
-  -ms-transform: translate(0px, -5px);
-  transform: translate(0px, -5px);
-}
-
-.nav-link-3 {
-  font-family: Muli, sans-serif;
 }
 
 .logo {
@@ -422,343 +70,17 @@ a {
   border-bottom: 1px solid #000;
 }
 
-.navbar-2 {
-  background-image: none;
-}
+/*STYLE */
 
-.navbarfwhite {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
+.body {
   display: block;
-  overflow: scroll;
-  width: 100vw;
-  max-height: 70px;
+  max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: transparent;
-}
-
-.navbarfwhite.fill {
-  background-image: -webkit-linear-gradient(270deg, #fff 41%, transparent);
-  background-image: linear-gradient(180deg, #fff 41%, transparent);
-  opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.navbarfwhite.fill:hover {
-  max-height: 100px;
-  min-height: 70px;
-  background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, .85) 43%, hsla(0, 0%, 91%, .63) 78%, transparent);
-  background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, .85) 43%, hsla(0, 0%, 91%, .63) 78%, transparent);
-  opacity: 1;
-}
-
-.brand-2 {
-  margin-left: 40px;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.heading-7 {
-  margin-top: 0px;
-  font-family: Muli, sans-serif;
-  font-weight: 300;
-}
-
-.heading-7.footer {
-  color: #838383;
-}
-
-.nav-menu {
-  margin-right: 20px;
-}
-
-.homehero {
-  height: 98vh;
-  min-height: 600px;
   background-color: #fff;
 }
 
-.containerhome {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 53px;
-  overflow: visible;
-  padding-bottom: 8px;
-}
-
-.heading-8 {
-  margin-top: 12px;
-  margin-bottom: 0px;
-  font-family: Muli, sans-serif;
-  font-size: 1.3em;
-  line-height: 1.7em;
-  font-weight: 300;
-}
-
-.heading-8.smoke {
-  color: #e0e0e0;
-}
-
-.heading-8.smoke.ledt {
-  text-align: right;
-}
-
-.heading-8.smoke.small {
-  margin-top: 0px;
-  color: #909090;
-  font-size: 1em;
-}
-
-.contentsection {
-  height: auto;
-  padding-top: 48px;
-  padding-bottom: 24px;
-  background-color: #222;
-}
-
-.container-10 {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.cardbase {
-  width: 300px;
-  min-height: 350px;
-  border-radius: 2px;
-  background-color: #6717be;
-  background-image: -webkit-linear-gradient(270deg, transparent 57%, #222);
-  background-image: linear-gradient(180deg, transparent 57%, #222);
-  box-shadow: 0 0 22px -3px #000;
-}
-
-.cardbase.texto {
-  min-height: 180px;
-}
-
-.cardbase.camino {
-  background-image: -webkit-linear-gradient(270deg, transparent 55%, #222), url('../images/camino_use.jpg');
-  background-image: linear-gradient(180deg, transparent 55%, #222), url('../images/camino_use.jpg');
-  background-position: 0px 0px, 36% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
-
-.cardbase.rico {
-  background-image: -webkit-linear-gradient(270deg, transparent 55%, #222), url('../images/rico_3homes_wider.png');
-  background-image: linear-gradient(180deg, transparent 55%, #222), url('../images/rico_3homes_wider.png');
-  background-position: 0px 0px, 35% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-}
-
-.cardbase.pombo {
-  background-color: #ffb7eb;
-  background-image: -webkit-linear-gradient(270deg, transparent 57%, #222), url('../images/iPhone-7-Welcome.1.png');
-  background-image: linear-gradient(180deg, transparent 57%, #222), url('../images/iPhone-7-Welcome.1.png');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, 160px;
-  background-repeat: repeat, no-repeat;
-}
-
-.cardbase.timtimportimtim {
-  background-image: -webkit-linear-gradient(270deg, transparent 55%, #222), -webkit-linear-gradient(270deg, #6717be, #6d00aa);
-  background-image: linear-gradient(180deg, transparent 55%, #222), linear-gradient(180deg, #6717be, #6d00aa);
-}
-
-.div-block {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 5px;
-  min-height: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.cardtitle {
-  margin-bottom: 4px;
-  font-family: Muli, sans-serif;
-  color: #fff;
-  font-size: 1.3em;
-  line-height: 1.4em;
-  font-weight: 400;
-}
-
-.carddescription {
-  font-family: Muli, sans-serif;
-  color: #fff;
-  font-weight: 200;
-}
-
-.row1 {
-  min-height: 500px;
-  padding-right: 0px;
-  padding-left: 0px;
-  background-color: #333;
-}
-
-.row1.abc {
-  background-image: url('../images/camino_use.jpg');
-  background-position: 40% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.row1.def {
-  background-image: url('../images/camper_models.png');
-  background-position: 26% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.link-block {
-  width: 100%;
-  height: 100%;
-}
-
-.timtim {
-  min-height: 400px;
-  padding: 20px 13px;
-  border-radius: 2px;
-  background-color: #6717be;
-}
-
-.camper {
-  border-radius: 2px;
-  background-color: #9ad6ff;
-}
-
-.column-7 {
-  padding-right: 0px;
-}
-
-.heading-9 {
-  margin-bottom: 4px;
-  font-family: Muli, sans-serif;
-  color: #fff;
-  font-weight: 400;
-}
-
-.div-block-2 {
-  position: relative;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.button {
-  margin-right: 30px;
-  margin-bottom: 5px;
-  margin-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  background-color: transparent;
-  font-family: Muli, sans-serif;
-  color: #666;
-  font-size: 1em;
-  line-height: 1.7em;
-  font-weight: 400;
-}
-
-.button:hover {
-  margin-bottom: 3px;
-  border-bottom: 1px dotted #666;
-}
-
-.row-2 {
-  margin-top: 16px;
-}
-
-.list-item {
-  min-height: 70px;
-  border-bottom: 1px dotted #444;
-}
-
-.link-block-2 {
-  width: 100%;
-  height: 100%;
-  min-height: 70px;
-  text-decoration: none;
-}
-
-.link {
-  color: #999;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-
-.soon {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 100;
-  margin-top: 10px;
-  margin-right: 18px;
-  padding: 0px 8px;
-  border-radius: 8px;
-  background-color: rgba(78, 78, 78, .17);
-  font-family: Muli, sans-serif;
-  color: #353535;
-  font-weight: 300;
-}
-
-.soon.white {
-  background-color: hsla(0, 0%, 100%, .17);
-  color: #fff;
-}
-
-.heading-10 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-weight: 700;
-}
-
-.paragraph-3 {
-  max-width: 700px;
-  font-weight: 300;
-}
-
-.italic-text {
-  font-weight: 300;
-}
-
-.body {
-  background-color: #f37e30;
-}
-
-.section-3 {
-  padding-top: 13px;
-  padding-bottom: 9px;
-  background-color: #1d1d1d;
-}
-
-.section-4 {
-  min-height: 100vh;
-}
-
-.row-3 {
-  min-height: 100vh;
-}
-
-.colunabege {
-  min-height: 100vh;
-  background-color: #c0a169;
-}
-
-.row-4 {
+.content-row {
   min-height: 100%;
   margin-top: 70px;
   background-color: #fff;
@@ -797,63 +119,11 @@ a {
 }
 
 .professionalblock.previousprojects {
-  
-    background-color: #6295cc;
+  background-color: #6295cc;
   background-image: -webkit-linear-gradient(270deg, #6295cc, #568bc3);
   background-image: linear-gradient(180deg, #6295cc, #568bc3);
 }
 
-.body-2 {
-  display: block;
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #fff;
-}
-
-.h1 {
-  margin-top: 0px;
-  clear: none;
-}
-
-.h1.white {
-  color: #fff;
-  font-weight: 600;
-}
-
-.h1.new {
-  font-weight: 700;
-}
-
-.h1.light {
-  float: left;
-  opacity: 0.7;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.h1.light:hover {
-  color: #fff;
-}
-
-.h1.light.arrow {
-  float: right;
-}
-
-.h1.arrow {
-  float: right;
-  opacity: 0.7;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.h1.aboutme {
-  max-width: 380px;
-}
 
 .h5 {
   margin-top: 0px;
@@ -1039,7 +309,7 @@ a {
   font-size: 18px;
 }
 
-.div-block-3 {
+.div-links {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -1516,7 +786,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-right: auto;
     margin-left: auto;
   }
-  .div-block-3 {
+  .div-links {
     position: static;
     width: 100vw;
     margin-bottom: 0px;
