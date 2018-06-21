@@ -825,6 +825,11 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     width: 200px;
     height: 200px;
   }
+    .professionalblock.nubank {
+    height: auto;
+    min-height: 680px;
+    background-size: 350px, auto;
+  }
 }
 
 @media (max-width: 479px) {
@@ -893,7 +898,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   }
   .professionalblock.nubank {
     height: auto;
-    min-height: 680px;
+    min-height: 780px;
     background-size: 350px, auto;
   }
   .professionalblock.timtim {
