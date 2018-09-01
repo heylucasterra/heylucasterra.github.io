@@ -62,6 +62,7 @@ a {
     text-decoration: none;
     padding: 12px;
     color: #767676;
+    cursor: pointer;
 }
 
 a.SequoiaCap {
@@ -175,6 +176,7 @@ a.SequoiaCap:hover {
 .h5.intro {
   display: none;
   margin-bottom: -16px;
+    text-decoration:none;
 }
 
 .aboutblock {
