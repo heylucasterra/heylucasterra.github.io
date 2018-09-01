@@ -212,12 +212,10 @@ a.SequoiaCap:hover {
 
 .image.curvy {
   height: 100%;
-  border-style: solid;
   border-color: #d3d3d3;
   border-radius: 50%;
-  background-image: none;
-  background-size: auto;
-  background-repeat: repeat;
+  background-image: url('../images/timtim_illustration01.png');
+  background-repeat: none;
 }
 
 .pink {
@@ -536,11 +534,13 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     top: 84px;
   }
   .image.curvy {
-    width: 80%;
-    height: 80%;
+    width: 110%;
+    height:130%;
     margin-top: 0px;
     border-color: #d3d3d3;
     border-radius: 50%;
+    background-image: url('../images/timtim_illustration01.png');
+
   }
   .pink.fade {
     opacity: 0;
@@ -781,6 +781,8 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
+    background-image: url('../images/timtim_illustration01.png');
+
   }
   .pink {
     max-width: 450px;
@@ -918,7 +920,9 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
   .image.curvy {
     width: 200px;
     height: 200px;
-    border-style: solid;
+    background-image: url('../images/timtim_illustration01.png');
+
+      
   }
   .simplelink._999 {
     color: #999;
