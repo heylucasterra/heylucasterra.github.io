@@ -58,12 +58,22 @@ a {
 }
 
 .factbutton {
-    font-weight: 800;
+    font-family: FullGizmo-Regular;
+    src: url("/Font/FullGizmo-Regular.otf");
     text-decoration: none;
-    padding: 12px;
+    margin: 8px;
+    padding-top: 2px;
     color: #767676;
     cursor: pointer;
+    text
 }
+
+.factbutton:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+
 
 a.SequoiaCap {
     color: #ff91d3;
