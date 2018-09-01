@@ -54,7 +54,7 @@ p {
 a {
   font-family: Muli, sans-serif;
   color: #767676;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .factbutton {
@@ -67,6 +67,7 @@ a {
 a.SequoiaCap {
     color: #ff91d3;
     -webkit-transition: all 200ms ease-in-out;
+    text-decoration: underline;
 
 }
 
@@ -75,9 +76,14 @@ a.SequoiaCap:hover {
 }
 
 .link999{
+    color: #333;
+    text-decoration: underline;
+}
+.link999:hover{
     color: #999;
-    text-decoration: none;
-
+    text-decoration: underline;
+    -webkit-transition: all 200ms ease-in-out;
+    text-decoration: underline;
 }
 
 .logo {
@@ -328,6 +334,7 @@ a.SequoiaCap:hover {
   float: right;
   opacity: 0.7;
   font-size: 18px;
+  color:#fff;
 }
 
 .div-links {
@@ -664,11 +671,18 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     margin-top: -4px;
     margin-right: auto;
     margin-left: auto;
+    text-decoration: none;
   }
   .brand-2 {
     margin-top: 6px;
     margin-left: 0px;
   }
+    
+    .w-inline-block {
+        text-decoration: none;
+    }
+    
+    
   .nav-menu {
     position: static;
     top: 0px;
