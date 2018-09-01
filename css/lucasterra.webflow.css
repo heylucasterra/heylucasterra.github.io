@@ -852,6 +852,8 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
+    color: #333;
+}
   }
   .newsblock {
     margin-bottom: 42px;
