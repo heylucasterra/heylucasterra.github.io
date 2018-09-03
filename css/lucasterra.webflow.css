@@ -68,7 +68,7 @@ a {
     padding-top: 2px;
     color: #767676;
     cursor: pointer;
-    text
+    vertical-align: -3.5px;
 }
 
 .factbutton:hover {
