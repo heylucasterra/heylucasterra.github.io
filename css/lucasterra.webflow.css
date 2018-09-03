@@ -1,4 +1,8 @@
-/* BTTNS */
+@font-face {
+  font-family: 'FullGizmo';
+  src: url('../Font/FullGizmo-Regular.otf');
+
+}/* BTTNS */
 
 
 
@@ -58,8 +62,7 @@ a {
 }
 
 .factbutton {
-    font-family: FullGizmo-Regular;
-    src: url("/Font/FullGizmo-Regular.otf");
+    font-family: 'FullGizmo', sans-serif;
     text-decoration: none;
     margin: 8px;
     padding-top: 2px;
