@@ -384,6 +384,9 @@ a.SequoiaCap:hover {
   width: 300px;
   height: 300px;
   float: right;
+  -webkit-font-smoothing: antialiased;
+  color: #767767;
+  
 }
 
 html.w-mod-js *[data-ix="loadup-1"] {
