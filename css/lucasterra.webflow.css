@@ -52,6 +52,7 @@ h1 {
 p {
   margin-bottom: 10px;
   font-family: Muli, sans-serif;
+  font-weight: 400;
   color: #333;
 }
 
@@ -253,7 +254,6 @@ a.SequoiaCap:hover {
 
 .pink {
   color: #ff91d3;
-  font-weight: 300;
 }
 
 .pink.fade {
@@ -366,7 +366,6 @@ a.SequoiaCap:hover {
 
 .light-blue {
   color: #cce1f1;
-  font-weight: 300;
 }
 
 .extra {
@@ -865,7 +864,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     max-width: 450px;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 300;
+
   }
   .div-block-4 {
     width: 200px;
