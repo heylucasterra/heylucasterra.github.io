@@ -143,8 +143,8 @@ a.SequoiaCap:hover {
 }
 
 .professionalblock {
-  height: 640px;
-  min-height: 87vh;
+  max-height: 640px;
+  height: 87vh;
   padding: 3rem 2rem;
   background-color: #dfdfdf;
 }
