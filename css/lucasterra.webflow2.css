@@ -379,7 +379,7 @@ a.SequoiaCap:hover {
 .extra {
   max-width: 300px;
   margin-top: 4px;
-  color: #8f8f8f;
+  color: #6d6d6d;
 }
 
 .newsblock {
@@ -864,7 +864,7 @@ html.w-mod-js *[data-ix="new-interaction-3"] {
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
-    color: #333;
+    color: ##6d6d6d;
 }
   }
   .newsblock {
