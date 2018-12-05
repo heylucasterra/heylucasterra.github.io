@@ -1,0 +1,39 @@
+@font-face {
+  font-family: RegolaRegular;
+  src: url(../font/RegolaProTrial-Regular.otf);
+}
+
+@font-face {
+  font-family: RegolaBook;
+  src: url(../font/RegolaProTrial-Book.otf);
+}
+body {
+  font-family: RegolaRegular;
+  background-color: #fff;
+  
+}
+
+.wrapper {
+  max-width: 440px;
+  vertical-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.f3{
+  font-family: RegolaBook;
+  margin-bottom: 13em;
+
+}
+
+p{
+  color: #767676;
+  line-height: 1.41em;
+}
