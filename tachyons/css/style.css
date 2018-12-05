@@ -9,6 +9,7 @@
 }
 body {
   font-family: RegolaBook;
+  font-weight: normal;
   background-color: #f7f7f7;
   
 }
@@ -28,13 +29,16 @@ absolute-center {
   top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.f2{
+  font-weight: normal;
+}
+
 .f3{
-  font-family: RegolaBook;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .f3 .strong{
-  font-weight: 600;
+  font-family: RegolaRegular;
 }
 
 p{
