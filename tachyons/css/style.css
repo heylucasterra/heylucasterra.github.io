@@ -8,8 +8,8 @@
   src: url(../font/RegolaProTrial-Book.otf);
 }
 body {
-  font-family: RegolaRegular;
-  background-color: #fff;
+  font-family: RegolaBook;
+  background-color: #f7f7f7;
   
 }
 
@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 absolute-center {
@@ -29,11 +30,14 @@ absolute-center {
 
 .f3{
   font-family: RegolaBook;
-  margin-bottom: 13em;
+  font-weight: 500;
+}
 
+.f3 .strong{
+  font-weight: 600;
 }
 
 p{
-  color: #767676;
+  color: #555;
   line-height: 1.41em;
 }
