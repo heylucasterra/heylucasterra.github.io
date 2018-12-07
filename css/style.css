@@ -303,7 +303,6 @@ p{
      100% {transform: rotate(-360deg) skewX(0deg);}
  }
  
- 
  /* Safari */
  @-webkit-keyframes mytopdown {
      0%   {top: 0px;-webkit-transform: rotate(0deg) scale(1);}
@@ -359,4 +358,14 @@ p{
 .article-wrapper {
   min-height: 500px;
 
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
 }
