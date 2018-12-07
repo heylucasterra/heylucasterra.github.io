@@ -354,3 +354,8 @@ p{
   color: #333333;
 
 }
+
+.article-wrapper {
+  min-height: 600px;
+
+}
