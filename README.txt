@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/lucasterra/pen/MzRbQy.
-
+Lucas Terra's personal webpage.
+http://lucasterra.com
  
