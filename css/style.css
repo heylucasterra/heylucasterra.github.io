@@ -19,7 +19,13 @@ body {
   background-color: #222222;
   -webkit-font-smoothing: antialiased; 
   transition: all 0.2s ease-in-out 0s;
-  
+}
+
+*::selection {
+  background: #000000;
+}
+*::-moz-selection {
+  background: #000000;
 }
 
 .wrapper {
