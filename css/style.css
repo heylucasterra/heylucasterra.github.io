@@ -16,7 +16,7 @@
 body {
   font-family: RegolaBook;
   font-weight: normal;
-  background-color: #f7f7f7;
+  background-color: #222222;
   -webkit-font-smoothing: antialiased; 
   transition: all 0.2s ease-in-out 0s;
   
@@ -39,16 +39,19 @@ absolute-center {
 
 .f1 {
   font-weight: normal;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
 }
 
 .f2{
   font-weight: normal;
+  color: #ffffff;
 
 }
 
 .f3{
   font-weight: normal;
+  color: #ffffff;
 }
 
 .f3 .strong{
@@ -58,8 +61,8 @@ absolute-center {
 p{
   color: #555;
   line-height: 1.41em;
+  color: #cccccc;
 }
-
 
 .blips {
   width:500px;
@@ -361,11 +364,11 @@ p{
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000000;
+  color: #ffffff;
   text-decoration: underline;
 }
