@@ -16,16 +16,16 @@
 body {
   font-family: RegolaBook;
   font-weight: normal;
-  background-color: #222222;
+  background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased; 
   transition: all 0.2s ease-in-out 0s;
 }
 
 *::selection {
-  background: #000000;
+  background: #e8e8e8;
 }
 *::-moz-selection {
-  background: #000000;
+  background: #e8e8e8;
 }
 
 .wrapper {
@@ -46,18 +46,18 @@ absolute-center {
 .f1 {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  color: #ffffff;
+  color: #252525;
 }
 
 .f2{
   font-weight: normal;
-  color: #ffffff;
-
+  font-size: 2.5em;
+  color: #252525;
 }
 
 .f3{
   font-weight: normal;
-  color: #ffffff;
+  color: #252525;
 }
 
 .f3 .strong{
@@ -65,9 +65,8 @@ absolute-center {
 }
 
 p{
-  color: #555;
-  line-height: 1.41em;
-  color: #cccccc;
+  line-height: 150%;
+  color: #555555;
 }
 
 .blips {
@@ -353,14 +352,14 @@ p{
   text-decoration: none;
   margin: 8px;
   padding-top: 2px;
-  color: #767676;
+  color: #555555;
   cursor: pointer;
   vertical-align: -3px;
 
  }
 
 .factbutton:hover {
-  color: #333333;
+  color: #252525;
 
 }
 
@@ -370,18 +369,18 @@ p{
 }
 
 a {
-  color: #ffffff;
+  color: #252525;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #252525;
   text-decoration: underline;
 }
 
 
 .f4 {
-  color: #ffffff;
+  color: #252525;
   font-weight: 100;
 
 }
