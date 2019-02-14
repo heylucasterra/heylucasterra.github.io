@@ -114,6 +114,9 @@ p {
 }
 .factbutton {
   font-family: 'FullGizmo', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+
 }
 
 .links{
