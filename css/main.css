@@ -144,7 +144,15 @@ p {
 
 
 @media only screen and (max-height: 600px)  {
+ 
+  .fact {
+    margin-bottom: 10rem;
+  }
+}
 
-.fact {
-  margin-bottom: 10rem;
+@media only screen and (max-width: 500px)  {
+ 
+  .f2{
+    font-size: 10vw;
+  }
 }
