@@ -71,6 +71,22 @@ p{
 
 
  .factbutton {
+  margin-left: -8px;
+  padding: 4px 0px 6px 8px;
+  color: #555555;
+  cursor: pointer;
+  text-align: left;
+ }
+
+.factbutton:hover {
+  color: #252525;
+  text-decoration: none;
+  background-color: #ececec;
+  border-radius: 8px;
+
+}
+
+.shuffle-icon {
   font-family: 'FullGizmo', sans-serif;
   text-decoration: none;
   margin: 8px;
@@ -78,16 +94,11 @@ p{
   color: #555555;
   cursor: pointer;
   vertical-align: -3px;
-
- }
-
-.factbutton:hover {
-  color: #252525;
-
 }
 
+
 .article-wrapper {
-  min-height: 500px;
+  min-height: 30vh;
 
 }
 
@@ -109,12 +120,6 @@ p {
 .f4 {
   color: #252525;
   font-weight: 100;
-
-}
-.factbutton {
-  font-family: 'FullGizmo', sans-serif;
-  text-decoration: none;
-  cursor: pointer;
 
 }
 
