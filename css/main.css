@@ -84,6 +84,8 @@ p{
   text-decoration: none;
   background-color: #ececec;
   border-radius: 8px;
+  transition: all .15s ease-in-out;
+
 }
 
 .factbutton::-moz-selection { 
@@ -92,7 +94,6 @@ p{
 
 .factbutton::selection {
   background: transparent;
-
 }
 
 .shuffle-icon {
@@ -103,8 +104,12 @@ p{
   color: #555555;
   cursor: pointer;
   vertical-align: -3px;
+  
 }
 
+.shuffle-icon::selection {
+  background: transparent;
+}
 
 .article-wrapper {
   min-height: 30vh;
@@ -134,4 +139,12 @@ p {
 
 .links{
   margin-right: 16px;
+}
+
+
+
+@media only screen and (max-height: 600px)  {
+
+.fact {
+  margin-bottom: 10rem;
 }
