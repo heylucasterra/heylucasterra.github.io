@@ -169,4 +169,9 @@ p {
   .title-section{
     margin-top: 230px;
   }
+
+  .article-wrapper {
+    min-height: 200px;
+  
+  }
 }
