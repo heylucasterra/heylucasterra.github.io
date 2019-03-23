@@ -13,15 +13,11 @@
   src: url(../font/RegolaProTrial-Book.otf);
 }
 body {
-  font-family: RegolaBook;
+  font-family: RegolaBook,BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: normal;
   background-color: #f7f7f7;
   -webkit-font-smoothing: antialiased; 
   transition: all 0.2s ease-in-out 0s;
-}
-
-.title-section{
-  margin-top: 40%;
 }
 
 *::selection {
@@ -75,7 +71,7 @@ p{
 
 
  .factbutton {
-  font-family: RegolaBook;
+  font-family: RegolaBook,BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-left: -8px;
   padding: 4px 0px 6px 8px;
   color: #555555;
@@ -147,11 +143,21 @@ p {
 
 
 
+@media only screen and (max-width: 800px)  {
+ 
+
+}
+
+
 @media only screen and (max-height: 600px)  {
  
   .fact {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
+  .title-section{
+    margin-top: 255px;
+  }
+
 }
 
 @media only screen and (max-width: 500px)  {
@@ -161,6 +167,6 @@ p {
   }
 
   .title-section{
-    margin-top: 40%;
+    margin-top: 230px;
   }
 }
