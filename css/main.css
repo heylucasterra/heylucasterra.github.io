@@ -112,7 +112,8 @@ p{
 }
 
 .article-wrapper {
-  min-height: 30%;
+  min-height: 100px;
+  height:auto;
 
 }
 
