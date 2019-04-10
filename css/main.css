@@ -113,8 +113,7 @@ p{
 }
 
 .article-wrapper {
-  min-height: 100px;
-  height:auto;
+  height:100px;
 
 }
 
@@ -154,7 +153,7 @@ p {
 @media only screen and (max-height: 600px)  {
  
   .fact {
-    margin-bottom: 8rem;
+    margin-bottom: 40px;
   }
   .title-section{
     margin-top: 255px;
@@ -173,7 +172,7 @@ p {
   }
 
   .article-wrapper {
-    min-height: 200px;
+    padding-bottom: 20px;
   
   }
 }
