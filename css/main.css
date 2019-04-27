@@ -145,6 +145,7 @@ p {
 
 
 @media only screen and (max-width: 800px)  {
+ 
 
 }
 
@@ -167,17 +168,12 @@ p {
   }
 
   .title-section{
+    margin-top: 200px;
     margin-bottom:60px;
   }
 
   .article-wrapper {
     padding-bottom: 20px;
   
-  }
-
-  .ph3 {
-    padding-left: .5rem;
-    padding-right: .5rem;
-
   }
 }
