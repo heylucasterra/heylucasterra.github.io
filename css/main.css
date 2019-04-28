@@ -168,12 +168,14 @@ p {
   }
 
   .title-section{
-    margin-top: 200px;
     margin-bottom:60px;
   }
 
   .article-wrapper {
     padding-bottom: 20px;
-  
+  }
+
+  .pa3 {
+    padding: 0.5rem;
   }
 }
