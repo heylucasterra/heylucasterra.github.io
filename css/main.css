@@ -38,6 +38,11 @@ body {
   
 }
 
+
+
+#hero {
+  height:90vh; min-height: 700px;
+}
 absolute-center {
   margin: auto;
   position: absolute;
@@ -206,6 +211,10 @@ p {
 
   .article-wrapper {
     padding-bottom: 20px;
+  }
+
+  #hero {
+    height: 700px;
   }
 
 }
