@@ -148,6 +148,22 @@ p {
   margin-right: 16px;
 }
 
+.homepage_container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out 0s;
+}
+
 
 
 @media only screen and (max-width: 800px)  {
@@ -192,11 +208,4 @@ p {
     padding-bottom: 20px;
   }
 
-  .pa3 {
-    padding: 0.5rem;
-  }
-
-  .ph3 {
-    padding: 0.5rem;
-  }
 }
