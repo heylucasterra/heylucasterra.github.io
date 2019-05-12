@@ -95,7 +95,7 @@ p{
   color: #252525;
   text-decoration: none;
   background-color: #ececec;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: all .15s ease-in-out;
 
 }
@@ -175,6 +175,10 @@ p {
  
   .pt35 {
     padding-top: 200px;
+  }
+  
+  #hero {
+    height:auto;
   }
 
 }
