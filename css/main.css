@@ -53,6 +53,8 @@ absolute-center {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   color: #252525;
+  letter-spacing: -.03em;
+
 }
 
 .f2{
