@@ -193,18 +193,16 @@ p {
     margin-top: 255px;
   }*/
 
-  .pt35 {
-    padding-top: 200px;
-  }
 
 }
 
 @media only screen and (max-width: 500px)  {
- 
+
+/*
 .pt35 {
     padding-top: 10rem;
   }
-/*
+  
   .f2{
     font-size: 10vw;
   }*/
