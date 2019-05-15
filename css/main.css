@@ -38,7 +38,9 @@ body {
   
 }
 
-
+.dim:hover {
+  text-decoration: none;
+}
 
 #hero {
   height:90vh; min-height: 700px;
