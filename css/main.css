@@ -78,7 +78,7 @@ absolute-center {
 p{
   line-height: 150%;
   color: #555555;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
 }
 
 
@@ -174,6 +174,51 @@ p {
 }
 */
 
+
+.accordion .item .input {
+  position: absolute;
+  visibility: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: url(/images/COMING\ SOON.svg) 8 8, auto !important;
+}
+
+.accordion .item .item-name {
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  display: block;
+}
+
+.accordion .item .desc {
+  margin: 0px;
+  opacity: 0;
+  max-height: 0px;
+  font-size: 15px;
+  border-bottom: 1px solid #E6E6E6;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.accordion .item .item-name:hover ~ .desc, .accordion .item .desc:hover {
+  opacity: 1;
+  max-height: 500px;
+  transition: all 800ms ease-in-out 0s;
+}
+.accordion .item:hover > .item-name {
+  border-bottom: transparent;
+  text-decoration: none;
+}
+.accordion .item:last-child > .item-name, .accordion .item:last-child > .desc {
+  border-bottom: transparent;
+  
+}
+
+.body {
+  cursor: url(/images/COMING_SOON.png) 8 8, auto !important;
+
+}
 
 @media only screen and (max-width: 800px)  {
  
