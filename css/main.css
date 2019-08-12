@@ -110,6 +110,17 @@ p{
   background: transparent;
 }
 
+.questions {
+  border-radius: 100px;
+  background-color: #2A2A2A;
+}
+
+.questions:hover {
+  border-radius: 100px;
+  background-color: #4a4a4a;
+
+}
+
 .shuffle-icon {
   font-family: 'FullGizmo', sans-serif;
   text-decoration: none;
@@ -125,9 +136,26 @@ p{
   background: transparent;
 }
 
+.shuffle-icon2 {
+  font-family: 'FullGizmo', sans-serif;
+  text-decoration: none;
+  margin: 8px;
+  color: #555555;
+  cursor: pointer;
+  padding: 12px 12px 8px 12px;
+}
+
+.shuffle-icon2:focus {
+  transform: scale(0.7);
+  transition: all 200ms;
+}
+
+.shuffle-icon2::selection {
+  background: transparent;
+}
+
 .article-wrapper {
   height:100px;
-
 }
 
 a {
