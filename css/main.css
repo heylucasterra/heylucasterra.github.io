@@ -222,6 +222,9 @@ p {
   max-height: 0px;
   font-size: 15px;
   transition: all 400ms ease-in-out 0s;
+  .accordion .item .input {
+
+}
 
 }
 
@@ -244,7 +247,7 @@ p {
 
 }
 
-@media only screen and (max-width: 800px)  {
+@media only screen and (max-width: 960px)  {
  
   .pt35 {
     padding-top: 200px;
@@ -254,6 +257,13 @@ p {
     height:auto;
   }
 
+  
+  .accordion .item .desc {
+  transition: all 400ms ease-in-out 0s;
+  opacity: 1;
+  max-height: 500px;
+  visibility: visible;
+}
 }
 
 
