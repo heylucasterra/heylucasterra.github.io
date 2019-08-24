@@ -392,6 +392,9 @@ p {
 }
 
 
+
+
+
 @media only screen and (max-height: 600px)  {
  
   .fact {
@@ -400,8 +403,6 @@ p {
   /*.title-section{
     margin-top: 255px;
   }*/
-
-
 }
 
 @media only screen and (max-width: 500px)  {
