@@ -12,10 +12,42 @@
   font-family: RegolaBook;
   src: url(../font/RegolaProTrial-Book.otf);
 }
+
+:root, [data-theme="default"] {
+  --bg-lightest: #F7F7F7;
+  --bg-light: #EDEDED;
+  --bg-mid: #E2E2E2;
+  --bg-dark: #DBDBDB;
+  --bg-darkest: #D1D1D1;
+
+  --font-high-contrast: #252525;
+  --font-mid-contrast: #555555;
+  --font-low-contrast: #767676;
+  --font-inactive: #cecece;
+}
+
+@supports(--css: variables) {
+  [data-theme="dark"] {
+
+    --bg-lightest: #333333;
+    --bg-light: #2B2B2B;
+    --bg-mid: #242424;
+    --bg-dark: #1E1E1E;
+    --bg-darkest: #181818;
+
+    --font-high-contrast: #FFFFFF;
+    --font-mid-contrast: #D1D1D1;
+    --font-low-contrast: #555555;
+    --font-inactive: #3f3f3f;
+
+  }
+
+
+
 body {
   font-family: RegolaBook,BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: normal;
-  background-color: #f7f7f7;
+  background-color: var(--bg-lightest);
   -webkit-font-smoothing: antialiased; 
   transition: all 0.2s ease-in-out 0s;
 }
@@ -25,6 +57,11 @@ body {
 }
 *::-moz-selection {
   background: #ececec;
+}
+
+.section-2 {
+  background-color: var(--bg-light);
+  min-height: 600px;
 }
 
 .wrapper {
@@ -38,7 +75,10 @@ body {
   
 }
 
+.b-- {
+  color: var(--font-inactive);
 
+}
 
 #hero {
   height:90vh; min-height: 700px;
@@ -52,7 +92,7 @@ absolute-center {
 .f1 {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
-  color: #252525;
+  color: var(--font-high-contrast);
   letter-spacing: -.03em;
 
 }
@@ -61,24 +101,40 @@ absolute-center {
   font-weight: normal;
   font-size: 2.5em;
   letter-spacing: -.03em;
-  color: #252525;
+  color: var(--font-high-contrast);
 }
 
 .f3{
   font-weight: normal;
-  color: #252525;
+  color: var(--font-high-contrast);
 }
+
 
 .f3 .strong{
   font-family: RegolaRegular;
 }
 
-p{
-  line-height: 150%;
-  color: #555555;
-  letter-spacing: -0.1px;
+.f4{
+  font-weight: normal;
+  color: var(--font-high-contrast);
 }
 
+.f5{
+  font-weight: normal;
+  color: var(--font-high-contrast);
+}
+
+.f6{
+  font-weight: normal;
+  color: var(--font-high-contrast);
+}
+
+
+p{
+  line-height: 150%;
+  color: var(--font-mid-contrast);
+  letter-spacing: -0.1px;
+}
 
 .pt35 {
   padding-top: 35vh;
@@ -88,15 +144,15 @@ p{
   font-family: RegolaBook,BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-left: -8px;
   padding: 4px 0px 6px 8px;
-  color: #555555;
+  color: var(--font-high-contrast);
   cursor: pointer;
   text-align: left;
  }
 
 .factbutton:hover {
-  color: #252525;
+  color: var(--font-high-contrast);
   text-decoration: none;
-  background-color: #ececec;
+  background-color: var(--bg-light);
   border-radius: 10px;
   transition: all .15s ease-in-out;
 
@@ -126,7 +182,7 @@ p{
   text-decoration: none;
   margin: 8px;
   padding-top: 2px;
-  color: #555555;
+  color: var(--font-mid-contrast);
   cursor: pointer;
   vertical-align: -3px;
   
@@ -140,7 +196,7 @@ p{
   font-family: 'FullGizmo', sans-serif;
   text-decoration: none;
   margin: 8px;
-  color: #555555;
+  color: var(--font-mid-contrast);
   cursor: pointer;
   padding: 12px 12px 8px 12px;
 }
@@ -159,13 +215,17 @@ p{
 }
 
 a {
-  color: #252525;
+  color: var(--font-high-contrast);
   text-decoration: none;
 }
 
 a:hover {
-  color: #252525;
   text-decoration: underline;
+}
+
+dim:hover {
+  text-decoration: none;
+
 }
 
 p {
@@ -173,7 +233,7 @@ p {
 }
 
 .f4 {
-  color: #252525;
+  color: var(--font-high-contrast);
   font-weight: 100;
 
 }
@@ -222,9 +282,11 @@ p {
   max-height: 0px;
   font-size: 15px;
   transition: all 400ms ease-in-out 0s;
-  .accordion .item .input {
-
 }
+
+/*  .accordion .item .input {
+
+}*/
 
 }
 
