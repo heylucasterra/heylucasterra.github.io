@@ -179,6 +179,11 @@ p{
   padding-top: 30vh;
 }
 
+.frosted {
+  background: var(--bg-lightest)FC;
+  backdrop-filter: blur(5px);
+}
+
 .themebutton {
   color: var(--font-high-contrast);
   vertical-align: center;
