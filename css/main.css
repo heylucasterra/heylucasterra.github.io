@@ -19,6 +19,7 @@
   --bg-mid: #E2E2E2;
   --bg-dark: #DBDBDB;
   --bg-darkest: #D1D1D1;
+  --bg-frosted: rgba(247, 247, 247, 0.9);
 
   --font-high-contrast: #252525;
   --font-mid-contrast: #555555;
@@ -34,6 +35,7 @@
     --bg-mid: #242424;
     --bg-dark: #1E1E1E;
     --bg-darkest: #181818;
+    --bg-frosted: rgba(51, 51, 51, 0.9);
 
     --font-high-contrast: #FFFFFF;
     --font-mid-contrast: #D1D1D1;
@@ -177,6 +179,11 @@ p{
 
 .pt30 {
   padding-top: 30vh;
+}
+
+.frosted {
+  background: var(--bg-frosted);
+  backdrop-filter: blur(5px);
 }
 
 .themebutton {
