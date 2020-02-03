@@ -55,10 +55,10 @@ body {
 }
 
 *::selection {
-  background: #ececec;
+  background: #efff00;
 }
 *::-moz-selection {
-  background: #ececec;
+  background: #efff00;
 }
 
 .circle {
