@@ -2,15 +2,15 @@
 path: '/blog/2020/window-shopping'
 lastEdit: 2020-02-21T17:12:33.962Z
 
-title: 'Window shopping personal websites'
+title: 'Window shopping'
+accent: ''
 location: São Paulo, Brazil
 subtitle: "Before we get started into the redesign thing, here's some of the work that inspired me to get back at writing the code you're reading."
 
 topics: design, meta, redesign, 
 featuredImage: ''
 published: false
-color: 'yellow'
-accent: 'yellow'
+
 ---
 
 For quite some time now I have cultivated this [personal collection](https://www.gettoby.com/p/w4gnsx3zmfsh) of websites that really caught my attention at some point navigating the web. 
@@ -84,5 +84,3 @@ One of my main goals with the redesign is to make this website more about the st
 #### [Tom Petty ↗](http://tom.pe/)
 
 #### [Zach Cole ↗](http://zcole.me/)
-
-![aa](localhost:8000/images/blog/2020/Screenshot 2020-03-20 at 18.07.19.png)
