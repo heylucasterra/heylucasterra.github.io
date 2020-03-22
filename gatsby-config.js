@@ -24,6 +24,8 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        // path: path.join(__dirname, `src`, `images`),
+
       },
     },  
     // below code snippet from "add plugin" section in https://www.gatsbyjs.org/docs/adding-markdown-pages/
