@@ -1,6 +1,6 @@
 ---
 path: '/blabla'
-lastEdit: 2017-07-12T17:12:33.962Z
+# lastEdit: 2017-07-12T17:12:33.962Z
 
 title: 'Nurturing Design Culture'
 company: 'Nubank'
@@ -11,7 +11,7 @@ subtitle: 'From 2018 to 2020 we grew a design team from 12 to over 70 people. He
 
 designteam: Guilherme Neumann, Duda di Pietro, Rachel Jordan, Erick Mazer, Ricardo Sato, Lucas Neumann, Lucas Terra
 topics: product design, user research
-featuredImage: 'src/images/gatsby-astronaut.png'
+featuredImage: './gatsby-astronaut.png'
 published: false
 impact: small
 role: 'Staff product designer, User researcher'
@@ -35,7 +35,7 @@ alert(s);
 ```
 [![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
 
-[![nubank design team 2019](localhost:8002/blabla/src/images/design2019-color.jpg)](http://google.com.au/)
+[![nubank design team 2019](../images/gatsby-astronaut.png)]()
 
 
 [![test](./images/design2019.jpg)]()
@@ -44,6 +44,17 @@ alert(s);
 [![test](..../images/design2019.jpg)]()
 [![test]("./images/design2019.jpg")]()
 [![test](".../images/design2019.jpg")]()
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+| Pre        | Pos           |
+| ------------- |:-------------:|
+| ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) | ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) |
+| img1 | img2 |
+
+
+
+{% include image.html url="https://octodex.github.com/images/yaktocat.png" description="My cat, Robert Downey Jr." %}
+
 
 > adding a > will create a blockquote like this one. To see the possibility, the certainty, of ruin, even at the moment of creation: it was my temperament. Those nerves had been given me as a child in Trinidad partly by our family circumstances: the half-ruined or broken-down houses we lived in, our many moves, our general uncertainty. 
 
