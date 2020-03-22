@@ -11,17 +11,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />      
     <article style={{minHeight:`45vh`}}>
-      <h1>Hi, I'm Lucas 👋</h1>
+      <h2>Hi, I'm Lucas 👋</h2>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <p id="quote">I am a designer and manager passionate about building services that combine physical and digital experiences. Over the past decade I have helped companies and the government to build products, services and teams that are obsessed about their users.</p>
-      <p>This page is being <Link to="/blog/on-redesigns">redesigned in the open ↗</Link></p>
+      <h3 id="quote" style={{color:`var(--font-mid-contrast)`}}>I am a staff product designer at Nubank. Over the past decade I have helped companies and the government build products, services and teams that are obsessed about their users.</h3>
+      <h3 style={{color:`var(--font-mid-contrast)`}}>This page is being <Link to="/blog/redesigning-open">redesigned in the open ↗</Link></h3>
     </article>
   
     <div style={{ maxWidth: `960px`, marginBottom: `2rem` }}>
     <Image/>
     </div> 
     <article>
-      <p>I am currently working with the awesome people in this photo. <a href="https://nubank.design">Read more about us  in our blog ↗</a></p>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>I am currently working with the awesome people in this photo. <a href="https://nubank.design">Read more about us  in our blog ↗</a></h4>
     </article>
 
 {/*     
