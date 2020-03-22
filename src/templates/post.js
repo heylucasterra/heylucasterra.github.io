@@ -24,9 +24,9 @@ export default function Template({data}) {
 
           {/* Logo, Company, Location and year block */}
           <div style={{display:`flex`, justifyContent: `space-between`,marginBottom:`0`}}>
-            <div style={{display:`flex`}}>
+            <div style={{display:`flex`,}}>
 
-                {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`,backgroundColor: `${post.frontmatter.accent}`}}></div>}
+                {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`, border:`solid 1px #00000008`, backgroundColor: `${post.frontmatter.accent}`}}></div>}
                 
                 <div>
                   {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
