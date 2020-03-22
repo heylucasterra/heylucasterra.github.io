@@ -13,15 +13,15 @@ const IndexPage = () => (
     <article style={{minHeight:`45vh`}}>
       <h2>Hi, I'm Lucas 👋</h2>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h3 id="quote" style={{color:`var(--font-mid-contrast)`}}>I am a staff product designer at Nubank. Over the past decade I have helped companies and the government build products, services and teams that are obsessed about their users.</h3>
-      <h3 style={{color:`var(--font-mid-contrast)`}}>This page is being <Link to="/blog/redesigning-open">redesigned in the open ↗</Link></h3>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I am a staff product designer at <a href="https://nubank.com.br" target="_blank">Nubank</a>. Over the past decade I have helped companies and the government build products, services and teams that are obsessed about their users.</h4>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>This page is being <Link to="/blog/2020/redesigning-open">redesigned in the open ↗</Link></h4>
     </article>
   
     <div style={{ maxWidth: `960px`, marginBottom: `2rem` }}>
     <Image/>
     </div> 
     <article>
-      <h4 style={{color:`var(--font-mid-contrast)`}}>I am currently working with the awesome people in this photo. <a href="https://nubank.design">Read more about us  in our blog ↗</a></h4>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>I am currently working with the awesome people in this photo. Work showcase coming soon.<br></br><br></br><a href="https://nubank.design">Read more about us in our blog ↗</a></h4>
     </article>
 
 {/*     
@@ -71,6 +71,7 @@ export const pageQuery = graphql`
             topics
             color
             published
+            icon
             # featuredImage {
             #   publicURL
             #   childImageSharp {

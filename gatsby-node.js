@@ -27,6 +27,7 @@ exports.createPages = ({actions, graphql}) => {
             impact
             role
             company
+            icon
           }
         }
       }

@@ -1,16 +1,14 @@
 ---
 path: '/blog/2020/defining-intent'
 lastEdit: 2020-02-29T17:12:33.962Z
-
-title: 'Defining intent'
+date: ''
+title: 'Redesign: Defining intent'
 location: São Paulo, Brazil
 subtitle: "Setting up the goals for this exercise."
-
 topics: design, meta, redesign, 
 featuredImage: ''
-published: false
-color: 'yellow'
-accent: 'yellow'
+published: true
+accent: ''
 ---
 
 For quite some time now I have cultivated this [personal collection](https://www.gettoby.com/p/w4gnsx3zmfsh) of websites that really caught my attention at some point navigating the web. 

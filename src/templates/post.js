@@ -6,6 +6,7 @@ import Header from "../components/header"
 // import Layout from "../components/layout"
 // import Img from "gatsby-image/withIEPolyfill"
 import Image from "../components/image"
+import SEO from "../components/seo"
 
 
 export default function Template({data}) {
@@ -15,10 +16,13 @@ export default function Template({data}) {
   // let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
   return (
+    
     <div className="body" style={{textAlign:'-webkit-center',}}>
+      <SEO title="Work"></SEO>
+      {post.frontmatter.lastEdit && <SEO title="Blog" />}
       <Header/>
-      <div style={{maxWidth:`36rem`,padding: `0 1.0875rem 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
-        <div style={{ padding: `0px 0 1.45rem`, margin: `10vh auto 0 auto`,}}>
+      <div style={{maxWidth:`36rem`,padding: `0`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
+        <div style={{ padding: `0px 0 0`, margin: `10vh 1.0875rem 0`,}}>
           {/* Title and description block */}
           {post.frontmatter.title && <h1 style={{}}>{post.frontmatter.title}</h1>}
 
@@ -26,7 +30,7 @@ export default function Template({data}) {
           <div style={{display:`flex`, justifyContent: `space-between`,marginBottom:`0`}}>
             <div style={{display:`flex`,}}>
 
-                {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`, border:`solid 1px #00000008`, backgroundColor: `${post.frontmatter.accent}`}}></div>}
+  {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`, border:`solid 1px #00000008`, backgroundColor: `${post.frontmatter.accent}`}}>{post.frontmatter.icon && <h5>aaa</h5>}</div>}
                 
                 <div>
                   {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
@@ -58,9 +62,9 @@ export default function Template({data}) {
           </div>
         </div>
       </div>
-        {post.frontmatter.featuredImage &&<div style={{maxWidth:`60rem`, marginBottom:`3rem`}}>
+        {/* {post.frontmatter.featuredImage &&<div relativePath={{eq: "gatsby-astronaut.png"}}style={{maxWidth:`60rem`, marginBottom:`3rem`}}>
           <Image/>
-        </div>}
+        </div>} */}
           
       <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
         <div className="blog-post" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`}}>
