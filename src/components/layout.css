@@ -480,7 +480,8 @@ p {
   margin-bottom: 1.45rem;
   line-height: 1.6667;
   letter-spacing: -0.015rem;
-  text-align: left;
+  text-align: left; 
+  width: 20rem;
 }
 
 .bold {
