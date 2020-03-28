@@ -1,14 +1,12 @@
 ---
 path: '/nubank/design-culture'
-# lastEdit: 2017-07-12T17:12:33.962Z
-
+lastEdit: 2017-07-12T17:12:33.962Z
 title: 'Nurturing Design Culture'
 company: 'Nubank'
 accent: 'rgb(138, 5, 190)'
 location: São Paulo, Brazil
 date: '2018-2020'
 subtitle: 'From 2018 to 2020 we grew a design team from 12 to over 70 people. Here is my perspective on the things we did that made us focus on customers while keeping design weird both our team and the company kept their eyes on out customers'
-
 designteam: Guilherme Neumann, Duda di Pietro, Rachel Jordan, Erick Mazer, Ricardo Sato, Lucas Neumann, Lucas Terra
 topics: product design, user research
 featuredImage: './gatsby-astronaut.png'
@@ -135,9 +133,6 @@ How to query
 
 ## References
 
-⋅⋅⋅http://blog.idonethis.com/5-checklists-applied-user-onboarding/⋅⋅
-http://blog.idonethis.com/wp-content/uploads/2018/08/image-11.png ⋅⋅
-http://blog.idonethis.com/wp-content/uploads/2018/08/image-11-2.png ⋅⋅
 
 
 
@@ -146,11 +141,3 @@ http://blog.idonethis.com/wp-content/uploads/2018/08/image-11-2.png ⋅⋅
 
 ## Questions
 
-1. **List of questions **
-   1. Is this real life?
-   2. What about jim?
-2. What are the main features?
-   8. This
-   9. That
-
-   `code should use the entire line aaa`
