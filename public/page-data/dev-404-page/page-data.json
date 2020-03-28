@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/blog/2020/redesigning-open"},{"path":"/nubank/design-culture"},{"path":"/blog/2020/defining-intent"},{"path":"/blog/2020/window-shopping"},{"path":"/404/"},{"path":"/"},{"path":"/page-2/"},{"path":"/404.html"}]}},"pageContext":{}}}
+=======
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/blog/on-redesigns"},{"path":"/404/"},{"path":"/"},{"path":"/page-2/"},{"path":"/404.html"},{"path":"/nubank/design-culture"},{"path":"/blog/2020/window-shopping"},{"path":"/blog/2020/defining-intent"},{"path":"/blog/2020/redesigning-open"}]}},"pageContext":{}}}
+>>>>>>> parent of ff76cf7e... ghp
