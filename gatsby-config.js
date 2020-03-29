@@ -1,10 +1,5 @@
 module.exports = {
   siteMetadata: {
-<<<<<<< Updated upstream
-    // pathPrefix: `/heylucasterra.github.io`,
-=======
-    pathPrefix: `/heylucasterra.github.io`,
->>>>>>> Stashed changes
     title: `Lucas Terra`,
     description: `product designer based in brazil.`,
     author: `@lucasterra`,
