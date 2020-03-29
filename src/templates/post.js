@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import markdownRemark from "gatsby-transformer-remark"
 import Header from "../components/header"
@@ -7,6 +8,8 @@ import Header from "../components/header"
 // import Img from "gatsby-image/withIEPolyfill"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Layout from "../components/layout"
+
 
 
 export default function Template({data}) {
@@ -16,11 +19,11 @@ export default function Template({data}) {
   // let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
   return (
-    
+    <Layout>
     <div className="body" style={{textAlign:'-webkit-center',}}>
       <SEO title="Work"></SEO>
       {post.frontmatter.lastEdit && <SEO title="Blog" />}
-      <Header/>
+      
       <div style={{maxWidth:`36rem`,padding: `0`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
         <div style={{ padding: `0px 0 0`, margin: `10vh 1.0875rem 0`,}}>
           {/* Title and description block */}
@@ -67,12 +70,13 @@ export default function Template({data}) {
         </div>} */}
           
       <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
-        <div className="blog-post" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`}}>
+        <div className="blog-post" style={{padding:`0 0 1.45rem`,}}>
           <p className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
 
         </div>
     </div>
     </div>
+    </Layout>
   )
 }
 

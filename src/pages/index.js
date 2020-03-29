@@ -14,7 +14,7 @@ const IndexPage = () => (
       <h2>Hi, I'm Lucas 👋</h2>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
       <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I am a staff product designer at <a href="https://nubank.com.br" target="_blank">Nubank</a>. Over the past decade I have helped companies and the government build products, services and teams that are obsessed about their users.</h4>
-      <h4 style={{color:`var(--font-mid-contrast)`}}>This page is being <Link to="/blog/2020/redesigning-open">redesigned in the open ↗</Link></h4>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>This page is still buggy and working as a playground as I <Link to="/blog/2020/redesigning-open">redesign it in the open ↗</Link></h4>
     </article>
   
     <div style={{ maxWidth: `960px`, marginBottom: `2rem` }}>
