@@ -24,7 +24,7 @@ I wanted this website to be updated in real time so people accessing it could wa
 - **[00. Window shopping ↗](/blog/2020/window-shopping)**\
 Before getting started, a list of portfolios that inspired this project.
 
-- **[01. Defining intent - soon]()**\
+- **01. Defining intent - soon**\
 Documenting my intention and defining guiding principles for this redesign.
 
 <!--

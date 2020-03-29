@@ -25,7 +25,7 @@
 /* colour-theme */
 @supports(--css: variables) {}
 :root,   [data-theme="default"] {
-  --bg-lightest: #ffffff; --bg-light: #EDEDED; --bg-mid: #E2E2E2; --bg-dark: #DBDBDB; --bg-darkest: #D1D1D1; --bg-frosted: rgba(255, 255, 255, 0.82); --font-high-contrast: #000000e4; --font-mid-contrast: #000000b5; --font-low-contrast: #00000050; --font-inactive: #cecece; --accent:#93d9ff; --bg-code: #dcf5ff; --: #ffe2f1;}
+  --bg-lightest: #ffffff; --bg-light: #EDEDED; --bg-mid: #E2E2E2; --bg-dark: #DBDBDB; --bg-darkest: #D1D1D1; --bg-frosted: rgba(255, 255, 255, 0.82); --font-high-contrast: #000000e4; --font-mid-contrast: #000000b5; --font-low-contrast: #00000050; --font-inactive: #cecece; --accent:#93d9ff; --bg-code: #dcf5ff; --code: #ffe2f1;}
 
 
 [data-theme="dark"]   {
@@ -67,7 +67,7 @@ header {
   position: sticky;
   background: var(--bg-frosted);
   backdrop-filter: saturate(180%) blur(16px);
-},
+}
 main,
 menu,
 nav,
@@ -103,7 +103,8 @@ a:active,
 a:hover {
   outline-width: 0;
   text-decoration: underline;
-  opacity: 50%;
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
   transition: all 250ms;
 
 }
@@ -276,10 +277,14 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  filter: contrast(1.1) grayscale(100);
+  transition: all 500ms;
   -webkit-filter: contrast(1.1) grayscale(100);
   transition: all 500ms;
 }
 img:hover{
+  filter: contrast(1.1) grayscale(0); 
+  transition: all 500ms;
   -webkit-filter: contrast(1.1) grayscale(0); 
   transition: all 500ms;
 
