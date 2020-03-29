@@ -8,7 +8,7 @@ subtitle: "The first version of this website was built in 2009 with Squarespace.
 topics: design, meta
 featuredImage: ../images/gatsby-astronaut.png
 published: false
-color: ''
+color: '#acacac'
 accent: ''
 icon: '✏️'
 ---
