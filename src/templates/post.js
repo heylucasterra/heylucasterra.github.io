@@ -72,7 +72,6 @@ export default function Template({data}) {
       <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
         <div className="blog-post" style={{padding:`0 0 1.45rem`,}}>
           <p className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
-
         </div>
     </div>
     </div>
