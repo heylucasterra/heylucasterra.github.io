@@ -24,13 +24,17 @@ I wanted this website to be updated in real time so people accessing it could wa
 - **[00. Window shopping ↗](/blog/2020/window-shopping)**\
 Before getting started, a list of portfolios that inspired this project.
 
+- **[01. Defining intent - soon]()**\
+Documenting my intention and defining guiding principles for this redesign.
+
+<!--
 - **[01. Defining intent ↗](/blog/2020/defining-intent)**\
 Documenting my intention and defining guiding principles for this redesign.
 
 
 - **02. Hello, Gatsby - soon**\
 Gatsby changed the way I think about design and front-end code.
-<!--
+
 - **03. Typefaces as atoms - soon**\
 This www revolves about words. I need to get this right.
 
