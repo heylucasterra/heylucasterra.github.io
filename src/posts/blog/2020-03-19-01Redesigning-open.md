@@ -13,9 +13,9 @@ accent: ''
 icon: '✏️'
 ---
 
-Another year came in and I decided to redesign my website. Over the past couple of years I removed all the projects from my personal url and turned this into a sad "about me" page.
+2020 started and I decided to redesign my website. A couple of years ago I removed all the projects from my personal url and turned it into a sad "about me" page.
 
-I wanted this website to be updated in real time so people accessing it could watch the evolution week over week. This post will serve as the `Index` for this documentation.
+I wanted this website to be updated in during the process of the redesing, so people could have a sense of profress as much as I do. It will take a while as I adventure into React for the first time. This post will also serve as the `Index` for the documentation of the process – as detailed below.
 
 <br>
 
