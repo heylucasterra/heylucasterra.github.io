@@ -15,6 +15,35 @@ import Layout from "../components/layout"
 export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
+  const content = (      
+    <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
+      <div className="blog-post" style={{padding:`0 0 1.45rem`,}}>
+        <p className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
+      </div>
+    </div>  )
+
+// const footer = (
+//   <div style={{ maxWidth: `100%` }}>
+//     {prev && (
+//       <div>
+//         <div>Previous</div>
+//           <Link to={prev.frontmatter.path}>
+//             {prev.frontmatter.title}
+//           </Link>
+//         <div>{prev.frontmatter.subtitle}</div>
+//       </div>
+//     )}
+//     {next && next.frontmatter && (
+//       <div >
+//         <div>Next</div>
+//         <Link to={next.frontmatter.path}>
+//           {next.frontmatter.title}
+//         </Link>
+//         <div>{next.frontmatter.subtitle}</div>
+//       </div>
+//     )}
+//   </div>
+// )
   // let post = data.markdownRemark;
   // let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
@@ -68,13 +97,9 @@ export default function Template({data}) {
         {/* {post.frontmatter.featuredImage &&<div relativePath={{eq: "gatsby-astronaut.png"}}style={{maxWidth:`60rem`, marginBottom:`3rem`}}>
           <Image/>
         </div>} */}
-          
-      <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
-        <div className="blog-post" style={{padding:`0 0 1.45rem`,}}>
-          <p className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
-        </div>
-    </div>
-    </div>
+          </div>
+
+      {content}
     </Layout>
   )
 }
@@ -101,6 +126,7 @@ export const postQuery = graphql`
         impact
         company
         location
+        icon
         # featuredImage {
         #   childImageSharp {
         #     fluid(maxWidth: 800) {

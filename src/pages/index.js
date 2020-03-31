@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Image/>
     </div> 
     <article>
-      <h4 style={{color:`var(--font-mid-contrast)`}}>I am currently working with the awesome people in this photo. Work showcase coming soon.<br></br><br></br><a href="https://nubank.design">Read more about us in our blog ↗</a></h4>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>I am currently working with the awesome people in this photo. Work showcase coming soon<Link to="/blog/2020/defining-intent">.</Link><br></br><br></br><a href="https://nubank.design">Read more about us in our blog ↗</a></h4>
     </article>
 
 {/*     
