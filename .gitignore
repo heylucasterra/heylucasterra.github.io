@@ -202,3 +202,6 @@ src/pages/index.js
 src/posts/blog/2020-03-19-01Redesigning-open.md
 src/posts/blog/2020-03-19-03Defining-Intent.md
 src/templates/post.js
+node_modules/puppeteer/.local-chromium/mac-686378/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+node_modules/puppeteer/.local-chromium/mac-686378/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/78.0.3882.0/Chromium Framework
+node_modules/puppeteer/.local-chromium/mac-686378/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Chromium Framework
