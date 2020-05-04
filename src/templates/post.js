@@ -16,9 +16,9 @@ export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
   const content = (      
-    <div className="blog-post-container" style={{padding:`0 1.0875rem 1.45rem`, maxWidth:`36rem`, margin: `0 0 3.45rem 0`,}}>
-      <div className="blog-post" style={{padding:`0 0 1.45rem`,}}>
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
+    <div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0 0 1.45rem 0`,}}>
+      <div className="blog-post" style={{padding:`0 0 0`,}}>
+        <div style={{color:`var(--font-mid-contrast)`}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
         </div>
     </div>  )
 
@@ -53,8 +53,8 @@ export default function Template({data}) {
       <SEO title="Work"></SEO>
       {post.frontmatter.lastEdit && <SEO title="Blog" />}
       
-      <div style={{maxWidth:`36rem`,padding: `0`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
-        <div style={{ padding: `0px 0 0`, margin: `10vh 1.0875rem 0`,}}>
+      <div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
+        <div style={{ padding: `0px 0 0`, margin: `10vh 0 0`,}}>
           {/* Title and description block */}
           {post.frontmatter.title && <h1 style={{}}>{post.frontmatter.title}</h1>}
 
@@ -64,7 +64,7 @@ export default function Template({data}) {
 
   {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`, border:`solid 1px #00000008`, backgroundColor: `${post.frontmatter.accent}`}}>{post.frontmatter.icon && <h5>aaa</h5>}</div>}
                 
-                <div>
+                <div style={{marginBottom:`1rem`}}>
                   {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
                 
                   {post.frontmatter.company && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.company}</h5>}

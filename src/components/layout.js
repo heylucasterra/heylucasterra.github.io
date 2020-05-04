@@ -38,7 +38,12 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © 2009-{new Date().getFullYear()}
+
+          <article style={{textAlign: `left`, color: `var(--font-mid-contrast)`}}>
+            <hr></hr>
+            <h5 style={{fontFamily: `RegolaRegular`}}>This page was written and built with love by Lucas Terra. You can reach me on <a href="https://twitter.com/himynameislt" target="_blank" rel="noopener norefferer">Twitter</a> and the good old <a href="mailto:hey@lucasterra.com">eletronic mail</a>.<span style={{color: `var(--font-low-contrast)`}}> © 2009-2020</span>
+            </h5>
+          </article>
         </footer>
       </div>
     </>

@@ -13,33 +13,24 @@ accent: ''
 icon: '✏️'
 ---
 
-2020 started and I decided to redesign my website. A couple of years ago I removed all the projects from this url and turned it into a sad "about me" page.
+I decided to redesign my website. Around 3 years ago I removed all the projects from this url and turned it into a sober "about me" page.
 
-I wanted it to be updated during the process of redesigning, so people could have a sense of progress just as much as much as I do. It will take a while to get it done as I adventure into React for the first time, but the goal here is not to rush.
+I want this new version to get live updated as the process of redesigning unfolds. This way others can get a sense of progress just as much as much as I do. Looking for inspiration on how to make this as open as possible, I stumbled on Jonnie's and Frank's redesigns and decided to follow along. This will be a fun adventure as I it will also be my first medium sized project in React for the first time.
 
-This first post will also serve as the `Index` for documenting the process.
+This first post will serve as the `Index` for documenting the process.
 
-<br>
 
-## Table of contents
-
+###Table of contents
 - **[00. Window shopping ↗](/blog/2020/window-shopping)**\
 Before getting started, a list of portfolios that inspired this project.
+- **[01. Defining constraints ↗](/blog/2020/window-shopping)**\
+Design is about intention. And constraints.
+- **[02. Letters are atoms ↗](/blog/2020/window-shopping)**\
+This website will revolve around words. What should they sound like as you read them?
 
-- **01. Defining constraints (soon)**\
-Documenting my intention and making the first definitions.
+
+
 
 <!--
-
-
-- **[01. Defining constraints ↗](/blog/2020/defining-intent)**\
-Documenting my intention and defining the main constraints.
-
-- **[02. Hello, Gatsby ↗](/blog/2020/hello-gatsby)**\
-Gatsby changed the way I think about design and front-end code.
-
-- **03. If words are molecules, letters are atoms - soon**\
-This www revolves about words. I need to get this right.
-
 - **04. The stories that make me - soon**\
 Finding the tone and format to tell the stories I want to tell. -->
