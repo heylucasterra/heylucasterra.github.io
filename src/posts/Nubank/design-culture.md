@@ -16,15 +16,20 @@ role: 'Staff product designer, User researcher'
 color: 'red'
 ---
 
+
 ## This is a h2
 ### This is a h3
 #### This is a h4
 ##### This is a h5
 ###### This is a h6
 
+This is a regular text and I'm breaking line using `<br>`<br>
+at <br>
+the<br>
+end <br>of
+the <br>
+sentence<br>
 
-This is a regular text and I'll try to add a line break by adding a tag `<br>`<br>
-at the end of the sentence
 
 
 ```javascript
