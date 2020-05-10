@@ -1,8 +1,14 @@
 var plugins = [{
+      plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Lucas Terra - Design","short_name":"Lucas Terra","start_url":"/","background_color":"var(bg-lightest)","theme_color":"var(--bg-frosted)","display":"standalone"},
+    },{
       plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-99753331-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"]},
     },{
       plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
