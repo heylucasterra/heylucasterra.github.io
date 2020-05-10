@@ -26,7 +26,8 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{filter: `contrast(1.1) grayscale(100)`,
+  webkitFilter: `contrast(1.1) grayscale(100)`}}/>
 }
 
 export default Image

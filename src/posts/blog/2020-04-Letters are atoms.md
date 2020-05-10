@@ -23,7 +23,7 @@ Having two different typefaces would add a lot of time to this process — match
 ###Direction A - Personality without being distracting
 This group of typefaces have expression just as much as they could pass unnoticed. I want my typeface of choice to feel humble, yet have personality. The selected family must work in the portfolio section, meaning they should work with multiple visual identities. It must keep readers focused on the content not the layout/style of the page itself.
 
-![3 fonts](https://lh3.google.com/u/0/d/1490wGraIKHS8hxs11D_dg-7ZIF-End3j=w2880-h1596-iv1)
+![3 fonts](https://gdurl.com/oR7s)
 [National 2 by Klim](https://klim.co.nz/retail-fonts/national/) (left), [Theinhardt by Optimo](https://www.optimo.ch/typefaces_Theinhardt.html) (center) and [NB National Std by Neubau](https://neubauberlin.com/project/neubau-national/) (right). 
 
 
@@ -31,12 +31,11 @@ In the example above, they are all set at equal sizes (as I write this I also re
 
 Let's see how they render in a paragraph.
 
-![3 fonts](https://lh3.google.com/u/0/d/1PivcnzIyfy3Bk2asAS1B7GBgd5TxlBFK=w2880-h1596-iv1) 
+![3 fonts](https://gdurl.com/HYUB) 
 Klim's National 2 (top), Optimo's Theinhardt (mid), Neubau's NB National (bottom)
 
-Wow, is it just me or a lot has changed. Theinhardt suddenly doesn't feel as dull. It's actually the easiest to read, even at smaller sizes. I think most people would agree that National 2 on the top is real delight and NB National might work for titles but for the body it simply sets an awkward rythm.
+Look at how the figure entirely changes. Theinhardt suddenly doesn't feel as dull. It's actually the easiest to read, even at smaller sizes. I think most people would agree that National 2 on the top is real delight and NB National might work for titles but for the body it simply sets an awkward rythm.
 
-<hr>
 
 ###Direction B - System fonts(?)
 System fonts are a good choice to improve performance, but they don't add as much personality as Direction A did. While I'm a huge fan of both San Francisco and Roboto, Direction B also mean I would have different "voices" depending on which Operating System you're reading this.
@@ -45,7 +44,8 @@ After some experiments with these fonts It crossed my mind that picking a type t
 
 I know, after a month looking into typefaces I have Graphik in this list. While I know how ubiquitous it is, the main reason I'm bringing it to the discussion is that I found another font, called Abitare and discarded it because Graphik seems better resolved specially at smaller sizes. And during this journey I also found Regola, which is an imperfect typeface but there's just something in it that makes it very attractive.
 
-![2 fonts](https://lh3.google.com/u/0/d/145pCDw1fo3I1oVSisjOl6NRGCFxFBKP5=w2880-h1596-iv1) [Graphik by Commercial Type ](https://commercialtype.com/catalog/graphik) (left) and [Regola Pro by Think Work Observe](https://t-wo.it/font/regolapro/) (right).
+![2 fonts](https://gdurl.com/rLyQ) 
+[Graphik by Commercial Type ](https://commercialtype.com/catalog/graphik) (left) and [Regola Pro by Think Work Observe](https://t-wo.it/font/regolapro/) (right).
 
 At the first look, these two might look pretty much the same. Look at them again. Carefully. I have been observing how they solved different letters and played with their demos in Figma over the last week (might share my experiments some other time) and it's been entertaining to see the differences between these two.
 
@@ -53,22 +53,25 @@ In the example above, Regola is visibly wider than Graphik. Set at the same weig
 
 Let's have a look at a short sentence.
 
-![2 fonts](https://lh3.google.com/u/0/d/1votX12HM5wbScFhtiqtAUNWQgb85Xyy2=w2880-h1596-iv1)Graphik (top) and Regola (bottom)
+![2 fonts](https://gdurl.com/iQnKP)
+Graphik (top) and Regola (bottom)
 
 I was completely wrong when I said Regola takes more horizontal space than Graphik. Look at how Regola ends the sentence almost a `n` unit before Graphik. I was also lucky to steal this excerpt from Frank Herbert's Dune (which I am currently reading) and notice how the `?` is very different for these fonts.
 
 What about a longer paragraph?
 
-![2 fonts](https://lh3.google.com/u/0/d/1hwo4PGlO7x1b1CbllH2CqCrQy8W1pzGh=w2880-h1596-iv1) Graphik (top) and Regola (bottom)
+![2 fonts](https://gdurl.com/5tQZ) Graphik (top) and Regola (bottom)
 
 Something bugged me about Graphik and I didn't know why. Until someone at work showed me how the ascendants are taller than the capital letters and it made total sense to me. Regola has a better rythm in longer paragraphs.
 
-![2 fonts details](https://lh3.google.com/u/0/d/1T4-FXaoJ0X0cyV0YrezHmCW8iwnd-tLb=w2880-h1596-iv1) Ascendants are taller than capital letters for Graphik (left)
+![2 fonts details](https://gdurl.com/z9MF) Ascendants are taller than capital letters for Graphik (left)
 
 ###Final Round
 Regola and National were my favourites from a initial list of 10 fonts. As I mentioned before, I want it to have character while passing unnoticed to most. National is delightful on the eyes but I think I'll save it for a future iteration of this website. As I post this you should be already reading me in Regola Pro.
 
->Thanks for reading. <br>
+>**Thanks for reading.** <br>
 I'd love to [know what you think](mailto:hey@lucasterra.com?subject=Thoughts%20on%20your%20typeface%20selection) about how I'm using Regola.
+
+<br>
 
 ![](https://t-wo.it/wp-content/uploads/2018/01/RegolaPro-Gallery-2018-03-1.jpg)

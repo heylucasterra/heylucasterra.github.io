@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "gatsby"
 import { graphql } from "gatsby"
+// import { Link } from "gatsby"
 import markdownRemark from "gatsby-transformer-remark"
 import Header from "../components/header"
-// import Img from "gatsby-image"
-// import Layout from "../components/layout"
-// import Img from "gatsby-image/withIEPolyfill"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+// import Img from "gatsby-image/withIEPolyfill"
+import Img from "gatsby-image"
 
 
 
@@ -16,9 +15,9 @@ export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
   const content = (      
-    <div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0 0 1.45rem 0`,}}>
+    <div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0`,}}>
       <div className="blog-post" style={{padding:`0 0 0`,}}>
-        <div style={{color:`var(--font-mid-contrast)`}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
+        <div style={{}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
         </div>
     </div>  )
 
@@ -47,6 +46,8 @@ export default function Template({data}) {
   // let post = data.markdownRemark;
   // let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
+
+
   return (
     <Layout>
     <div className="body" style={{textAlign:'-webkit-center',}}>
@@ -54,6 +55,7 @@ export default function Template({data}) {
       {post.frontmatter.lastEdit && <SEO title="Blog" />}
       
       <div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
+
         <div style={{ padding: `0px 0 0`, margin: `10vh 0 0`,}}>
           {/* Title and description block */}
           {post.frontmatter.title && <h1 style={{}}>{post.frontmatter.title}</h1>}
@@ -62,7 +64,7 @@ export default function Template({data}) {
           <div style={{display:`flex`, justifyContent: `space-between`,marginBottom:`0`}}>
             <div style={{display:`flex`,}}>
 
-  {post.frontmatter.accent && <div style={{width:`40px`, height:`40px`,marginRight:`0.875rem`,borderRadius:`0.575rem`, border:`solid 1px #00000008`, backgroundColor: `${post.frontmatter.accent}`}}>{post.frontmatter.icon && <h5>aaa</h5>}</div>}
+  {post.frontmatter.accent && <div style={{width:`2.25rem`, height:`2.25rem`,marginRight:`0.875rem`,borderRadius:`25%`, border:`solid 2px #0000000f`, backgroundColor: `${post.frontmatter.accent}`}}>{post.frontmatter.icon && <h5>aaa</h5>}</div>}
                 
                 <div style={{marginBottom:`1rem`}}>
                   {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
@@ -76,28 +78,32 @@ export default function Template({data}) {
           </div>
 
           {/* Subtitle block */}
-        {post.frontmatter.subtitle && <h4 style={{color:`var(--font-mid-contrast)`}}>{post.frontmatter.subtitle}</h4>}
-
-          <hr></hr>
-
+        {post.frontmatter.subtitle && <h4 style={{color:`var(--font-mid-contrast)`, marginBottom:`2.45rem`}}>{post.frontmatter.subtitle}</h4>}
 
           {/* Team, Role block */}
-          <div style={{display:`flex`, justifyContent: `space-between`, marginBottom:``}}>
-          {post.frontmatter.designteam &&<div style={{width:'60%', marginRight:'1.45rem',}}>
+          {post.frontmatter.designteam && <div style={{display:`flex`, justifyContent: `space-between`, }}>
+          {post.frontmatter.designteam &&<div style={{width:'50%', margin:`0 1.45rem 0 0`}}>
               <h5 style={{color:`var(--font-mid-contrast)`,marginBottom: '0.25rem'}}>Design team</h5>
               <h5 style={{color:`var(--font-high-contrast)`}}>{post.frontmatter.designteam}</h5>
-            </div>}
-            {post.frontmatter.role &&<div>
-            <h5 style={{color:`var(--font-mid-contrast)`,marginBottom: '0.25rem'}}>Role</h5>
-            <h5 style={{color:`var(--font-high-contrast)`}}>{post.frontmatter.role}</h5>
           </div>}
-          </div>
+          {post.frontmatter.role &&<div style={{width:'50%'}}>
+              <h5 style={{color:`var(--font-mid-contrast)`,marginBottom: '0.25rem'}}>Role</h5>
+              <h5 style={{color:`var(--font-high-contrast)`}}>{post.frontmatter.role}</h5>
+          </div>}
+          
+        </div>}
+        <hr></hr>
+        
+          
         </div>
+        
       </div>
         {/* {post.frontmatter.featuredImage &&<div relativePath={{eq: "gatsby-astronaut.png"}}style={{maxWidth:`60rem`, marginBottom:`3rem`}}>
           <Image/>
         </div>} */}
+        
           </div>
+          
 
       {content}
     </Layout>
@@ -105,9 +111,9 @@ export default function Template({data}) {
 }
 
 
-export const postQuery = graphql`
-  query BlogpostByPath($path: String!){
-    markdownRemark (frontmatter: { path: { eq: $path } }) {
+export const pageQuery = graphql`
+  query($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         path

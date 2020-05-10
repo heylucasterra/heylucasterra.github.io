@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `20vh auto`,
-          maxWidth: `60rem`,
+          maxWidth: 1440,
           padding: `0 1.0875rem 1.45rem`,
           textAlign: `-webkit-center`,
         }}
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
 
           <article style={{textAlign: `left`, color: `var(--font-mid-contrast)`}}>
             <hr></hr>
-            <h5 style={{fontFamily: `RegolaRegular`}}>This page was written and built with love by Lucas Terra. You can reach me on <a href="https://twitter.com/himynameislt" target="_blank" rel="noopener norefferer">Twitter</a> and the good old <a href="mailto:hey@lucasterra.com">eletronic mail</a>.<span style={{color: `var(--font-low-contrast)`}}> © 2009-2020</span>
+            <h5 style={{fontFamily: `RegolaRegular`}}>This page was written and built by Lucas Terra. You can reach me on <a href="https://twitter.com/himynameislt" target="_blank" rel="noopener norefferer">Twitter</a> and the good old <a href="mailto:hey@lucasterra.com">eletronic mail</a>.<span style={{color: `var(--font-low-contrast)`}}> © 2009-2020</span>
             </h5>
           </article>
         </footer>

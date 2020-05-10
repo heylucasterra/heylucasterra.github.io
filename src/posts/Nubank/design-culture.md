@@ -3,7 +3,8 @@ path: '/nubank/design-culture'
 # lastEdit: 2017-07-12T17:12:33.962Z
 title: 'Nurturing Design Culture'
 company: 'Nubank'
-accent: 'rgb(138, 5, 190)'
+accent: '#ffffff'
+# rgb(138, 5, 190)
 location: São Paulo, Brazil
 date: '2018-2020'
 subtitle: 'From 2018 to 2020 we grew a design team from 12 to over 70 people. Here is my perspective on the things we did that made us focus on customers while keeping design weird both our team and the company kept their eyes on out customers'
@@ -12,7 +13,7 @@ topics: product design, user research
 featuredImage: './gatsby-astronaut.png'
 published: false
 impact: small
-role: 'Staff product designer, User researcher'
+role: 'Product design, user research'
 color: 'red'
 ---
 
