@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Lucas Terra`,
-    description: `Product designer based in Brazil.`,
+    description: `Lucas Terra's personal website. Lucas is a designer and writer based in Brazil.`,
     author: `@lucasterra`,
+    siteUrl: `https://lucasterra.com`
   },
   plugins: [
     {
@@ -13,9 +14,11 @@ module.exports = {
             {
               resolve: `gatsby-remark-images`,
               options: {
-                maxWidth: 1440,
-                linkImagesToOriginal: false,
-                showCaptions: true,
+                maxWidth: 960,
+                // linkImagesToOriginal: true,
+                // showCaptions: true,
+                // markdownCaptions: true,
+                // wrapperStyle: fluidResult => `flex:${_.round(fluidResult.aspectRatio, 2)};`,
               },
             },
             `gatsby-remark-smartypants`,
@@ -41,11 +44,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lucas Terra - Design`,
+        name: `Lucas Terra · Design`,
         short_name: `Lucas Terra`,
         start_url: `/`,
-        background_color: `var(bg-lightest)`,
-        theme_color: `var(--bg-frosted)`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `standalone`,
       },
     },

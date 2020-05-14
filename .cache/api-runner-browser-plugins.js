@@ -1,9 +1,9 @@
 module.exports = [{
       plugin: require('../node_modules/gatsby-remark-images/gatsby-browser.js'),
-      options: {"plugins":[],"maxWidth":1440,"linkImagesToOriginal":false,"showCaptions":true},
+      options: {"plugins":[],"maxWidth":960},
     },{
       plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
-      options: {"plugins":[],"name":"Lucas Terra - Design","short_name":"Lucas Terra","start_url":"/","background_color":"var(bg-lightest)","theme_color":"var(--bg-frosted)","display":"standalone"},
+      options: {"plugins":[],"name":"Lucas Terra · Design","short_name":"Lucas Terra","start_url":"/","background_color":"#ffffff","theme_color":"#ffffff","display":"standalone"},
     },{
       plugin: require('../node_modules/gatsby-remark-images/gatsby-browser.js'),
       options: {"plugins":[],"maxWidth":"60rem","linkImagesToOriginal":"false","showCaptions":"true","markdownCaptions":"true","wrapperStyle":{"backgroundColor":"red"}},

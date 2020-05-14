@@ -8,6 +8,8 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 // import Img from "gatsby-image/withIEPolyfill"
 import Img from "gatsby-image"
+import { motion } from "framer-motion"
+
 
 
 
@@ -15,11 +17,11 @@ export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
   const content = (      
-    <div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0`,}}>
+    <motion.div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0`,}} initial={{opacity: 0,}} animate={{scale: 1,rotate: 0, opacity: 1,}}  transition={{duration: 0.5, ease: [0.5, 0.67, 0.83, 0.67], delay: 0.4,}}>
       <div className="blog-post" style={{padding:`0 0 0`,}}>
         <div style={{}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
         </div>
-    </div>  )
+    </motion.div>  )
 
 // const footer = (
 //   <div style={{ maxWidth: `100%` }}>
@@ -50,29 +52,31 @@ export default function Template({data}) {
 
   return (
     <Layout>
+
     <div className="body" style={{textAlign:'-webkit-center',}}>
       <SEO title="Work"></SEO>
       {post.frontmatter.lastEdit && <SEO title="Blog" />}
       
-      <div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}}>
+      <motion.div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}} initial={{opacity: 0,}}
+    animate={{opacity:1, x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5, ease: "easeOut", delay: 0.25,}}>
 
         <div style={{ padding: `0px 0 0`, margin: `10vh 0 0`,}}>
-          {/* Title and description block */}
-          {post.frontmatter.title && <h1 style={{}}>{post.frontmatter.title}</h1>}
+        {/* Title and description block */}
+        {post.frontmatter.title && <h1 style={{}}>{post.frontmatter.title}</h1>}
 
-          {/* Logo, Company, Location and year block */}
-          <div style={{display:`flex`, justifyContent: `space-between`,marginBottom:`0`}}>
-            <div style={{display:`flex`,}}>
+        {/* Logo, Company, Location and year block */}
+        <div style={{display:`flex`, justifyContent: `space-between`,marginBottom:`0`}}>
+          <div style={{display:`flex`,}}>
 
-  {post.frontmatter.accent && <div style={{width:`2.25rem`, height:`2.25rem`,marginRight:`0.875rem`,borderRadius:`25%`, border:`solid 2px #0000000f`, backgroundColor: `${post.frontmatter.accent}`}}>{post.frontmatter.icon && <h5>aaa</h5>}</div>}
-                
-                <div style={{marginBottom:`1rem`}}>
-                  {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
-                
-                  {post.frontmatter.company && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.company}</h5>}
-                  {post.frontmatter.location && <h5 style={{color:`var(--font-mid-contrast)`}}>{post.frontmatter.location}</h5>}
-                </div>
-            </div>
+        {post.frontmatter.accent && <div style={{width:`2.25rem`, height:`2.25rem`,marginRight:`0.875rem`,borderRadius:`25%`, backgroundColor: `${post.frontmatter.accent}`}} class="border">{post.frontmatter.icon && <h5>aaa</h5>}</div>}
+          
+          <div style={{marginBottom:`1rem`}}>
+            {post.frontmatter.lastEdit && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.lastEdit}</h5>}
+          
+            {post.frontmatter.company && <h5 style={{marginBottom: `0`, color:`var(--font-high-contrast)`}}>{post.frontmatter.company}</h5>}
+            {post.frontmatter.location && <h5 style={{color:`var(--font-mid-contrast)`}}>{post.frontmatter.location}</h5>}
+          </div>
+        </div>
 
             {post.frontmatter.date && <h5 style={{color:`var(--font-mid-contrast)`}}>{post.frontmatter.date}</h5>}
           </div>
@@ -97,7 +101,7 @@ export default function Template({data}) {
           
         </div>
         
-      </div>
+      </motion.div>
         {/* {post.frontmatter.featuredImage &&<div relativePath={{eq: "gatsby-astronaut.png"}}style={{maxWidth:`60rem`, marginBottom:`3rem`}}>
           <Image/>
         </div>} */}
