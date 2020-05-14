@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Lucas Terra - Design","short_name":"Lucas Terra","start_url":"/","background_color":"var(bg-lightest)","theme_color":"var(--bg-frosted)","display":"standalone"},
+      options: {"plugins":[],"name":"Lucas Terra · Design","short_name":"Lucas Terra","start_url":"/","background_color":"#ffffff","theme_color":"#ffffff","display":"standalone"},
     },{
       plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-99753331-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"]},

@@ -26,7 +26,8 @@ Before getting started, a list of portfolios that inspired this project.
 Design is about intention. And constraints.
 - **[02. Letters are atoms ↗](/blog/2020/letters-are-atoms)**\
 This website will revolve around words. What should they sound like as you read them?
-
+- **[03. Lego ↗](/blog/2020/lego)**\
+Type scales, colour and the first elements of style come to life.
 
 
 

@@ -51,14 +51,14 @@ const Header = ({ siteTitle }) => (
                 textDecoration: `none`,
                 marginRight: `1rem`,
               }} href="https://twitter.com/himynameislt" target="_blank" rel="noopener norefferer">
-              Twitter
+              <h5 style={{margin:`0 .5rem 0 0`, display:`inline-block`}}>Twitter</h5>
             </a>
             <a style={{
                 color: `var(--font-high-contrast)`,
                 textDecoration: `none`,
                 marginRight: `1rem`,
               }} href="https://linkedin.com/in/lucast" target="_blank" rel="noopener norefferer">
-              Linkedin
+              <h5 style={{marginBottom:0, display:`inline-block`}}>Linkedin</h5>
             </a>
 
           </div>

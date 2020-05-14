@@ -1,14 +1,13 @@
 ---
 path: '/nubank/design-culture'
-# lastEdit: 2017-07-12T17:12:33.962Z
 title: 'Nurturing Design Culture'
 company: 'Nubank'
 accent: '#ffffff'
 # rgb(138, 5, 190)
 location: São Paulo, Brazil
 date: '2018-2020'
-subtitle: 'From 2018 to 2020 we grew a design team from 12 to over 70 people. Here is my perspective on the things we did that made us focus on customers while keeping design weird both our team and the company kept their eyes on out customers'
-designteam: Guilherme Neumann, Duda di Pietro, Rachel Jordan, Erick Mazer, Ricardo Sato, Lucas Neumann, Lucas Terra
+subtitle: 'From 2018 to 2020 I helped grow our design team from 12 to over 80 people. Here is my perspective on the things we did that made us focus on customers while keeping design weird both our team and the company kept their eyes on out customers'
+designteam: Guilherme Neumann, Erick Mazer, Ricardo Sato,Duda di Pietro, Mateus Peixoto, Lucas Neumann, Rachel Jordan
 topics: product design, user research
 featuredImage: './gatsby-astronaut.png'
 published: false
@@ -41,7 +40,8 @@ alert(s);
 
 [![nubank design team 2019](../images/gatsby-astronaut.png)]()
 
-
+[![test](design2019.jpg)]()
+[![test](/design2019.jpg)]()
 [![test](./images/design2019.jpg)]()
 [![test]("../images/design2019.jpg")]()
 [![test](.../images/design2019.jpg)]()

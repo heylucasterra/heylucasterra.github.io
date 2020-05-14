@@ -4,28 +4,55 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { motion } from "framer-motion"
+
 
 
 const IndexPage = () => (
-
   <Layout>
     <SEO title="Home" />      
-    <article style={{minHeight:`45vh`}}>
+    <motion.article 
+    initial={{
+      opacity: 0,
+    }}
+    animate={{
+      x: 0,
+      y: -24,
+      scale: 1,
+      rotate: 0,
+      opacity: 1,
+  }} 
+  transition={{
+    // yoyo:Infinity,
+    duration: 0.5,
+    ease: "easeOut",
+    delay: 0.25,
+  }}
+  style={{minHeight:`45vh`}}>
       <h3>Hi, I'm Lucas.</h3>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a brazilian designer with a love for cooking, <a href="https://www.goodreads.com/user/show/27508077-lucas-terra" target="_blank">reading</a>, <a href="https://letterboxd.com/lucasterra/" target="_blank">cinema</a> and <a href="https://open.spotify.com/user/lucasterra" target="_blank">chill music</a> <span style={{textDecoration:`line-through`}}>all of which I've been doing a lot during the quarantine</span>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a brazilian designer with a love for cooking, <a href="https://www.goodreads.com/user/show/27508077-lucas-terra" target="_blank" rel="noopener">reading</a>, <a href="https://letterboxd.com/lucasterra/" target="_blank" rel="noopener">cinema</a> and <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener">chill music</a> <span style={{textDecoration:`line-through`}}>all of which I've been doing a lot during the quarantine</span>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
       <h4 style={{color:`var(--font-mid-contrast)`}}>This page is a work in progress <Link to="/blog/2020/redesigning-open">being redesigned in the open ↗</Link></h4>
-    </article>
+    </motion.article>
   
-    <div style={{ maxWidth: `960px`, marginBottom: `2rem` }}>
+    <motion.div style={{ maxWidth: `960px`, marginBottom: `2rem` }}
+    initial={{
+      opacity: 0,
+    }}
+    animate={{
+      scale: 1,
+      rotate: 0,
+      opacity: 1,
+  }} 
+  transition={{
+    // yoyo:Infinity,
+    duration: 0.5,
+    ease: "easeInOut",
+    delay: 0.45,
+  }}>
     <Image />
-    </div> 
+    </motion.div> 
     
-
-
-
-
-
 <article>
   <div style={{display:`flex`,justifyContent:`space-between`,marginBottom:`8px`,paddingBottom:`16px`}}>
     <div>
@@ -42,7 +69,7 @@ const IndexPage = () => (
 </article>
 <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}>
   <div style={{opacity:`30%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
-    <div style={{height:504, width:255, marginLeft:24}}>
+    <div style={{height:504, width:255, marginLeft:0}}>
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/VHhS)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
       <h4 style={{marginBottom:4}}>Nurturing Design Culture</h4>
       <p>Growing an international design organisation</p>
