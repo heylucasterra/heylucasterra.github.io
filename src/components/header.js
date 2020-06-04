@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
           alignItems: `flex-end`,
         }}
         >
-          <h3 style={{ margin: 0, padding: `0 6px` }}>
+          <h4 style={{ margin: 0, padding: `0 6px` }}>
             <Link
               to="/"
               style={{
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
             >
               lucasterra
             </Link>
-          </h3>
+          </h4>
           <div style={{flexGrow:1,}}>
 
           </div>

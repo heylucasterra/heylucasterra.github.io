@@ -16,9 +16,22 @@ role: 'Product design, user research'
 color: 'red'
 ---
 
+Team size as I joined. Still did case/design challenge. Design updates, critiques, expertises.
 
-## This is a h2
-### This is a h3
+### Hiring
+#### Hiring Product Designers
+#### Hiring our first UX Writer
+
+### Leveling
+#### Collaborative process
+#### First versions of our design leveling "report"
+
+### Rituals
+#### Studio day
+#### Design Updates/sync
+#### Critique
+
+
 #### This is a h4
 ##### This is a h5
 ###### This is a h6
