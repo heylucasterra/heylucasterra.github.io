@@ -162,6 +162,67 @@ a:hover {
   -webkit-opacity: 0.5;
   transition: all 0.25s;
 }
+
+.thumbnail-wrapper {
+  opacity: 1;
+  -webkit-opacity: 1; 
+  transition: all 0.25s;
+}
+
+.thumbnail-wrapper:hover {
+  opacity: 1;
+  -webkit-opacity: 1;
+  transition: all 0.25s;
+}
+
+.inactive-wrapper {
+  opacity: 0.3;
+  -webkit-opacity: 0.3;  
+  text-decoration: none;
+  cursor: progress;
+}
+
+.inactive-wrapper:hover {
+  opacity: 0.3;
+  -webkit-opacity: 0.3;  
+  text-decoration: none;
+}
+
+.inactive-wrapper p:hover {
+  text-decoration: none;
+}
+.thumbnail {
+  background-color: var(--bg-light);
+  z-index: 999999;
+  width: 255px;
+  height: 370px;
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 100%;
+  border-radius: 4px;
+  /* display: flex;
+  align-items: flex-end; */
+  overflow:hidden;
+  justify-content: center;
+  text-align: center;
+}
+
+.thumbnail-image {
+  max-width: 160px;
+  position: relative;
+  z-index: 9;
+  margin: 0px;
+  top: 120px;
+}
+
+.thumbnail-list {
+  max-width: 100%;
+  /* justify-content: center; */
+  text-align: center;
+
+}
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -322,7 +383,7 @@ textarea {
 .tag {
   background-color: var(--bg-frosted);
   padding: 4px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 html {
   font: 112.5%/1.45em georgia, serif;
@@ -345,9 +406,12 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
+  /* max-width: 100%; */
+  width:40rem;
   max-width: 100%;
   padding: 0;
   margin: 0 0 1.45rem;
+  border-radius: 4px;
   /* filter: contrast(1.1) grayscale(100);
   -webkit-filter: contrast(1.1) grayscale(100); */
 }
@@ -443,11 +507,31 @@ article {
   margin-bottom: 3.45rem;
   padding: 0 1.0875rem 1.45rem;
 }
+
 blog-post-container {
   color: var(--font-high-contrast);
   padding-left: 6em;
   font-size: 48px;
 }
+
+ .blog-post-content h1, .blog-post-content h2, .blog-post-content h3, .blog-post-content h4, .blog-post-content h5, .blog-post-content hr, .blog-post-content ol, .blog-post-content p, .blog-post-content ul, .blog-post-content div {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-post-content blockquote, .blog-post-content pre {
+  max-width: 40rem;
+}
+
+.blog-post-content table {
+  max-width: 940px;
+}
+
+.blog-post-content img, .blog-post-content table {
+  margin-bottom: 2.90rem;
+}
+
 hgroup {
   padding: 0;
   margin: 0 0 1.45rem;
@@ -471,6 +555,21 @@ p {
   text-align: left;
   font-size: 1.1rem;
   color: var(--font-mid-contrast)
+}
+figcaption {
+  text-align: center;
+}
+figcaption p {
+  font-family: RegolaRegular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--font-mid-contrast);
+  padding: 0;
+  margin: 0.875rem 0 0 0;
+  color: inherit;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  text-align: center;
 }
 .footnote-ref {
   color: var(--primary);
@@ -501,21 +600,23 @@ figure {
 }
 figure,
 pre {
-  margin: 0 0 1.45rem;
+  margin: 3.45rem 0;
 }
 pre {
   font-size: 0.85rem;
   line-height: 1.42;
   overflow: auto;
   word-wrap: normal;
-  padding: 1.45rem;
+  padding: 1.45rem 1rem;
   background-color: var(--bg-light);
-  border-radius: 3px;
+  border-radius: 4px;
   font-family: 'Cousine', SFMono-Regular, Consolas, Roboto Mono, Droid Sans Mono,
     Liberation Mono, Menlo, Courier, monospace;
   font-weight: 500;
   text-align: left;
   /* border: 1px solid rgba(0, 0, 0, 0.029); */
+  max-width: 40rem;
+
 }
 table {
   font-size: 1rem;
@@ -625,7 +726,7 @@ thead {
 }
 td,
 th {
-  border-bottom: 1px solid var(--font-inactive);
+  /* border-bottom: 1px solid var(--font-inactive); */
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
@@ -635,16 +736,20 @@ th {
 td:first-child,
 th:first-child {
   padding-left: 0;
+  padding: 0.725rem 0.96667rem calc(0.725rem - 1px);
+
 }
 td:last-child,
 th:last-child {
   padding-right: 0;
+  padding: 0.725rem 0.96667rem calc(0.725rem - 1px);
+
 }
 code,
 tt {
   background-color: var(--bg-code);
   background-color: var(--bg-light);
-  border-radius: 3px;
+  border-radius: 4px;
   font-family: 'Cousine', SFMono-Regular, Roboto Mono, Droid Sans Mono, Liberation Mono,
     Menlo, Courier, monospace;
   padding: 0.25rem 2px;

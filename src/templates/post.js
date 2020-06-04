@@ -2,12 +2,8 @@ import React from "react";
 import { graphql } from "gatsby"
 // import { Link } from "gatsby"
 import markdownRemark from "gatsby-transformer-remark"
-import Header from "../components/header"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-// import Img from "gatsby-image/withIEPolyfill"
-import Img from "gatsby-image"
 import { motion } from "framer-motion"
 
 
@@ -17,7 +13,7 @@ export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
   const content = (      
-    <motion.div className="blog-post-container" style={{padding:`0 0 1.45rem`, maxWidth:`36rem`, margin: `0`,}} initial={{opacity: 0,}} animate={{scale: 1,rotate: 0, opacity: 1,}}  transition={{duration: 0.5, ease: [0.5, 0.67, 0.83, 0.67], delay: 0.4,}}>
+    <motion.div className="blog-post-container" style={{padding:`0 0 1.45rem`, margin: `0`,}} initial={{opacity: 0,}} animate={{scale: 1,rotate: 0, opacity: 1,}}  transition={{duration: 0.5, ease: [0.5, 0.67, 0.83, 0.67], delay: 0.4,}}>
       <div className="blog-post" style={{padding:`0 0 0`,}}>
         <div style={{}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
         </div>
@@ -58,7 +54,7 @@ export default function Template({data}) {
       {post.frontmatter.lastEdit && <SEO title="Blog" />}
       
       <motion.div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}} initial={{opacity: 0,}}
-    animate={{opacity:1, x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5, ease: "easeOut", delay: 0.25,}}>
+    animate={{opacity:1, x: 0, y: -24, scale: 1, rotate: 0, }} transition={{duration: 0.5, ease: "easeOut", delay: 0.25,}}>
 
         <div style={{ padding: `0px 0 0`, margin: `10vh 0 0`,}}>
         {/* Title and description block */}
@@ -88,7 +84,7 @@ export default function Template({data}) {
           {post.frontmatter.designteam && <div style={{display:`flex`, justifyContent: `space-between`, }}>
           {post.frontmatter.designteam &&<div style={{width:'50%', margin:`0 1.45rem 0 0`}}>
               <h5 style={{color:`var(--font-mid-contrast)`,marginBottom: '0.25rem'}}>Design team</h5>
-              <h5 style={{color:`var(--font-high-contrast)`}}>{post.frontmatter.designteam}</h5>
+              <h5 style={{color:`var(--font-high-contrast)`}}>Lucas Terra, {post.frontmatter.designteam}</h5>
           </div>}
           {post.frontmatter.role &&<div style={{width:'50%'}}>
               <h5 style={{color:`var(--font-mid-contrast)`,marginBottom: '0.25rem'}}>Role</h5>
