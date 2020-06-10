@@ -9,11 +9,10 @@ date: '2018-2019'
 subtitle: ''
 designteam: Guilherme Neumann, Mateus Peixoto, Lucas Neumann
 topics: product design, user research
-featuredImage: './gatsby-astronaut.png'
 published: false
 impact: small
-role: 'Product design and user research'
-color: 'red'
+role: 'I have led the design for the credit card experience and contributed to the design of Nubank's savings account.'
+color: 'purple'
 ---
 
 ![Hero shot of Conta and Credit in action]()
@@ -26,7 +25,7 @@ Shell had two key elements. Widgets — cards that worked as windows to the prod
 
 |  |  |  |
 | ---------| ---------- | ----------:|
-|![Card](./images/card.png) |![NuConta](./images/card.png) |![Rewards](./images/starrating.mp4) |
+|![Card](./images/card.png) |![NuConta](./images/card.png) |![Rewards](./images/card.png) |
 
 
 

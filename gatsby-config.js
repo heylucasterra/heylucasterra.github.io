@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: `@lucasterra`,
-    description: `Lucas Terra's personal website. Lucas is a designer based in Brazil.`,
+    description: `Lucas is a Product Designer based in São Paulo, Brazil.`,
     siteUrl: `https://lucasterra.com`,
     title: `Lucas Terra`,
   },

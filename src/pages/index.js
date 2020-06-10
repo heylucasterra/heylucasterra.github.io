@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
-import DesignTeam from "../images/project-thumbnails/design-team-logo-black.png"
 // import { useStaticQuery } from "gatsby" // to query for image data
 // import Img from "gatsby-image"
 

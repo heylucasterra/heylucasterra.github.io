@@ -8,7 +8,6 @@ import { motion } from "framer-motion"
 
 
 
-
 export default function Template({data}) {
   const { markdownRemark: post } = data;
   const { frontmatter, html } = markdownRemark
