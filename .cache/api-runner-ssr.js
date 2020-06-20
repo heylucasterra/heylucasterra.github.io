@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/lucasterra/heylucasterra.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{

@@ -74,6 +74,7 @@ module.exports = {
             //     ],
             //   }
             // },
+            'gatsby-plugin-dark-mode',
             {
               resolve: "gatsby-remark-images",
               options: {

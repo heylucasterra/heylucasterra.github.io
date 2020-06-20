@@ -58,6 +58,18 @@
   --u4: calc(var(--u1) * 4);
   --u5: calc(var(--u1) * 5);
   --u6: calc(var(--u1) * 6);
+
+  --bg-lightest: #222222;
+  --bg-light: #1c1c1c;
+  --bg-mid: #171818;
+  --bg-dark: #121213;
+  --bg-darkest: #0c0f10;
+  --bg-frosted: #222222de;
+  --font-high-contrast: #fffffff7;
+  --font-mid-contrast: #ffffffb8;
+  --font-low-contrast: #ffffff4d;
+  --font-inactive: #4d4d4d;
+  --accent: var(--accent-teal);
 }
 [data-theme="dark"] {
   --bg-lightest: #222222;
