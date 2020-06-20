@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
+import Project from "../components/project"
+
 // import { useStaticQuery } from "gatsby" // to query for image data
 // import Img from "gatsby-image"
 
@@ -54,7 +56,7 @@ const IndexPage = () => (
   <h4 style={{color:`var(--font-mid-contrast)`}}>Soon you'll be able to see some of this story here ⤵</h4>
 </article>
 
-<div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}>
+{/* <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}>
   <div style={{opacity:`30%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
     <div style={{height:504, width:255, marginLeft:0}}>
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/VHhS)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
@@ -82,14 +84,17 @@ const IndexPage = () => (
       <p>De-risking a product launch through user research</p>
     </div>
   </div>
-  </div>
+  </div> */}
 
-{/* WIP -- Adding animations! 
+{/* WIP -- Adding animations!  */}
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
+      
+      <Project/>
+
       <a href="http://lucasterra.com" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
         <motion.div class="thumbnail">  
-          <motion.img class="thumbnail-image" src={DesignTeam} alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />
+          <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
           </motion.svg>
@@ -98,11 +103,9 @@ const IndexPage = () => (
         <p>Growing an international design organisation</p>
       </a>
 
-      
-
       <a class="inactive-wrapper" style={{height:504, width:255, marginLeft:12}}>
         <div class="thumbnail" style={{ backgroundImage:`url(https://gdurl.com/C3dk)`}}> 
-        <motion.img class="thumbnail-image" src={DesignTeam} alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />   
+        <motion.img class="thumbnail-image"  alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />   
           <motion.svg style={{position:`relative`, bottom:`-20%`}} xmlns="http://www.w3.org/2000/svg" width="255" height="127" viewBox="0 0 255 127" fill="none" whileHover={{x:0, y:12,scale: 1.12, transition: { duration: 0.5 },}} whileTap={{ scale: 1 }}>
             <circle cx="129" cy="170" r="170" fill="var(--accent-purple)"/>
           </motion.svg>
@@ -134,7 +137,7 @@ const IndexPage = () => (
   </div>
   </div>
 
- */}
+
 
 <article>
   <div style={{display:`flex`,justifyContent:`space-between`,marginBottom:`8px`,paddingBottom:`16px`}}>

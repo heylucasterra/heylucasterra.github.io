@@ -3,16 +3,14 @@ path: '/nubank/product-dashboards'
 title: 'Product Dashboards'
 company: 'Nubank'
 accent: '#ffffff'
-# rgb(138, 5, 190)
 location: São Paulo, Brazil
 date: '2018-2019'
 subtitle: ''
 designteam: Guilherme Neumann, Mateus Peixoto, Lucas Neumann
-topics: product design, user research
+topics: product design
 published: false
 impact: small
-role: 'I have led the design for the credit card experience and contributed to the design of Nubank's savings account.'
-color: 'purple'
+role: "Building the foundation of the world’s most downloaded banking app"
 ---
 
 ![Hero shot of Conta and Credit in action]()
