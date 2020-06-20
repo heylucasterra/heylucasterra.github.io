@@ -1,2 +1,16 @@
 .cache
 node_modules
+public/page-data/nubank/side-quests/page-data.json
+public/page-data/nubank/design-culture/page-data.json
+public/page-data/nubank/chargeback/page-data.json
+public/page-data/index/page-data.json
+public/page-data/dev-404-page/page-data.json
+public/page-data/blog/2020/window-shopping/page-data.json
+public/page-data/blog/2020/redesigning-open/page-data.json
+public/page-data/blog/2020/letters-are-atoms/page-data.json
+public/page-data/blog/2020/lego/page-data.json
+public/page-data/blog/2020/defining-constraints/page-data.json
+public/page-data/blabous/page-data.json
+.cache/sync-requires.js
+.cache/redux/redux.rest.state
+.cache/redux/redux.node.state_0
