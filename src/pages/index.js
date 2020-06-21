@@ -93,7 +93,7 @@ const IndexPage = () => (
       <Project/>
 
       <a href="http://lucasterra.com" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
-        <motion.div class="thumbnail">  
+        <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
