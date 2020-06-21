@@ -218,6 +218,9 @@ a:hover {
   overflow:hidden;
   justify-content: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .thumbnail-image {
@@ -271,6 +274,7 @@ sup {
 }
 img {
   border-style: none;
+  background-color: none;
 }
 svg:not(:root) {
   overflow: hidden;
