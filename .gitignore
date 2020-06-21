@@ -1,3 +1,7 @@
 .cache
+*.cache
 node_modules
 *.state
+.cache/sync-requires.js
+.cache/redux/redux.rest.state
+.cache/redux/redux.node.state_0
