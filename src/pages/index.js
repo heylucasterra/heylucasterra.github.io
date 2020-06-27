@@ -6,6 +6,11 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
 import Project from "../components/project"
+// importing thumbnail images
+import DesignTeamLogo from "../images/project-thumbnails/design-team-logo-black.png"
+import Chargeback from "../images/project-thumbnails/cb-newspaper.png"
+import Dashboard from "../images/project-thumbnails/dashboard.png"
+
 
 // import { useStaticQuery } from "gatsby" // to query for image data
 // import Img from "gatsby-image"
@@ -14,7 +19,9 @@ import Project from "../components/project"
 
 
 const IndexPage = () => (
+
   <Layout>
+
     <SEO title="Home" />      
     <motion.article initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.25,}} style={{minHeight:`45vh`}}>
       <h3>Hi, I'm Lucas.</h3>
@@ -56,46 +63,14 @@ const IndexPage = () => (
   <h4 style={{color:`var(--font-mid-contrast)`}}>Soon you'll be able to see some of this story here ⤵</h4>
 </article>
 
-{/* <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}>
-  <div style={{opacity:`30%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
-    <div style={{height:504, width:255, marginLeft:0}}>
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/VHhS)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Nurturing Design Culture</h4>
-      <p>Growing an international design organisation</p>
-    </div>
-    <div style={{height:504, width:255, marginLeft:24}}>
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/C3dk)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Product dashboards</h4>
-      <p>Building the foundations for the most downloaded banking app in the world</p>
-    </div>
-    <div style={{height:504, width:255, marginLeft:24}}>
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/bJoP)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
-      <p>Making sure a team's goals and product vision are clear</p>
-    </div>
-    <div style={{height:504, width:255, marginLeft:24}}>
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/MSQJ)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Perfecting credit card limits</h4>
-      <p>Making dark magic tangible to customers</p>
-    </div>
-    <div style={{height:504, width:255, marginLeft:24}}>
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/tbar)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Personal loans that empower</h4>
-      <p>De-risking a product launch through user research</p>
-    </div>
-  </div>
-  </div> */}
-
-{/* WIP -- Adding animations!  */}
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
       
-      <Project/>
 
-      <a href="http://lucasterra.com" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+      <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
         <motion.div class="thumbnail">
-          <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />
-          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
+          <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}} >
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
           </motion.svg>
         </motion.div>
@@ -103,27 +78,29 @@ const IndexPage = () => (
         <p>Growing an international design organisation</p>
       </a>
 
-      <a class="inactive-wrapper" style={{height:504, width:255, marginLeft:12}}>
-        <div class="thumbnail" style={{ backgroundImage:`url(https://gdurl.com/C3dk)`}}> 
-        <motion.img class="thumbnail-image"  alt="Nubank Design Team Logo" whileHover={{rotate: 180, transition: {duration: 40 },}} />   
-          <motion.svg style={{position:`relative`, bottom:`-20%`}} xmlns="http://www.w3.org/2000/svg" width="255" height="127" viewBox="0 0 255 127" fill="none" whileHover={{x:0, y:12,scale: 1.12, transition: { duration: 0.5 },}} whileTap={{ scale: 1 }}>
-            <circle cx="129" cy="170" r="170" fill="var(--accent-purple)"/>
+      <a href="/nubank/product-dashboards"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" style={{maxWidth:125, top: 72,}} alt="Nubank Design Team Logo" src={Dashboard} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .3 },}} />
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="128" viewBox="0 0 255 128" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 2}}>
+            <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M0 59.275C31.1773 22.9854 77.4044 0 129 0C178.965 0 223.896 21.5559 255 55.8753V127H0V59.275Z" fill="#A141CF"/>
           </motion.svg>
-        </div>
-        <h4 style={{marginBottom:4}}>Product dashboards</h4>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>Product Dashboards</h4>
         <p>Building the foundations for the most downloaded banking app in the world</p>
       </a>
-    
-    <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/C3dk)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Product dashboards</h4>
-      <p>Building the foundations for the most downloaded banking app in the world</p>
-    </a>
-    <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
-      <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/bJoP)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
-      <p>Making sure a team's goals and product vision are clear</p>
-    </a>
+
+      <a href="/nubank/chargeback"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
+            <rect width="255" height="111" fill="var(--accent-teal)"/>
+          </motion.svg>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
+        <p>Making sure a team's goals and product vision are clear</p>
+      </a>
+
+
     <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/MSQJ)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
       <h4 style={{marginBottom:4}}>Perfecting credit card limits</h4>

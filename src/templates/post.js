@@ -5,6 +5,7 @@ import markdownRemark from "gatsby-transformer-remark"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { motion } from "framer-motion"
+// import Header from "../components/header"
 
 
 
@@ -44,8 +45,8 @@ export default function Template({data}) {
   // let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
 
 
-
   return (
+
     <Layout>
 
     <div className="body" style={{textAlign:'-webkit-center',}}>
@@ -54,6 +55,7 @@ export default function Template({data}) {
       
       <motion.div style={{maxWidth:`36rem`,padding: `0 0 1.45rem`, margin: `20vh auto 0 auto`, textAlign:`center`}} initial={{opacity: 0,}}
     animate={{opacity:1, x: 0, y: -24, scale: 1, rotate: 0, }} transition={{duration: 0.5, ease: "easeOut", delay: 0.25,}}>
+        {post.frontmatter.featuredImage && <img src={"{post.frontmatter.featuredImage}"}/>}
 
         <div style={{ padding: `0px 0 0`, margin: `10vh 0 0`,}}>
         {/* Title and description block */}
@@ -118,7 +120,7 @@ export const pageQuery = graphql`
         path
         date
         lastEdit (formatString: "MMMM DD, YYYY")
-        featuredImage
+        featuredImage 
         role
         accent
         color
