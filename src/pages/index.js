@@ -24,9 +24,9 @@ const IndexPage = () => (
 
     <SEO title="Home" />      
     <motion.article initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.25,}} style={{minHeight:`45vh`}}>
-      <h3>Hi, I'm Lucas.</h3>
+      <h3>Hi, I'm Lucas</h3>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a brazilian designer with a love for cooking, <a href="https://www.goodreads.com/user/show/27508077-lucas-terra" target="_blank" rel="noopener noreferrer">reading</a>, <a href="https://letterboxd.com/lucasterra/" target="_blank" rel="noopener noreferrer">cinema</a> and <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music</a> <span style={{textDecoration:`line-through`}}>all of which I've been doing a lot during the quarantine</span>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer with a love for cooking, <a href="https://www.goodreads.com/user/show/27508077-lucas-terra" target="_blank" rel="noopener noreferrer">reading</a>, <a href="https://letterboxd.com/lucasterra/" target="_blank" rel="noopener noreferrer">cinema</a> and <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music</a>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
       <h4 style={{color:`var(--font-mid-contrast)`}}>This page is a work in progress <Link to="/blog/2020/redesigning-open">being redesigned in the open ↗</Link></h4>
     </motion.article>
   
@@ -58,16 +58,16 @@ const IndexPage = () => (
       <h5>view website ↗</h5>
     </a>
   </div>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently leading the design and user research team for credit card at Nubank, where I get to work with some of the awesome people on the picture above. Nubank is now the largest digital bank in the world with over 20MM customers. We’re operating in Brazil and Mexico, laser focused on our fight against complexity.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the past couple of years I have helped grow the team, shape design and product culture, foster customer understanding with an ever changing user base and us shift from twelve people team of generalists to a 80+ international design organization.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Soon you'll be able to see some of this story here ⤵</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently leading design and user research for credit card — where I get to work with some of the awesome people in the picture above.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last few years I have helped raise the bar of our product, grow an international team, shape design and product culture and foster customer understanding as we built a relationship with over 25MM users.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Here are some of the stories I've been part of ⤵</h4>
 </article>
 
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
       
 
-      <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+      <div class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}} >
@@ -76,9 +76,19 @@ const IndexPage = () => (
         </motion.div>
         <h4 style={{marginBottom:4}}>Nurturing Design Culture</h4>
         <p>Growing an international design organisation</p>
-      </a>
+      </div>
+      {/* <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}} >
+            <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
+          </motion.svg>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>Nurturing Design Culture</h4>
+        <p>Growing an international design organisation</p>
+      </a> */}
 
-      <a href="/nubank/product-dashboards"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+      <div class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:125, top: 72,}} alt="Nubank Design Team Logo" src={Dashboard} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .3 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="128" viewBox="0 0 255 128" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 2}}>
@@ -87,9 +97,19 @@ const IndexPage = () => (
         </motion.div>
         <h4 style={{marginBottom:4}}>Product Dashboards</h4>
         <p>Building the foundations for the most downloaded banking app in the world</p>
-      </a>
+      </div>
+      {/* <a href="/nubank/product-dashboards"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" style={{maxWidth:125, top: 72,}} alt="Nubank Design Team Logo" src={Dashboard} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .3 },}} />
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="128" viewBox="0 0 255 128" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 2}}>
+            <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M0 59.275C31.1773 22.9854 77.4044 0 129 0C178.965 0 223.896 21.5559 255 55.8753V127H0V59.275Z" fill="#A141CF"/>
+          </motion.svg>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>Product Dashboards</h4>
+        <p>Building the foundations for the most downloaded banking app in the world</p>
+      </a> */}
 
-      <a href="/nubank/chargeback"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:12}}>
+      <a  class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
@@ -99,6 +119,16 @@ const IndexPage = () => (
         <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
         <p>Making sure a team's goals and product vision are clear</p>
       </a>
+      {/* <a href="/nubank/chargeback"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
+            <rect width="255" height="111" fill="var(--accent-teal)"/>
+          </motion.svg>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
+        <p>Making sure a team's goals and product vision are clear</p>
+      </a> */}
 
 
     <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
@@ -126,10 +156,20 @@ const IndexPage = () => (
       <h5>view website ↗</h5>
     </a>
   </div>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the three years I spent at Livework Studio, I have worked on several service and digital design projects accross different industries. During my time there I have navigated themes that varied from healthcare and public services to air travel and the financial sector.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>In my final year at Livework I have worked on two projects that re-imagined both the worst (delayed/canceled flights) and the best (premium business class) experiences one can have with an airline.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>The latter resulted in the five year vision that <a href="https://paxex.aero/2019/08/latam-premium-business-retrofit-lie-flat-beds/">completely re-positioned</a> the company's business strategy based on a new understanding of their customers. I also had a lot of fun building high-level prototypes to test inside a Boeing 777.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Livework still represents a very energetic moment of my career. After three years I left to work on a place where I would live the day-to-day of a product and learn from my mistakes once things were launched — an experience no consulting can ever offer.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>During three years at Livework Studio, I have worked on numerous service and product design projects accross different industries.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>One of my favourite projects was to help the biggest airline in the region create a five year vision for their business class. This project <a href="https://paxex.aero/2019/08/latam-premium-business-retrofit-lie-flat-beds/">completely re-positioned</a> their business strategy based on a deep understanding of their users. I also had a lot of fun building high-level prototypes to test inside a Boeing 777.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Projects can't be publicly disclosed.</h4>
+  </article>
+
+  <article>
+  <div style={{display:`flex`,justifyContent:`space-between`,marginBottom:`8px`,paddingBottom:`16px`}}>
+    <div>
+      <h3 style={{marginBottom:8}}>Other lives</h3>
+      <h5 style={{margin:0}}>2009 - 2018</h5>
+    </div>
+    
+  </div>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Before that, I have helped brands trailblaze the early days of social networks; launched a platform for medical doctors to discover and publish research papers; built physical products for the home in the UK and and even had my own company to help older adults get started in tech.</h4>
   </article>
 
 {/* 
