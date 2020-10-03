@@ -1,5 +1,6 @@
-cache
-**cache
-node_modules
-**node_modules
-public
+.cache
+dist/
+node_modules/
+.DS_Store
+.vscode/
+public/
