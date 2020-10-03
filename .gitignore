@@ -4,3 +4,8 @@ node_modules/
 .DS_Store
 .vscode/
 public/
+
+.cache/*
+public
+node_modules
+public/*
