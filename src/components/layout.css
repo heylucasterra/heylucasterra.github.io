@@ -1,24 +1,28 @@
-@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 @font-face {
   font-family: RegolaBook;
-  src: url(/static/Regola-Pro-Book-c7604af377f7248656751bb2dca59324.otf);
+  src: url('../typography/Regola-Pro-Book.otf');
   font-display: swap;
 }
 @font-face {
   font-family: RegolaRegular;
-  src: url(/static/Regola-Pro-Regular-051ac2bb52ac1253770dd90820cd5aa4.otf);
+  src: url('../typography/Regola-Pro-Regular.otf');
   font-display: swap;
 }
+
 @font-face {
   font-family: RegolaMedium;
-  src: url(/static/Regola-Pro-Medium-47594d43cbf701809e8dd70a384704f5.otf);
+  src: url('../typography/Regola-Pro-Medium.otf');
   font-display: swap;
 }
+
 @font-face {
   font-family: RegolaBold;
-  src: url(/static/Regola-Pro-Bold-2c2028f2cddd4e497ffa520220c9bff7.otf);
+  src: url('../typography/Regola-Pro-Bold.otf');
   font-display: swap;
 }
+
 body {
   --bg-lightest: #fff;
   --bg-light: #f4f4f5;
@@ -502,7 +506,7 @@ textarea {
   border-radius: 4px;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
