@@ -20,7 +20,7 @@ role: "I led product design for the Credit Card interface and contributed to the
 
 ![✴](./images/nubank-conta-card.png)
 
-<video controls="" name="media"><source src="/7e387fa8ca77c5759299c2b0a8198646/cc-redesign.mp4" type="video/mp4"></video>
+<video controlsList="nodownload" controls="" name="media"><source src="/7e387fa8ca77c5759299c2b0a8198646/cc-redesign.mp4" type="video/mp4"></video>
 
 ##### Video by Everton Guilherme
 
