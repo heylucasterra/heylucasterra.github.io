@@ -5,17 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { motion } from "framer-motion"
-import Project from "../components/project"
+// import Project from "../components/project"
 // importing thumbnail images
 import DesignTeamLogo from "../images/project-thumbnails/design-team-logo-black.png"
 import Chargeback from "../images/project-thumbnails/cb-newspaper.png"
 import Dashboard from "../images/project-thumbnails/dashboard.png"
-
-
 // import { useStaticQuery } from "gatsby" // to query for image data
 // import Img from "gatsby-image"
-
-
 
 
 const IndexPage = () => (
@@ -109,7 +105,7 @@ const IndexPage = () => (
         <p>Building the foundations for the most downloaded banking app in the world</p>
       </a> */}
 
-      <a  class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
+      <Link to="/nubank/chargeback" class="inactive-wrapper" linkstyle={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
@@ -118,7 +114,7 @@ const IndexPage = () => (
         </motion.div>
         <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
         <p>Making sure a team's goals and product vision are clear</p>
-      </a>
+      </Link>
       {/* <a href="/nubank/chargeback"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
