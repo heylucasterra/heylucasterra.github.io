@@ -2,7 +2,7 @@
 path: '/nubank/product-dashboards'
 title: 'Product Dashboards'
 company: 'Nubank'
-accent: '#ffffff'
+accent: 'var(--bg-lightest)'
 location: São Paulo, Brazil
 date: '2018-2019'
 subtitle: 'Building the foundation of the world’s most downloaded banking app'
@@ -10,167 +10,420 @@ designteam: Guilherme Neumann, Mateus Peixoto, Lucas Neumann
 topics: product design
 published: false
 featuredImage: './posts/nubank/images/shell.png'
-impact: small
-role: "Product designer"
+impact: big
+role: "I led product design for the Credit Card interface and contributed to the design and prototyping of the savings account"
+# "1. Savings account: Product design and prototyping. 2.Credit Card: Led product design from end to end"
+# ""
 ---
 
 <!-- <div style="position: sticky; width:400px; height: 40px; background-color:#000;"></div> -->
 
-![Hero shot of Conta and Credit in action]()
+![✴](./images/nubank-conta-card.png)
 
-In 2018, four years after Nubank was first launched to the public, we released the first redesign of our app. Until six months before that we had been a credit card company. Now, as we started rolling out NuConta, a mix of a savings and checking account, we needed space for our family of products to grow. This new design, lead by Guilherme Neumann, was internally called Shell.
+<video controls="" name="media"><source src="/7e387fa8ca77c5759299c2b0a8198646/cc-redesign.mp4" type="video/mp4"></video>
 
-![GIF with the evolution of the app from cc to shell - add date as counter](./images/shell.png)
+##### Video by Everton Guilherme
 
-Shell had two key elements. Widgets — cards that worked as windows to the products (conta, credit and rewards). And shortcuts — doors that had to navigate from one place to the other, without telling you more than a sign. Once you opened the windows (widgets) this is what you would see in each product.
+### Overview
+As Nubank shifted from a credit card to a more robust banking ecosystem, it became evident the need for a more cohesive interface for our products.
 
-|  |  |  |
-| ---------| ---------- | ----------:|
-|![Card](./images/card.png) |![NuConta](./images/card.png) |![Rewards](./images/card.png) |
+Different patterns accross the app hindered user onboarding, feature discovery and didn’t optimize for important product offerings. The current designs weren’t flexible enough to accomodate new features.
 
+These two projects combined took the course of 3½ months where I redesigned and prototyped a new experience for our savings account and credit card dashboards.
 
+### Impact
 
-Yes, they felt like totally different apps. However, the main structure was shared.
+<div style="display:flex; margin-top:1rem;"> 
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 8px 0 0 ;flex-grow: 1;width: calc(50% - 8px)">
+		<h3 style="margin-top:0"><strong>+6%</strong></h3>
+		<p>people paying their credit card bill on time</p>
+	</div>
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 0 0 8px;flex-grow: 1; width: calc(50% - 8px)">
+		<h3 style="margin-top:0"><strong>+3%</strong></h3>
+		<p>in revenue from instalment anticipation</p>
+	</div>
+</div>
+<div style="display:flex; margin-top: 16px;"> 
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 8px 0 0 ;flex-grow: 1;width: calc(50% - 8px)">
+		<h3 style="margin-top:0"><strong>+4%</strong></h3>
+		<p>savings in customer support</p>
+	</div>
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 0 0 8px;flex-grow: 1; width: calc(50% - 8px)">
+		<h3 style="margin-top:0"><strong>2+ years</strong></h3>
+		<p>shipping new features without refactoring the new interface</p>
+	</div>
+</div>
+<br>
+<br>
 
-[   Same img as above, highlighting the same basic structure   ]
+##### Long-format story below ↓
 
-This is the story of how we built our product dashboards. While it took a holistic understanding of the products to build a solid foundation that could work for them, the timeline and motivation for each of these projects looked different. Our goal, however, was shared. As we continued to onboard several thousand — and later over a million — customers per month, we needed a product structure that worked for NuConta and Credit Card.
+<br>
 
-
-![NuConta before and after]()
-
-### Part I - NuConta Revamp
-#### Context
-It wasn’t long after rolling out our mix of checking/savings account for customers that Lucas Neumann, Mateus Peixoto and I started working on the evolution of the original interface. At that time, Lucas N. was looking for ways to help customers separate money in “to spend” and “to save”, while Mateus and I were working on our yet-to-be-released personal loans product. After a few rounds of user interviews in each of our projects, we realized our features would have a hard time coexisting in the available real estate. We needed to open space for the product to grow.
-
-####My role
-Product designer, contributing to the product design, prototyping and some of the usability testing. 
-
-####Goal
-Redesign our recently launched app in a way that could support the upcoming product expansion.
-
-Some of the challenges we faced were:
-
-
-|   |   |
-|---|---|
-|![IMG of old NuConta](./images/shell.png) The current interface has a graph that received a lot of emphasis. When launching the product we didn’t spend much time evaluating if people understood/saw value in it.|![Buckets rabiscoframe](./images/shell.png) People were still used to having a checking and a savings account separately. They wanted to separate their money in two different categories: “to spend” and “to save”|
-|![Gif/video Conta horizontal swipe](./images/shell.png) People rarely access the list of transactions screen. It requires a horizontal swipe to be revealed — and the page indicator is currently placed on the top.|![bla](./images/shell.png)The product was a skeleton of a real bank account — with no debit card; ATM withdrawal; auto-debit and other basic features yet available. We knew it was about to explode and needed to give customers visibility of important offerings, while being sensitive on how we do it. The two we had in our hands were good examples:
-Buckets: user engagement, retention
-Personal loans: revenue|
-
-
-
+---
 
 
-#### Explorations
-Having the main goals defined, we spent several afternoons pair designing in the Design Studio. Our design files were packed with explorations that reflected our intent to reach the goals mentioned above. Here are some of the explorations and Framer prototypes we did at that time. 
+
+<div style="background-color: var(--bg-light); width:100%; padding: 2rem auto; border-radius: 4px; margin-bottom: 2.5em">
+	<img src="./images/shell_iphoneX.gif" style="height:auto; max-width: 200px;margin: 32px auto; border-radius:20px"></img>
+</div>
+
+<h5 style="margin-top: -24px">Nubank new home screen, May 2018</h5>
+
+### Context: the Nubank app
+In 2018, four years after Nubank was first launched to the public, we released the first redesign of our app's home screen. Six months before Nubank had been a credit card (only) company. 
+
+Now, as we rolled out NuConta – a unique mix of savings and checking account – the app needed the space and structure for our family of products to continue to grow.
+
+This design, led by Guilherme Neumann, was the shell for Nubank’s products and consisted of two main components.
+
+1. **Widgets** — cards that worked as windows to the products (conta, credit and rewards). 
+2. **Shortcuts** — buttons that helped navigate from one place to the other. They worked like doors to other parts of the app.  
+
+Once you opened each of the widgets this is what you would see:
+
+![](./images/nubank-old-dashboards.png) 
+##### Product dashboards before the revamp. <br> While some of the structure was shared, you could see the fingerprints.
+
+### The need for a new design framework
+While the new home screen was succesful at giving more visibility of the savings account and rewards programme, it also highlighted the inconsistencies in the UI.
+
+People had a steeper learning curve before making their first deposit and activating their credit card. We were distancing from Nubank’s “fight complexity, empower people” motto.
+
+Here’s an example:
+
+![](./images/gesture-swipe-left.png)
+##### Swiping left in Credit Card, Nuconta and Rewards.<br> Different results and confused users.
+
+As we onboarded several thousand — and later over a million — customers per month, our app urged a new product structure for both NuConta and the Credit Card.
+
+<br>
+
+---
+
+<br>
+
+####  Part I 
+## Revamping the savings account – NuConta
+
+![NuConta before and after](./images/nuconta-old-new.png)
+
+Not long after rolling out our mix of checking/savings account I started working on the evolution of the original interface along with other two designers.
+
+At that time, Mateus Peixoto and I were working on the yet-to-be-released personal loans product while Lucas Neumann was exploring ways to help customers separate money. After a few rounds of user interviews in our projects, it was clear: *our features would struggle to coexist in NuConta's main screen.*NuConta's 6 months old interface was already bloated.
+
+<br>
+
+><h5 style="margin-bottom:1rem">Project Goal</h5>
+><h3 style="margin-top:1rem; text-align: center"> Open the way for NuConta's growth.</h3>
 
 
-[   Prototypes   ]
+Some of the questions and challenges faced:
 
-#### De-risking product launch
-As we brought in customers to interact with our prototypes, our work evolved into completely removing the graph from the interface. Before making the final decision, we had input for our UX researcher Caio Gama suggesting we had more quantitative data before making our call. Instagram stories had then just released a poll feature, which came in hand to quickly get a quantitative understanding of what people thought about the graph.
+1. #### Do people understand the graph?
+The original UI was ~50% a bar chart. When launching the product the team didn’t spend much time evaluating if people understood/ saw value in it. 
 
-[   picture of the instagram post   ]
+2. #### People's mental model was different from how the product works
+Our mix of a checking + savings account generated a lot of buzz but that wasn't enough. Customers wanted to separate their money in two different categories: `to spend` and `to save`.
 
-The final design felt like a typographic experience when compared to the emotional appeal that the graph had, but was also much easier for customers to understand what was going on with their money. Here are some of the key decisions we made over a month of work.
+3. #### Unintuitive gestures
+Searching for the term "NuConta" returned <a href="https://www.techtudo.com.br/dicas-e-tutoriais/2018/04/como-encontrar-comprovantes-de-transferencias-da-nuconta.ghtml" target="blank" style="cursor: url('./images/card.png')">multiple tutorials</a> on how to access the list of transactions and other essencial features for customers.
 
-[   New Conta design, states: empty, shell,    ]
+4. #### Upcoming feature boom
+The product was a skeleton of a bank account — with no debit card; ATM withdrawal; auto-debit and other basic features. The number of features would grow increasingly fast and we needed to improve visibility of new product offerings.
+
+### Explorations
+Having defined the main goals, I spent several afternoons pairing with my colleagues in the Design Studio. For every new concept I also explored how it would be translated to the Credit Card interface – and then, brought back a new idea that could be used for the savings account too.
+
+![Some of my favourite explorations from this process. <br />The credits of many of them go to Mateus Peixoto and Lucas Neumann.](./images/nuconta-explorations.png)
+
+
+<table style="max-width: var(--body-width)">
+  <tbody>
+    <th>
+    </th>
+    <tr style="vertical-align:top;">
+      <td>
+	  	<h3 style="">An unusual quantitative approach</h3>
+		<p>Prototypes evolved into completely removing the graph from the interface. Before making a final call, our UX researcher suggested collecting quantitative impressions.</p>
+		<p>We used Instagram Stories' recently launched poll sticker to quickly grasp how people perceived the graph.</p>
+      </td>
+      <td style="">
+        <img style="" src="./images/NuConta-graph-on-Instagram-Stories.png"></img>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Informed by data, not driven by it
+While most respondants said they found the graph helpful, that was never translated in people's stories with the product. We decided to move with a much smaller version of the graph. Giving more emphasis to the numbers went a long way helping customers understand what was going on with their money at a glance.
+
+
+### New design highlights
+Here are some of the key decisions made over six weeks of work. 
+
+|                            |            |
+| ------------------------------------| ---------- |
+|![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Mini-graph</h4> People used the graph mostly to understand trends about their money. On tap it now opens a more detailed analytics screen. |![](./images/actions-alignment.gif) <h4>Supporting multiple actions</h4> There was a number of actions being launched for the product. The new pattern now aligns icon and text to the left when there are 4+ options and turns into a swiper ribbon. |
 
 |                                     |            |
 | ------------------------------------| ---------- |
-|![GIF Crop of the top of the UI, wave load](./images/card.png) | <h3>Title</h3> The graph now a served as the entry point to the NuConta analytics screen on the top-center;|
-| The graph now a served as the entry point to the NuConta analytics screen on the top-center;|![GIF Crop of the top of the UI, wave load](./images/card.png) |
-|                                     |            |
+| ![](./images/nuconta-scroll.gif)<h4>Transaction list</h4> Transactions are now displayed in a much more natural vertical scroll. | ![](./images/dashboard-nuconta-full.gif)  <h4>More space for the new features</h4> This is as busy as the UI gets if you have a e. Money to spend, to save and loans to pay all at a glance. |
 
-|                                     |            |
+<br>
+
+--- 
+
+<br>
+
+
+#### Part II
+## Rebuilding Credit Card
+
+![Credit card before and after](./images/cc-old-new.png)
+<!--
+<video controls src=".images/cc-redesign.mp4">
+Your browser does not support the video tag.
+</video>
+
+![](images/cc-redesign.mp4)
+
+<!-- 
+### My role
+I led the design for this project. There are many design details I'm proud of but the most impactful was to pitch for this project to happen and then ensure the entire UI could be server-side controlled. This project was a catalyst for product experimentation at Nubank.
+=======
+#### Part II - Soon
+## Rebuilding Credit Card
+
+![  Credit card before and after   ](./images/cc-old-new.png)
+>>>>>>> Stashed changes
+
+<!-- **After that, it was also part of my job to make sure the Credit Card business unit prioritised it and that we had a team of engineers working on it.** -->
+<!-- 
+This project began around the time that Nubank decided to **sunset native development and embrace Flutter to build our app**. To make things more interesting, Nubank announced we were launching in Mexico — and guess what our first product there would be ;)
+
+Every week this project gained complexity and a longer list of stakeholders. To get a better understanding of the size of the challenge and collect feedback from other teams/ functions I put together a document listing all known user, business and tech problems —and all the requirements this project should take into consideration. 
+
+Redesigning the Credit Card interface was a whole other adventure. The bulk of the design explorations happened in parallel to the savings account revamp. It was then, also my job to ensure the Credit Card business unit prioritised it and that we had an engineering team working on it.
+=======
+#### Part II - Soon
+## Rebuilding Credit Card
+
+![  Credit card before and after   ](./images/cc-old-new.png)
+
+
+
+Redesigning the Credit Card interface was a whole other adventure. The bulk of the design explorations happened in parallel to the savings account revamp. It was then, also my job to ensure the Credit Card business unit prioritised it and that we had an engineering team working on it.
+
+There are many design details I'm proud of but the most impactful decision ahs been to make this UI server-side controlled. This decision was a catalyst for product experimentation at Nubank.
+>>>>>>> Stashed changes
+
+There are many design details I'm proud of but the most impactful decision ahs been to make this UI server-side controlled. This decision was a catalyst for product experimentation at Nubank.
+
+<!-- ![Google Docs GIF]() 
+<!-- Some of the 
+#### People problems
+- Shorten users learning curve
+- What are these colours on the screen?
+- Didn’t know they could pay in advance/ anticipate instalments and get a discount
+- Filter search results
+- Do I have to wait for my card to arrive? (Virtual card visibility)
+- Help me section
+=======
+### Making sense of an increasing list of constraints
+This project began around the time Nubank decided to sunset native development and [embrace Flutter](https://medium.com/building-nubank/https-medium-com-freire-why-nubank-chose-flutter-61b80b568772) to build our app. To make things more interesting, Nubank announced we were [launching in Mexico](https://reut.rs/2vGIBCS) — and guess what our first product there would be ;)
+
+
+Every week this project gained complexity and a longer list of stakeholders.
+
+To understand the size of the challenge and collect feedback from other teams/ functions I wrote a document listing all known user, business and tech problems and the requirements for this project. Once mapped, I also added some of the key design decisions and the explanation of how they would help us achieve our business goals.
+
+![](./images/cc-revamp-doc.gif)
+
+
+|                            |            |
 | ------------------------------------| ---------- |
-|![GIF Crop of the top of the UI, wave load](./images/card.png) <h3>Title</h3> The graph now a served as the entry point to the NuConta analytics screen on the top-center;|![GIF Crop of the top of the UI, wave load](./images/card.png) <h3>Title</h3> The graph now a served as the entry point to the NuConta analytics screen on the top-center;|
-|                                     |            |
+|<h4>People problems</h4> <p>There was a steep learning curve to understand how our credit card and the UI worked.</p><ol><li>I can only see how much is on my closed bill,  what about my open bill expenses?</li><li>Navigation is confusing and requires an unnatural swipe to access actions and other relecant information;</li><li>What are these colors on right side of the screen?</li><li> How do I contact customer support?</li></ol> |<h4>Business & Tech problems</h4><p>The product had changed very little in the past couple of years and incremental work was always prioritised over new features.</p><ol><li>Contact rate wasn't scaling efficiently as the company continued to grow;</li><li>Our app was a beast even to seasoned mobile engineers. Native development was slowing our learning curve;</li><li>Acquisition movement changed: in the past, the credit card app was that product that introduced NuConta to customers. Now, most customers are approved for an account before we can offer them a credit line.</li> </ol>|
+
+#### Design Problems
+When Nubank launched Shell, the main navigation in the credit card app changed. In the pre-Shell design, the first screen when you opened the app would display how you’re using your credit card limit. Swiping right, the interface revealed the credit card transaction history. Swiping left, your bill history.
+
+<!-- But after the was the initial screen and new customers would only see a bar with colours on the right — with no idea what that meant. -->
+
+<!-- ![GIF original app opening from icon]()
+The original app showed how you’re allocating your credit card limit, so you could be on top of your finances -->
+
+<!-- ![GIF new app opening from shell]()
+When opening the credit card widget in the new app, it showed the purchases you made. 
+
+><h5 style="margin-bottom:1rem">Project Goal</h5>
+><h3 style="margin-top:1rem; text-align: center">Recover the magic by putting people in control of their credit card.</h3>
+
+My high level objectives were to:
+1. Increase visibility of the credit card limit utilization
+2. Give customers more control over their financing and late payment options
+3. Open space for experimentation in a 200 people org
+
+### Key information
+
+1. #### Put people on top of their limit utilization.
+Increase transparency and visibility of your limit consumption.
+
+### Making sense of an increasing list of constraints
+This project began around the time Nubank decided to sunset native development and [embrace Flutter](https://medium.com/building-nubank/https-medium-com-freire-why-nubank-chose-flutter-61b80b568772) to build our app. To make things more interesting, Nubank announced we were [launching in Mexico](https://reut.rs/2vGIBCS) — and guess what our first product there would be ;)
+
+
+Every week this project gained complexity and a longer list of stakeholders.
+
+To understand the size of the challenge and collect feedback from other teams/ functions I wrote a document listing all known user, business and tech problems and the requirements for this project. Once mapped, I also added some of the key design decisions and the explanation of how they would help us achieve our business goals.
+
+![](./images/cc-revamp-doc.gif)
+
+
+|                            |            |
+| ------------------------------------| ---------- |
+|<h4>People problems</h4> <p>There was a steep learning curve to understand how our credit card and the UI worked.</p><ol><li>I can only see how much is on my closed bill,  what about my open bill expenses?</li><li>Navigation is confusing and requires an unnatural swipe to access actions and other relecant information;</li><li>What are these colors on right side of the screen?</li><li> How do I contact customer support?</li></ol> |<h4>Business & Tech problems</h4><p>The product had changed very little in the past couple of years and incremental work was always prioritised over new features.</p><ol><li>Contact rate wasn't scaling efficiently as the company continued to grow;</li><li>Our app was a beast even to seasoned mobile engineers. Native development was slowing our learning curve;</li><li>Acquisition movement changed: in the past, the credit card app was that product that introduced NuConta to customers. Now, most customers are approved for an account before we can offer them a credit line.</li> </ol>|
 
 
 
-[Scroll]
-The transaction list moved from the horizontal page to a vertical scroll;
+<!-- But after the was the initial screen and new customers would only see a bar with colours on the right — with no idea what that meant. -->
 
+<!-- ![GIF original app opening from icon]()
+The original app showed how you’re allocating your credit card limit, so you could be on top of your finances -->
 
-[actions popping up and changing alignment]
-The actions are now in a swiper ribbon (similar to the one in Shell). When a screen has up to three actions, it 
-The Hero finally offered the real state necessary to both our features to coexist.
-[IMG lending + Buckets]
+<!-- ![GIF new app opening from shell]()
+When opening the credit card widget in the new app, it showed the purchases you made. 
 
+><h5 style="margin-bottom:1rem">Project Goal</h5>
+><h3 style="margin-top:1rem; text-align: center">Recover the magic by putting people in control of their credit card.</h3>
 
+My high level objectives were to:
+1. Increase visibility of the credit card limit utilization
+2. Give customers more control over their financing and late payment options
+3. Open space for experimentation in a 200 people org
 
-Feature adoption + Late rate for Lending
-	Thanks for reading until here. While we have increased interaction with the transaction list and solved other usability issues on this project I can’t share much of this data. If you want to see a more complete design process with metrics that indicate success, please keep reading the story ;)
-
-
-
-
-
-
-[  Credit card before and after   ]
-
-###Phase II - Rebuilding Credit Card (2018-2019)
-	My role
-Led the design of the product.
-
-####Prioritising
-Redesigning our Credit Card app was a whole other adventure. As mentioned before, Credit Card used to be our only product, and also the entire Nubank app. The design process happened along with the account revamp. After that, it was also part of my job to make sure we prioritise it in our business unit and then got a team of product + engineering to work on it.
-
-At that time, we had just decided to sunset native development and embrace Flutter to develop our app. To make things more interesting, Nubank had also just announced we were opening in Mexico — and I know you can guess what our first product there would be ;)
- Every week this project seemed to gain complexity and a longer list of stakeholders. To get a better understanding of the size of this challenge and also gather input from other teams/ functions I put together a document listing all known user, business and tech problems —and all the requirements this project should take into consideration. 
-
-
-[  Google Docs GIF   ]
-
-####People problems
-Shorten learning curve
-What are these colours?
-Didn’t know they could pay in advance/ anticipate instalments and get a discount
-Filter search results
-Do I have to wait for my card to arrive?
-Help me section
-
-####Business problems
-Acquisition movement changed;
-Product experimentation
-
-####Tech Problems
-NuConta was a fresh 6 months old product written in React Native and the original code was written by the same engineering team revamping it. Tackling Credit Card legacy code, created by dozens of people over the course of 5 years was a beast that seemed impossible to prioritise. Our native app could speak more languages than a diplomat and teach you the history of mobile software development.
-
-####Design Problems
-When Nubank launched Shell, the main navigation in the credit card app changed. In the pre-Shell design, the first screen when you opened the app would display how you’re using your credit card limit. Swiping right, the interface revealed the credit card transaction history. Swiping left, your bill history. 
-
-The new navigation changed that logic. It placed more weight on the list of transactions made with your credit card than on how you’re using your limit. The original screen, showing But after the was the initial screen and new customers would only see a bar with colours on the right — with no idea what that meant.
-
-
-[GIF original app opening from icon]
-The original app showed how you’re allocating your credit card limit, so you could be on top of your finances
-[GIF new app opening from shell]
-When opening the credit card widget in the new app, it showed the purchases you made.
-
-This was just one of the design debts the new app generated. Here are some more issues we identified with the design
-
-People don’t know they can swipe on this screen. This generates a two issues:
-1. Loose track of their credit card limit utilization. 
-In a pre-Nubank world, the credit card limit was a very much abstract concept. The limit bar (a vertical rectangle showing how much of your limit is dedicated to the open, closed or a future bill) was a game-changer — and now hidden by a gesture people didn’t know about (~40% of the customers did it). It even generated customer support tickets to understand
-2. Both new and existing features are hindered by the navigation
-The key actions you could take with your credit card were also in the purple screen.
-Transaction list items didn’t convey as tappable
-Customers didn’t know they could see more details of a transaction
-Reduce learning curve
-In the early days of NuConta, customers had a credit card and started adopting our savings product. As a bank account does not involve risk analysis, NuConta’s growth was exponential and we started to see the opposite movement (people approved first for an account and as we learned from them we would offer them a credit card).
-Colours worked well on the purple background but were too bright on white.
-People don’t know what the colours are
-App experimentation
+### Key information
 
 
 
-####Design exploration
-Most of this work was done in parallel to the Conta redesign so we could question many of our assumptions and test them at once. 
+1. #### Put people on top of their limit utilization.
+Increase transparency and visibility of your limit consumption.
+
+>>>>>>> Stashed changes
+<!-- In a pre-Nubank world, the credit card limit was a very abstract concept, especially in a country where financing and installments are a HUGE deal. The limit bar (a vertical rectangle showing how much of your limit is dedicated to the open, closed or a future bill) was a game-changer. But now, it was hidden by a gesture customers didn’t know about (~40% of the customers did it). It even generated customer support tickets to understand 
+
+2. #### Clarity about the options they have at hand
+Give visibility of important bill states (closed, late, bill payment error, etc) as well as show them the options to pay, refinance, get discounts when anticipating instalments and .
+3. #### 
+4. #### Raise the bar of accessibility
+Nubank's credit card got popular among visually impaired customers because it voice-over worked better than any bank they ever used. This was a minimum requirement for the experience, but we also wanted to improve color contrast and 
+
+
+### Design exploration
+The Credit Card however, had more critical states and over 90% of monthly active users. Every minor change could affect the behaviours and financial health of a 15MM+ user base.
+<<<<<<< Updated upstream
+
+![Design explorations]()
+
+Bringing our new members from Mexico
+![Co-design MX and BR]()
+
+<<<<<<< Updated upstream
+=======
+
+
+### New design highlights
+### Hero
+#### Bill States
+The most important information about your credit card bill is always at hand.
+#### Limit utilization
+The limit bar indicated how your credit card limit is compromised. In Brazil, merchants allow customers to pay in instalments without charging interest. Keeping track of multiple financed transactions can be confusing and bringing the limit bar back to the scene helps customers stay in control of their finances.
+#### Fun Fact
+Number of transactions and the largest expense of that bill.
+
+
+### Transaction History
+>>>>>>> Stashed changes
+=======
+
+![Design explorations]()
+
+Bringing our new members from Mexico
+![Co-design MX and BR]()
 
 
 
-#Impact
+### New design highlights
+### Hero
+#### Bill States
+The most important information about your credit card bill is always at hand.
+#### Limit utilization
+The limit bar indicated how your credit card limit is compromised. In Brazil, merchants allow customers to pay in instalments without charging interest. Keeping track of multiple financed transactions can be confusing and bringing the limit bar back to the scene helps customers stay in control of their finances.
+#### Fun Fact
+Number of transactions and the largest expense of that bill.
+
+
+### Transaction History
+>>>>>>> Stashed changes
+#### Feed items
+Around 30% of our customers had never tapped a transaction. This was an important as there are several purchase level options available in the Transaction Details screen.
+
+Numbers are now aligned to the right so identifying a purchase searching for the amount instead of merchant name was – there are several small businesses in Brazil that show up with the name of the vendor and customers don
+
+![](./images/tabular-numbers.png)
+##### Tabular numbers bring peace of mind
+<<<<<<< Updated upstream
+
+#### Search -->
+
+ <!-- Also, most merchant names are automatically improved but there are cases where customers can't find the vendor name and scan the list of transactions searching for  -->
+
+<!-- 
+| <h3>Hero</h3>            |            |
+| ------------------------------------| ---------- |
+| ![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Bill states</h4> The most important information about your credit card bill is always at hand. |![](./images/actions-alignment.gif) <h4>Limit utilization</h4> The limit bar indicated how your credit card limit is compromised. In Brazil, merchants allow customers to pay in instalments without charging interest. Keeping track of multiple financed transactions can be confusing and bringing the limit bar back to the scene helps customers stay in control of their finances. |
+| <br></br>![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Fun facts</h4> Number of transactions and the largest expense of that bill. | |
+
+<<<<<<< Updated upstream
+### Impact
+
+<div style="display:flex"> 
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px">
+		<h2><strong>20✕</strong><h2>
+		<p>conversion<p>
+	</div>
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px">
+		<h2><strong>20✕</strong><h2>
+		<p>conversion<p>
+	</div>
+	<div style="background-color:var(--bg-light); padding: 16px; border-radius:3px">
+		<h2><strong>20✕</strong><h2>
+		<p>conversion<p>
+	</div>
+</div> 
+|   <h3>Transaction history</h3>                                   |            |
+| ------------------------------------| ---------- |
+|  ![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Feed items</h4> Around 30% of our customers had never tapped a transaction. This was an important as there are several purchase level options available in the Transaction Details screen. <br></br> ![](./images/tabular-numbers.png) Numbers are now aligned to the right so identifying a purchase searching for the amount instead of merchant name was – there are several small businesses in Brazil that show up with the name of the vendor and customers don |![](./images/actions-alignment.gif) <h4>Search</h4> The actions are now in a swiper ribbon similar to the one in Shell. Up to three actions, icon and text are aligned to the center. Beyond that, you can scroll horizontally and icons are aligned to the left for visual hinting |
+
+<hr>
+
+### Kickass image of conta and CC
+
+#### Search 
+
+ <!-- Also, most merchant names are automatically improved but there are cases where customers can't find the vendor name and scan the list of transactions searching for  -->
+
+<!-- 
+| <h3>Hero</h3>            |            |
+| ------------------------------------| ---------- |
+| ![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Bill states</h4> The most important information about your credit card bill is always at hand. |![](./images/actions-alignment.gif) <h4>Limit utilization</h4> The limit bar indicated how your credit card limit is compromised. In Brazil, merchants allow customers to pay in instalments without charging interest. Keeping track of multiple financed transactions can be confusing and bringing the limit bar back to the scene helps customers stay in control of their finances. |
+| <br></br>![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Fun facts</h4> Number of transactions and the largest expense of that bill. | |
+
+|   <h3>Transaction history</h3>                                   |            |
+| ------------------------------------| ---------- |
+|  ![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Feed items</h4> Around 30% of our customers had never tapped a transaction. This was an important as there are several purchase level options available in the Transaction Details screen. <br></br> ![](./images/tabular-numbers.png) Numbers are now aligned to the right so identifying a purchase searching for the amount instead of merchant name was – there are several small businesses in Brazil that show up with the name of the vendor and customers don |![](./images/actions-alignment.gif) <h4>Search</h4> The actions are now in a swiper ribbon similar to the one in Shell. Up to three actions, icon and text are aligned to the center. Beyond that, you can scroll horizontally and icons are aligned to the left for visual hinting |
+
+<hr>
+
+### Kickass image of conta and CC
+ -->
