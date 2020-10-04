@@ -1,11 +1,10 @@
 .cache
-dist/
-node_modules/
+.cache/*
 .DS_Store
 .vscode/
-public/
 
-.cache/*
-public
+dist/
 node_modules
+node_modules/*
+public
 public/*
