@@ -164,7 +164,7 @@ Here are some of the key decisions made over six weeks of work.
 
 |                            |            |
 | ------------------------------------| ---------- |
-|![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif) <h4>Mini-graph</h4> People used the graph mostly to understand trends about their money. On tap it now opens a more detailed analytics screen. |![](./images/actions-alignment.gif) <h4>Supporting multiple actions</h4> There was a number of actions being launched for the product. The new pattern now aligns icon and text to the left when there are 4+ options and turns into a swiper ribbon. |
+|![GIF Crop of the top of the UI, wave load](./images/graph-laggy.gif)<h4>Mini-graph</h4> People used the graph mostly to understand trends about their money. On tap it now opens a more detailed analytics screen. |![](./images/actions-alignment.gif) <h4>Supporting multiple actions</h4> There was a number of actions being launched for the product. The new pattern now aligns icon and text to the left when there are 4+ options and turns into a swiper ribbon. |
 
 |                                     |            |
 | ------------------------------------| ---------- |
