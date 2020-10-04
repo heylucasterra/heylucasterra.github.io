@@ -1,18 +1,18 @@
 import React from "react";
 import { graphql } from "gatsby"
 // import { Link } from "gatsby"
-import markdownRemark from "gatsby-transformer-remark"
+// import markdownRemark from "gatsby-transformer-remark"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import { motion } from "framer-motion"
 // import Header from "../components/header"
-import Image from "../components/image"
+// import Image from "../components/image"
 
 
 
 export default function Template({data}) {
   const { markdownRemark: post } = data;
-  const { frontmatter, html } = markdownRemark
+  // const { frontmatter, html } = markdownRemark
   const content = (      
     <motion.div className="blog-post-container" style={{padding:`0 0 1.45rem`, margin: `0`,}} initial={{opacity: 0,}} animate={{scale: 1,rotate: 0, opacity: 1,}}  transition={{duration: 0.5, ease: [0.5, 0.67, 0.83, 0.67], delay: 0.4,}}>
       <div className="blog-post" style={{padding:`0 0 0`,}}>
