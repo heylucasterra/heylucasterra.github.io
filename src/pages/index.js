@@ -127,16 +127,16 @@ const IndexPage = () => (
       </a> */}
 
 
-    <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
+    <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/MSQJ)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
       <h4 style={{marginBottom:4}}>Perfecting credit card limits</h4>
       <p>Making dark magic tangible to customers</p>
-    </a>
-    <a style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
+    </div>
+    <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/tbar)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
       <h4 style={{marginBottom:4}}>Personal loans that empower</h4>
       <p>De-risking a product launch through user research</p>
-    </a>
+    </div>
   </div>
   </div>
 
