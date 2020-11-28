@@ -1,5 +1,5 @@
 ---
-path: '/projects/bias'
+path: '/projects/bias-in-bias-out'
 title: 'Bias in → Bias out'
 company: 'Mesa & Cadeira'
 accent: 'var(--bg-lightest)'
@@ -14,6 +14,31 @@ impact: big
 role: "Co-authored the script for the 'machine', visuals and the set up for the venture"
 color: 'black'
 ---
+<style> body { 
+    --bg-lightest: #191920;
+    --bg-light: #111;
+    --bg-mid: #121212;
+    --bg-dark: #131313;
+    --bg-darkest: #141414;
+    --bg-frosted: hsla(240, 12%, 11%, 0.91);
+    --font-high-contrast: rgba(255, 255, 255, 1);
+    --font-mid-contrast: rgba(255, 255, 255, 0.78);
+    --font-low-contrast: rgba(255, 255, 255, 0.31);
+    --accent: #ffeb82;
+    --primary: #2f80ed;
+    --primary-bg: rgba(47, 128, 237, 0.07);
+    --primary-bg-hover: rgba(47, 128, 237, 0.11);
+    --bg-code: #dcf5ff;
+    --code: #ffe2f1;
+    --u1: 8px;
+    --u2: calc(var(--u1) * 2);
+    --u3: calc(var(--u1) * 3);
+    --u4: calc(var(--u1) * 4);
+    --u5: calc(var(--u1) * 5);
+    --u6: calc(var(--u1) * 6);
+    --body-width: 34rem;
+ } </style>
+
 
 ### Context
 In 2018 I joined a group of data analysts, programmers, anthropologists, film makers, artists and journalists to raise awareness of our duty to the public good. The result was a series of videos on how our biases are embedded in the lines of code that shape our lives.
