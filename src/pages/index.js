@@ -62,15 +62,15 @@ const IndexPage = () => (
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
 
-      <div class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+      <div class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:16}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}} >
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
           </motion.svg>
         </motion.div>
-        <h4 style={{marginBottom:4}}>Nurturing Design Culture</h4>
-        <p>Growing an international design organisation</p>
+        <h4 style={{marginBottom:4}}>From the ground up</h4>
+        <p>Building and growing the credit card design team</p>
       </div>
       {/* <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
@@ -91,7 +91,7 @@ const IndexPage = () => (
           </motion.svg>
         </motion.div>
         <h4 style={{marginBottom:4}}>Product Dashboards</h4>
-        <p>Building the foundations for the most downloaded banking app in the world</p>
+        <p>Designing the foundations of the most downloaded banking app in the world</p>
       </Link>
 
       {/* <a href="/nubank/product-dashboards"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
@@ -105,7 +105,7 @@ const IndexPage = () => (
         <p>Building the foundations for the most downloaded banking app in the world</p>
       </a> */}
 
-      <Link to="/nubank/chargeback" class="inactive-wrapper" linkstyle={{height:504, width:255, marginLeft:24}}>
+      <Link to="/nubank/chargeback" class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
@@ -129,13 +129,13 @@ const IndexPage = () => (
 
     <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/MSQJ)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Perfecting credit card limits</h4>
-      <p>Making dark magic tangible to customers</p>
+      <h4 style={{marginBottom:4}}>Unleashing credit access</h4>
+      <p>Making dark magic and credit building tangible to millions of latin americans</p>
     </div>
     <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/tbar)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Personal loans that empower</h4>
-      <p>De-risking a product launch through user research</p>
+      <h4 style={{marginBottom:4}}>Day to day and side quests</h4>
+      <p>Self started initiatives in a growing company</p>
     </div>
   </div>
   </div>

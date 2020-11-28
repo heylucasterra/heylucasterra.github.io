@@ -13,10 +13,10 @@ import { motion } from "framer-motion"
 export default function Template({data}) {
   const { markdownRemark: post } = data;
   // const { frontmatter, html } = markdownRemark
-  const content = (      
+  const content = (
     <motion.div className="blog-post-container" style={{padding:`0 0 1.45rem`, margin: `0`,}} initial={{opacity: 0,}} animate={{scale: 1,rotate: 0, opacity: 1,}}  transition={{duration: 0.5, ease: [0.5, 0.67, 0.83, 0.67], delay: 0.4,}}>
       <div className="blog-post" style={{padding:`0 0 0`,}}>
-        <div style={{}} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
+        <div style={{ }} className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html}}/> 
         </div>
     </motion.div>  )
 

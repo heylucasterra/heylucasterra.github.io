@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap');
 
 @font-face {
   font-family: RegolaBook;
@@ -61,6 +61,8 @@ body {
   --u5: calc(var(--u1) * 5);
   --u6: calc(var(--u1) * 6);
   --body-width: 34rem;
+  background-color: var(--bg-lightest);
+  background-color: "{post.frontmatter.color}";
 }
 body.dark {
   --bg-lightest: #232324;
@@ -909,14 +911,13 @@ th:last-child {
 }
 code,
 tt {
-  background-color: var(--bg-code);
   background-color: var(--bg-light);
   border-radius: 4px;
-  font-family: Cousine, SFMono-Regular, Roboto Mono, Droid Sans Mono,
+  font-family: SFMono-Regular, Roboto Mono, Droid Sans Mono,
     Liberation Mono, Menlo, Courier, monospace;
   padding: 0.25rem 2px;
   margin: 1.45rem 0.25rem;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--font-high-contrast);
 }
 pre code {

@@ -14,6 +14,7 @@ impact: big
 role: "I led product design for the Credit Card interface and contributed to the design and prototyping of the savings account"
 # "1. Savings account: Product design and prototyping. 2.Credit Card: Led product design from end to end"
 # ""
+color: 'black'
 ---
 
 <!-- <div style="position: sticky; width:400px; height: 40px; background-color:#000;"></div> -->
@@ -224,16 +225,7 @@ To understand the size of the challenge and collect feedback from other teams/ f
 |<h4>People problems</h4> <p>There was a steep learning curve to understand how our credit card and the UI worked.</p><ol><li>I can only see how much is on my closed bill,  what about my open bill expenses?</li><li>Navigation is confusing and requires an unnatural swipe to access actions and other relecant information;</li><li>What are these colors on right side of the screen?</li><li> How do I contact customer support?</li></ol> |<h4>Business & Tech problems</h4><p>The product had changed very little in the past couple of years and incremental work was always prioritised over new features.</p><ol><li>Contact rate wasn't scaling efficiently as the company continued to grow;</li><li>Our app was a beast even to seasoned mobile engineers. Native development was slowing our learning curve;</li><li>Acquisition movement changed: in the past, the credit card app was that product that introduced NuConta to customers. Now, most customers are approved for an account before we can offer them a credit line.</li> </ol>|
 
 #### Design Problems
-When Nubank launched Shell, the main navigation in the credit card app changed. In the pre-Shell design, the first screen when you opened the app would display how you’re using your credit card limit. Swiping right, the interface revealed the credit card transaction history. Swiping left, your bill history.  
-
-<!-- But after the was the initial screen and new customers would only see a bar with colours on the right — with no idea what that meant. -->
-
-<!-- ![GIF original app opening from icon]()
-The original app showed how you’re allocating your credit card limit, so you could be on top of your finances -->
-
-<!-- ![GIF new app opening from shell]()
-When opening the credit card widget in the new app, it showed the purchases you made. -->
-
+When Nubank launched Shell, the main navigation in the credit card app changed. In the pre-Shell design, the first screen when you opened the app would display how you’re using your credit card limit. Swiping right, the interface revealed the credit card transaction history. Swiping left, your bill history.
 
 
 ><h5 style="margin-bottom:1rem">Project Goal</h5>
