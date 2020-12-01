@@ -8,7 +8,7 @@ date: '2018 - now'
 subtitle: Building and leading the credit card design team from the ground up
 role: 'aaa'
 designteam: 
-color: 'red'
+color: ''
 ---
 
 ### Context

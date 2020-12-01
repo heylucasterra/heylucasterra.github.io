@@ -15,33 +15,33 @@ role: 'Working in a product company means identifying opportunities of improveme
 color: 'purple'
 ---
 ### On side quests
-The thing I love the most about working on the product is that it allows me to go beyond well scoped projects and push the team and the product into new and exciting directions. 
+The thing I love the most about working on the product — rather than consulting, for example — is that it allows me to go beyond well scoped projects and push the product (and the people supporting it) into new and exciting directions. 
 
-This is the most exciting part of my work at Nubank and while many of them can't be publicly disclosed, here you'll find a small number of self initiated projects that turned out to influence our strategy, processes or short-term quick-wins.
+This is my favourite part of my work at Nubank. While many of these adventures can't be publicly disclosed, here's a small sample of self initiated projects that turned out to influence our strategy, processes or short-term quick-wins.
 
 ---
 
 `Coming Soon`
 <div style="color: var(--font-low-contrast)">
 
-Patent pending, 2021 <br>
+Patent pending project, 2021 <br>
 New architecture for moving money, 2021
-
 </div>
 
 ---
+
+`Previously`
 
 ### App for interview, 2019
 
 | 🤔 Problem | 🎯 Solution |
 |---|---|
-| During Nubank's hypergrowth, it was difficult to keep track of all hiring interviews happening. Recruiting tools didn't optimize for taking and sharing notes. | A tool that displays the different hiring questions for each position, and an easy way to share the scorecard for each candidate |
+| During Nubank's hypergrowth, it was difficult to keep track of all hiring interviews happening. Recruiting tools didn't optimize for taking and sharing notes on candidates. | A tool that displays the different hiring questions for each position, space to add notes and an easy way to share the scorecard for each candidate |
 
-#### Team
-Lucas Terra, Gustavo Mendes
+| 🤝 Team | 🕒 Duration |
+|---|---|
+| Lucas Terra, Gustavo Mendes | Around 8 weeks, with multiple iterations along the way. |
 
-#### Duration
-Around 8 weeks, with multiple iterations along the way.
 
 ---
 

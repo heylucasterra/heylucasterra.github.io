@@ -22,10 +22,10 @@ const IndexPage = () => (
     <motion.article initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.25,}} style={{minHeight:`45vh`}}>
       <h3>Hi, I'm Lucas</h3>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer, <a href="https://letterboxd.com/lucasterra/films/diary/" target="_blank" rel="noopener noreferrer">film critic</a>, <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music listener</a> and <a href="https://www.chess.com/member/lucasterra" target="_blank" rel="noopener noreferrer">chess beginner</a>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer, <a href="https://letterboxd.com/lucasterra/films/diary/" target="_blank" rel="noopener noreferrer">pseudo film critic</a>, <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music listener</a> and <a href="https://www.chess.com/member/lucasterra" target="_blank" rel="noopener noreferrer">chess beginner</a>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
       <h4 style={{color:`var(--font-mid-contrast)`}}>This page is a work in progress <Link to="/blog/2020/redesigning-open">being redesigned in the open ↗</Link></h4>
     </motion.article>
-  
+  {/* occasional writer -> link to blog */}
     <motion.div style={{ maxWidth: `960px`, marginBottom: `2rem` }}
     initial={{
       opacity: 0,
@@ -56,7 +56,7 @@ const IndexPage = () => (
   </div>
   <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently leading design and user research for credit card — where I get to work with some of the awesome people in the picture above.</h4>
   <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last few years I have helped raise the bar of our product, grow an international team, shape design and product culture and foster customer understanding as we build enduring relationships with over 30MM customers.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Check out some of the stories I've been part of ⤵</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Here are some of the stories I've been part of ⤵</h4>
 </article>
 
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
@@ -105,7 +105,18 @@ const IndexPage = () => (
         <p>Building the foundations for the most downloaded banking app in the world</p>
       </a> */}
 
-      <Link to="/nubank/chargeback" class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
+      <Link to="/nubank/side-quests" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+        <motion.div class="thumbnail">
+          <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
+          <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
+            <rect width="255" height="111" fill="var(--accent-teal)"/>
+          </motion.svg>
+        </motion.div>
+        <h4 style={{marginBottom:4}}>Day to day and side quests</h4>
+        <p>Self started initiatives in a fast-growing company</p>
+      </Link>
+
+      {/* <Link to="/nubank/chargeback" class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="111" viewBox="0 0 255 111" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}}>
@@ -114,7 +125,7 @@ const IndexPage = () => (
         </motion.div>
         <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
         <p>Making sure a team's goals and product vision are clear</p>
-      </Link>
+      </Link> */}
       {/* <a href="/nubank/chargeback"  class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" style={{maxWidth:180, top: 110}}alt="Nubank Design Team Logo" src={Chargeback} initial={{scale: 1,}} whileHover={{scale: 1.05, transition: {duration: .3 },}} />
@@ -127,15 +138,15 @@ const IndexPage = () => (
       </a> */}
 
 
-    <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
+    <div style={{height:504, width:255, marginLeft:24}} class="thumbnail-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/MSQJ)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Unleashing credit access</h4>
+      <h4 style={{marginBottom:4}}>A healthy path to credit</h4>
       <p>Making dark magic and credit building tangible to millions of latin americans</p>
     </div>
-    <div style={{height:504, width:255, marginLeft:24}} class="inactive-wrapper">
+    <div style={{height:504, width:255, marginLeft:24}} class="thumbnail-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/tbar)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
       <h4 style={{marginBottom:4}}>Day to day and side quests</h4>
-      <p>Self started initiatives in a growing company</p>
+      <p>A collection of self started initiatives in a growing company</p>
     </div>
   </div>
   </div>
