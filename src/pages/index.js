@@ -22,7 +22,7 @@ const IndexPage = () => (
     <motion.article initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.25,}} style={{minHeight:`45vh`}}>
       <h3>Hi, I'm Lucas</h3>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer with a love for cooking, <a href="https://www.goodreads.com/user/show/27508077-lucas-terra" target="_blank" rel="noopener noreferrer">reading</a>, <a href="https://letterboxd.com/lucasterra/" target="_blank" rel="noopener noreferrer">cinema</a> and <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music</a>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer, <a href="https://letterboxd.com/lucasterra/films/diary/" target="_blank" rel="noopener noreferrer">film critic</a>, <a href="https://open.spotify.com/user/lucasterra" target="_blank" rel="noopener noreferrer">chill music listener</a> and <a href="https://www.chess.com/member/lucasterra" target="_blank" rel="noopener noreferrer">chess beginner</a>. For the past decade I have helped companies build products, services and teams that are obsessed about their users.</h4>
       <h4 style={{color:`var(--font-mid-contrast)`}}>This page is a work in progress <Link to="/blog/2020/redesigning-open">being redesigned in the open ↗</Link></h4>
     </motion.article>
   
@@ -55,23 +55,23 @@ const IndexPage = () => (
     </a>
   </div>
   <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently leading design and user research for credit card — where I get to work with some of the awesome people in the picture above.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last few years I have helped raise the bar of our product, grow an international team, shape design and product culture and foster customer understanding as we built a relationship with over 25MM users.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Here are some of the stories I've been part of ⤵</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last few years I have helped raise the bar of our product, grow an international team, shape design and product culture and foster customer understanding as we build enduring relationships with over 30MM customers.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Check out some of the stories I've been part of ⤵</h4>
 </article>
 
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
 
-      <div class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:16}}>
+      <Link to="/nubank/design-leadership" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:16}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>
           <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, bottom:`-4%`,}} xmlns="http://www.w3.org/2000/svg" width="255" height="187" viewBox="0 0 255 187" fill="none" whileHover={{ scale: 1.1, transition: { duration: 0.5 },}} whileTap={{ scale: 1}} >
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
           </motion.svg>
         </motion.div>
-        <h4 style={{marginBottom:4}}>From the ground up</h4>
-        <p>Building and growing the credit card design team</p>
-      </div>
+        <h4 style={{marginBottom:4}}>Design Leadership</h4>
+        <p>Building and growing the credit card design team from the ground up</p>
+      </Link>
       {/* <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
           <motion.img class="thumbnail-image" alt="Nubank Design Team Logo" src={DesignTeamLogo} whileHover={{rotate: 180, transition: {duration: 40 },}}/>

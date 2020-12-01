@@ -295,7 +295,7 @@ kbd,
 pre,
 samp {
   font-family: IBM Plex Mono, Cousine, monospace, monospace;
-  font-size: 1.055rem;
+  /* font-size: 1.055rem; */
   font-weight: 400;
 }
 figure {
@@ -628,6 +628,7 @@ h6 {
   text-rendering: optimizeLegibility;
   text-align: left;
 }
+
 h6 {
   margin: 0 0 1.45rem;
   font-family: RegolaBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
