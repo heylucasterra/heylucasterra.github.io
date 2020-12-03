@@ -69,7 +69,7 @@ const IndexPage = () => (
             <path d="M127.5 0L255 187H0L127.5 0Z" fill="var(--accent-orange)"/>
           </motion.svg>
         </motion.div>
-        <h4 style={{marginBottom:4}}>Design Leadership</h4>
+        <h4 style={{marginBottom:4}}>Nurturing Design culture</h4>
         <p>Building and growing the credit card design team from the ground up</p>
       </Link>
       {/* <a href="/nubank/design-culture" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
@@ -145,8 +145,8 @@ const IndexPage = () => (
     </div>
     <div style={{height:504, width:255, marginLeft:24}} class="thumbnail-wrapper">
       <div style={{backgroundColor:`var(--bg-light)`,zIndex:999999, width:255,height:370,marginBottom:16, backgroundImage:`url(https://gdurl.com/tbar)`,backgroundRepeat:`no-repeat`,backgroundPositionY:`bottom`, backgroundSize:`100%`,borderRadius:4}}></div>
-      <h4 style={{marginBottom:4}}>Day to day and side quests</h4>
-      <p>A collection of self started initiatives in a growing company</p>
+      <h4 style={{marginBottom:4}}>A north for chargebacks</h4>
+      <p>Making sure a team's goals and product vision are clear</p>
     </div>
   </div>
   </div>
