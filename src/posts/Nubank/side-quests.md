@@ -2,10 +2,10 @@
 path: '/nubank/side-quests'
 title: 'Day to day and side quests'
 company: 'Nubank'
-accent: '#ffffff'
+accent: 'var(--bg-lightest)'
 # rgb(138, 5, 190)
 location: São Paulo, Brazil
-date: '2018-2019'
+date: '2018 - Now'
 subtitle: A collection of self-initiated projects.
 designteam: 
 topics: product design, user research, programming
@@ -14,10 +14,10 @@ impact: small
 role: 'Working in a product company means identifying opportunities of improvement everyday. Over the years I have worked on multiple side quests at Nubank. Here are some of my favourites'
 color: 'purple'
 ---
-### On side quests
-The thing I love the most about working on the product — rather than consulting, for example — is that it allows me to go beyond well scoped projects and push the product (and the people supporting it) into new and exciting directions. 
+### My relationship with side quests
+The thing I love the most about working in the product — rather than consulting, for example — is that it allows me to go beyond well scoped projects and push the future of the company (and the people supporting it) into new and exciting directions.
 
-This is my favourite part of my work at Nubank. While many of these adventures can't be publicly disclosed, here's a small sample of self initiated projects that turned out to influence our strategy, processes or short-term quick-wins.
+This is one the things I love the most about my role at Nubank. While many of these self-initiated projects can't be publicly disclosed, here's a small sample of unpretentious work that turned out influencing product strategy, processes or served as housekeeping/ quick-wins.
 
 ---
 
@@ -30,9 +30,26 @@ New architecture for moving money, 2021
 
 ---
 
-`Previously`
+### 
+
+<!-- `Previously` -->
+
+
+
+### UX Thermometer, 2019
+#### Team
+Self initiated, with several people included along the way
+#### 🤔 Problem
+NPS isn't granular nor actionable enough to help teams make product decisions — besides [being considered harmful](). 
+#### 🎯 Solution
+A modular in-app component that helps teams collect user feedback for specific flows/ features and make better decisions.
+
+---
 
 ### App for interview, 2019
+<br>
+
+![](./images/app-for-interview.gif)
 
 | 🤔 Problem | 🎯 Solution |
 |---|---|
@@ -42,16 +59,6 @@ New architecture for moving money, 2021
 |---|---|
 | Lucas Terra, Gustavo Mendes | Around 8 weeks, with multiple iterations along the way. |
 
-
----
-
-### UX Thermometer, 2019
-#### Team
-Self initiated, but several people included along the way
-#### 🤔 Problem
-NPS isn't granular nor actionable enough to help teams make product decisions — besides [being considered harmful](). 
-#### 🎯 Solution
-A modular in-app component that helps teams collect user feedback for specific flows/ features and make better decisions.
 
 ---
 
@@ -75,10 +82,15 @@ Reduced in 3,56p.p. the contact rate for chargeback.
 
 
 ### Organizing Amplitude Events
+<br>
+
+![](./images/amplitude-printable-post-its.jpg)
+##### Organizing app events with printable post-its
+
 #### Team
 Lucas Terra, Gustavo Mendes
 #### 🤔 Problem
-Too many events in Amplitude (the tool we used to instrument our app) and the company was charged by number of events.
+There were too many events in Amplitude (the tool we used to instrument our app) and that's the basis for their pricing model. Nubank was spending way over the necessary given the number of unused/ deprecated events.
 #### 🎯 Solution
 Fostering communication with different teams to know how they were using existing events and what was/wasn't necessary for them. After that, cleaning and defining better rules for instrumenting app events
 #### Impact

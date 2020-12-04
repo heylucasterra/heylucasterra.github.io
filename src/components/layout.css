@@ -63,14 +63,15 @@ body {
   --body-width: 34rem;
   background-color: var(--bg-lightest);
   background-color: "{post.frontmatter.color}";
+  --font-mono: IBM Plex Mono;
 }
 body.dark {
-  --bg-lightest: #232324;
-  --bg-light: #1c1c1c;
-  --bg-mid: #171818;
-  --bg-dark: #121213;
-  --bg-darkest: #0c0f10;
-  --bg-frosted: rgba(34, 34, 34, 0.87);
+  --bg-lightest: #1a1d21;
+  --bg-light:#14171a;
+  --bg-mid: #101315;
+  --bg-dark: #0d0f10;
+  --bg-darkest: #0a0c0c;
+  --bg-frosted: #1a1d21de;
   --font-high-contrast: hsla(0, 0%, 100%, 0.97);
   --font-mid-contrast: hsla(0, 0%, 100%, 0.72);
   --font-low-contrast: hsla(0, 0%, 100%, 0.3);
@@ -91,7 +92,7 @@ body.dark {
   --primary-bg: rgba(255, 96, 85, 0.09);
   --primary-bg-hover: rgba(255, 96, 85, 0.13);
   --code: #fff;
-  background-color: #222;
+  background-color: #1a1d21;
 }
 html {
   font-family: RegolaBook;
@@ -635,6 +636,12 @@ h6 {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.78405rem;
   line-height: 1.25;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--font-mid-contrast);
 }
 article {
   max-width: var(--body-width);
