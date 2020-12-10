@@ -24,8 +24,14 @@ This is one the things I love the most about my role at Nubank. While many of th
 `Coming Soon`
 <div style="color: var(--font-low-contrast)">
 
-Patent pending project, 2021 <br>
-New architecture for moving money, 2021
+- #### Patent pending project, 2021
+Confidential
+
+- #### Moving money, 2020
+Using design as a means to communicate value and get a workstream staffed
+
+- #### Quality principles, 2020
+Listening to different voices to outline what uality means across the company
 </div>
 
 ---
@@ -35,23 +41,23 @@ New architecture for moving money, 2021
 <!-- `Previously` -->
 
 
-
+<!-- 
 ### UX Thermometer, 2019
 #### Team
 Self initiated, with several people included along the way
 #### 🤔 Problem
 NPS isn't granular nor actionable enough to help teams make product decisions — besides [being considered harmful](). 
-#### 🎯 Solution
+#### 🧩 Solution
 A modular in-app component that helps teams collect user feedback for specific flows/ features and make better decisions.
 
----
+--- -->
 
 ### App for interview, 2019
 <br>
 
 ![](./images/app-for-interview.gif)
 
-| 🤔 Problem | 🎯 Solution |
+| 🤔 Problem | 🧩 Solution |
 |---|---|
 | During Nubank's hypergrowth, it was difficult to keep track of all hiring interviews happening. Recruiting tools didn't optimize for taking and sharing notes on candidates. | A tool that displays the different hiring questions for each position, space to add notes and an easy way to share the scorecard for each candidate |
 
@@ -59,39 +65,40 @@ A modular in-app component that helps teams collect user feedback for specific f
 |---|---|
 | Lucas Terra, Gustavo Mendes | Around 8 weeks, with multiple iterations along the way. |
 
+| 🎯 Impact | |
+|---|---|
+| As of May 2019, there are now over 25 employees using our tool for phone screening candidates. | |
+
+<!-- |![](./images/Feedback-channel-on-Slack.png)| |
+|---|---|
+|Slack channel we created to collect user feedback across the product org | Event monitoring| -->
 
 ---
 
 ### Transaction Details, 2018
-hero: Before/After
+![Previous vs. New design for transaction details](./images/Transaction-Details-Old-vs-New.png)
 
-#### 🤔 Problem
-Customers didn't report an issue with the merchant or the purchase. Also, the visuals were fully deprecated in comparison to the rest of the app and it was full of hidde interactions (like tapping on the left to reveal the map location of where the transaction happened).
-    gif: exploring ways to open/close
-    gif: Add tag prototypes
-    Report button states, new component
-    duration: 2 weeks
+| 🤔 Problem | 🧩 Solution |
+|---|---|
+| <ol><li>Customers got in touch with customer support to take actions they already could do via app.</li><li>Visuals were deprecated in comparison to the rest of the app; </li><li>There was a number of non-obvious interactions — such as swiping to reveal the transaction location. </li></ol>| A revamp of the transaction details screen with clearer actions available. <br><br> <br><h4>🎯 Impact</h4><br> Reduced in 3,56p.p. the contact rate for some of the biggest customer support queues. |
 
-#### Solution
-Match supply and demand: a fresh transaction details with clearer call to action. 
 
-#### Impact
-Reduced in 3,56p.p. the contact rate for chargeback.
+<!-- gif: exploring ways to open/close
+gif: Add tag prototypes
+Report button states, new component
+duration: 2 weeks -->
+
 
 ---
 
 
-### Organizing Amplitude Events
-<br>
+### Organizing Amplitude Events, 2018
+![Used scraped data from monitored events to help the PM team do some housekeeping](./images/amplitude-printable-post-its.png)
 
-![](./images/amplitude-printable-post-its.jpg)
-##### Organizing app events with printable post-its
+| 🤔 Problem | 🧩 Solution |
+|---|---|
+| There were too many events being monitored in our analytics. Nubank was spending funds in a sub-optimal way given the number of unused/ deprecated events. | A work session with PMs across the company to map which events were still necessary and trace a plan for data governance at the company. I scraped data on the events from the Amplitude website and printed them in sticky notes to facilitate the session. |
 
-#### Team
-Lucas Terra, Gustavo Mendes
-#### 🤔 Problem
-There were too many events in Amplitude (the tool we used to instrument our app) and that's the basis for their pricing model. Nubank was spending way over the necessary given the number of unused/ deprecated events.
-#### 🎯 Solution
-Fostering communication with different teams to know how they were using existing events and what was/wasn't necessary for them. After that, cleaning and defining better rules for instrumenting app events
-#### Impact
-Saved a 40% price increase in the tool subscription — can't reveal figures but think big ;-)
+| 🕒 Duration | 🎯 Impact |
+|---|---|
+| 3 weeks for preparation, host the event and analyse/create a plan with our learnings | Deflected a 40% price increase in the tool subscription — can't reveal figures but think big. This also guided a clearer set of rules and principles for creating using and maintaining data at Nubank. |

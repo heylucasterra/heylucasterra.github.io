@@ -67,7 +67,7 @@ These two projects combined took the course of 3½ months where I redesigned and
 
 
 
-<div style="background-color: var(--bg-light); width:100%; padding: 2rem auto; border-radius: 4px; margin-bottom: 2.5em">
+<div style="background-color: var(--bg-light); width:100%; padding: 2rem auto; border-radius: 4px; margin-bottom: 2.5em; text-align: center;">
 	<img src="./images/shell_iphoneX.gif" style="height:auto; max-width: 200px;margin: 32px auto; border-radius:20px"></img>
 </div>
 
@@ -183,6 +183,3 @@ Here are some of the key decisions made over six weeks of work.
 ## Rebuilding Credit Card - Coming Soon
 
 ![Credit card before and after](./images/cc-old-new.png)
-
-
-<button>

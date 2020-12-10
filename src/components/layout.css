@@ -23,6 +23,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: JetRegular;
+  src: url('../typography/JetBrains/JetBrainsMono-Regular.woff');
+  font-display: swap;
+}
+
 body {
   --bg-lightest: #fff;
   --bg-light: #f4f4f5;
@@ -45,10 +51,13 @@ body {
   --pastel-purple: #ffa7f8;
   --accent-blue: #2f80ed;
   --accent-green: #6add75;
+  --accent-green-forest:#50c17b;
   --accent-orange: #f6a730;
   --accent-purple: #a241cf;
   --accent-teal: #bbc4e3;
   --accent-coral: #ff5f55;
+  --accent-pink: #ff5e9c;
+
   --primary: #2f80ed;
   --primary-bg: rgba(47, 128, 237, 0.07);
   --primary-bg-hover: rgba(47, 128, 237, 0.11);
@@ -63,7 +72,9 @@ body {
   --body-width: 34rem;
   background-color: var(--bg-lightest);
   background-color: "{post.frontmatter.color}";
-  --font-mono: IBM Plex Mono;
+  --font-mono: 'JetRegular','IBM Plex Mono', SFMono-Regular, Consolas, Roboto Mono,
+  Droid Sans Mono, Liberation Mono, Menlo, Courier, monospace;
+  --align: -webkit-center;
 }
 body.dark {
   --bg-lightest: #1a1d21;
@@ -85,6 +96,7 @@ body.dark {
   --accent-orange: #f6a730;
   --accent-yellow: #ffeb82;
   --accent-green: #53eb8b;
+  --accent-green-forest:#43ab6b;
   --accent-teal: #14e1e4;
   --accent-blue: #4e9bff;
   --accent-purple: #bd33f4;
@@ -130,6 +142,7 @@ nav,
 section,
 summary {
   display: block;
+  text-align: -webkit-left;
 }
 audio,
 canvas,
@@ -203,6 +216,15 @@ a:hover {
 .inactive-wrapper p:hover {
   text-decoration: none;
 }
+/* .inactive-wrapper ::before{
+  content: 'Soon';
+  margin: 8px;
+  padding: 2px;
+  border-radius: 4px;
+  background: var(--bg-mid);
+  color: var(--font-low-contrast);
+  font-weight: 100;
+} */
 .thumbnail {
   background-color: var(--bg-light);
   z-index: 999999;
@@ -295,7 +317,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: IBM Plex Mono, Cousine, monospace, monospace;
+  font-family: var(--font-mono);
   /* font-size: 1.055rem; */
   font-weight: 400;
 }
@@ -639,10 +661,16 @@ h6 {
 }
 
 .label {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--font-mid-contrast);
+font-family: var(--font-mono);
+font-size: .75rem;
+color: var(--font-high-contrast);
+background: var(--bg-light);
+border-radius: 4px;
+padding: 4px;
+width: fit-content;
+margin-right: 8px;
 }
+
 article {
   max-width: var(--body-width);
   text-align: left;
@@ -671,9 +699,11 @@ blog-post-container {
 .blog-post-content blockquote,
 .blog-post-content pre {
   max-width: 40rem;
+  margin: 0 auto 1.45rem;
 }
 .blog-post-content table {
-  max-width: 680px;
+  max-width: 40rem;
+  margin: 0 auto 1.45rem;
 }
 .blog-post-content img,
 .blog-post-content table {
@@ -760,8 +790,7 @@ pre {
   padding: 1.45rem 1rem;
   background-color: var(--bg-light);
   border-radius: 4px;
-  font-family: IBM Plex Mono, Cousine, SFMono-Regular, Consolas, Roboto Mono,
-    Droid Sans Mono, Liberation Mono, Menlo, Courier, monospace;
+  font-family: var(--font-mono);
   font-weight: 400;
   text-align: left;
   max-width: 40rem;
@@ -828,8 +857,7 @@ strong {
   font-weight: 400;
 }
 .mono {
-  font-family: Cousine, SFMono-Regular, Consolas, Roboto Mono, Droid Sans Mono,
-    monospace;
+  font-family: var(--font-mono);
 }
 dt {
   font-weight: 700;
@@ -870,7 +898,7 @@ li > p {
 code,
 kbd,
 samp {
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   line-height: 1.45rem;
 }
 abbr,
@@ -921,8 +949,7 @@ code,
 tt {
   background-color: var(--bg-light);
   border-radius: 4px;
-  font-family: SFMono-Regular, Roboto Mono, Droid Sans Mono,
-    Liberation Mono, Menlo, Courier, monospace;
+  font-family: var(--font-mono);
   padding: 0.25rem 2px;
   margin: 1.45rem 0.25rem;
   font-weight: 400;
