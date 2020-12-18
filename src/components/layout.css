@@ -86,7 +86,7 @@ body.dark {
   --font-high-contrast: hsla(0, 0%, 100%, 0.97);
   --font-mid-contrast: hsla(0, 0%, 100%, 0.72);
   --font-low-contrast: hsla(0, 0%, 100%, 0.3);
-  --font-inactive: #4d4d4d;
+  --font-inactive: hsla(0, 0%, 100%, 0.151);
   --accent: #5f9ea0;
   --accent-pink: #ff6299;
   --accent-coral: #ff6262;

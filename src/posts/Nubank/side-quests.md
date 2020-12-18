@@ -28,10 +28,10 @@ This is one the things I love the most about my role at Nubank. While many of th
 Confidential
 
 - #### Moving money, 2020
-Using design as a means to communicate value and get a workstream staffed
+Using design as a means to communicate value and staff a new team
 
 - #### Quality principles, 2020
-Listening to different voices to outline what uality means across the company
+Listening to different voices at the company to to outline what quality means for Nubank
 </div>
 
 ---

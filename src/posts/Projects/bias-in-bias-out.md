@@ -38,11 +38,10 @@ In 2018 I joined a group of data analysts, programmers, anthropologists, film ma
 
 ![Part of our team working on the script](./images/bias/process.png)
 
-### The videos
+### The videos (audio on)
 In each video we invited people to go into a conversation with an algorithm. Their goal, was to train an unbiased algorithm on 5 different topics.
 
 Would you be able to program an unbiased machine?
-
 
 #### Hiring
 `video: ./images/bias/bias-hiring.mp4`

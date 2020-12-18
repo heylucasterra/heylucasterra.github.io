@@ -76,7 +76,7 @@ module.exports = {
             {
               resolve: 'gatsby-remark-video',
               options: {
-                width: `40rem`,
+                width: 900,
                 height: 'auto',
                 preload: 'auto',
                 // muted: false,
