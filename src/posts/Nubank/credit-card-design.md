@@ -141,7 +141,7 @@ Nubank originally surprised customers with the level of thought and attention to
 
 Ana worked on a flow that empowers users to create agreements to pay off debt in the app, increasing by 20% the number of "healed" customers. 
 
-![Pay off debt in the app · by Ana]()
+![Pay off debt in the app · by Ana](/images/Collections-Agreements-in-app-by-Ana.gif)
 
 <!-- Williams also covers a number of edge
 
