@@ -96,7 +96,7 @@ We matched our gradient of skills and personal interests with specific moments o
 
 A few months in and it was now their time to also help find the best talent our there, so I shared my thoughts and learnings from interviewing design candidates.
 
-![Personal notes on hiring, shared with early members of the team]()
+![Personal notes and tips for phone screening candidates. Shared with early members of the team.](/images/Notes-on-phone-screenings-by-Lucas-Terra.png)
 
 
 ### Evolving our rituals
@@ -139,9 +139,12 @@ Growing a cohesive, connected and empowered team takes time. The integration and
 
 Nubank originally surprised customers with the level of thought and attention to critical moments. We stand out in the crowd for how we deal with bad experiences with our service. We excel at what other companies would see as "edge cases" — these are usually the most critical moments people have with your product, so we want to get them right.
 
-Ana worked on a flow that empowers users to create agreements to pay off debt in the app, increasing by 20% the number of "healed" customers. 
+*Ana worked on a flow that empowers users to create agreements to pay off debt in the app, increasing by 20% the number of "healed" customers.*
 
-![Pay off debt in the app · by Ana](/images/Collections-Agreements-in-app-by-Ana.gif)
+<!-- ![Pay off debt in the app · by Ana](/images/Collections-Agreements-in-app-by-Ana-2.gif) -->
+
+![Pay off debt in the app · by Ana](/images/huge_Ana.gif)
+##### Pay off debt, a new feature that increased in 20% · by Ana
 
 <!-- Williams also covers a number of edge
 
@@ -150,11 +153,14 @@ Ana worked on a flow that empowers users to create agreements to pay off debt in
 
 ### Being respectful and transparent about how we use customer data
 
-Credit analysis is known for coming across as a total enigma. Williams optimised the loading states in our app to be more transparent and educative about how we use customer data in their credit analysis whenever they ask for a limit increase in the app. This has had an impact in customer behaviour and also increased the limit utilization for customers who saw these loading states.
+Credit analysis is known for coming across as a total enigma. *Williams optimised the loading states in our app to be more transparent and educative about how we use customer data* in their credit analysis. This has had an impact in customer behaviour and also increased the limit utilization for customers who saw these loading states.
 
 This pattern is now the new standard across the company as we persist on our fight against complexity.
 
-![New loading states · by Williams]()
+<!-- ![New loading state pattern introduced by Williams](/images/New-loading-pattern-by-Williams.gif) -->
+
+![New loading state pattern introduced by Williams](/images/hugeWill.gif)
+
 
 
 ### Adapting to customers needs during the pandemic
@@ -169,11 +175,11 @@ In 2019, Andre joined as our first designer in Mexico and in 2020, Santiago as t
 
 They have worked hard into expanding the frontiers of our product, originally designed for the Brazilian market, and translated and redesigned the experience so that it attends both user and regulator needs in our new markets. At the time of this writing, in December 2020 there are now X customers in Mexico and Y customers in our Colombia waitlist.
 
-![Mexico and Colombia Launch · by Andre, Veronica, Esmeralda, Omar, Santiago, Claudio, and several others]()
+![Mexico and Colombia Launch · by Andre, Veronica, Esmeralda, Omar, Santiago, Claudio, and several others](/images/Nubank-MX.png)
 
 
 ### Helping the next 50MM customers build their path to credit
-Since mid-2019 most of my attention have been dedicated to helping the team find ways to accept more customers with a credit card. We're now slowly rolling out a program that helps them (re)build credit.
+Due to the huge success of our credit card, since mid-2019 a good chunk of my attention has been dedicated to finding new ways of offering credit options. We're now slowly rolling out a program that is expected to help over 50 million Brazilians (re)build credit.
 
 ![Credit Building program · with Rafael]()
 
