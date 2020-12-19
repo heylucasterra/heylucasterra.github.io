@@ -32,6 +32,9 @@ Using design as a means to communicate value and staff a new team
 
 - #### Quality principles, 2020
 Listening to different voices at the company to to outline what quality means for Nubank
+
+- #### UX thermometer, 2020
+Pushing the company to move away from NPS and getting the resources we needed to get more granular feedback
 </div>
 
 ---
@@ -52,7 +55,7 @@ A modular in-app component that helps teams collect user feedback for specific f
 
 --- -->
 
-### App for interview, 2019
+## App for interview, 2019
 <br>
 
 ![](./images/app-for-interview.gif)
@@ -75,7 +78,7 @@ A modular in-app component that helps teams collect user feedback for specific f
 
 ---
 
-### Transaction Details, 2018
+## Transaction Details, 2018
 ![Previous vs. New design for transaction details](./images/Transaction-Details-Old-vs-New.png)
 
 | 🤔 Problem | 🧩 Solution |
@@ -92,7 +95,7 @@ duration: 2 weeks -->
 ---
 
 
-### Organizing Amplitude Events, 2018
+## Organizing Amplitude Events, 2018
 ![Used scraped data from monitored events to help the PM team do some housekeeping](./images/amplitude-printable-post-its.png)
 
 | 🤔 Problem | 🧩 Solution |

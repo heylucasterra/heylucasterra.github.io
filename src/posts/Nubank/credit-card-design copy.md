@@ -1,5 +1,5 @@
 ---
-path: '/nubank/credit-card-design'
+path: '/nubank/credit-card-design-2'
 title: 'Designing Design for Credit Card'
 company: 'Nubank'
 accent: 'var(--bg-lightest)'
@@ -100,9 +100,7 @@ It didn't take long for me to have weeks almost fully dedicated to hiring.  it w
 
 ### Evolving our rituals
 
-In 2019 the team had doubled in size (around 6 people) and our rituals evolved a ton. I suggested that we shared some of the housekeeping tasks so everybody was a leader in one direction. 
-
-Diego and Ana took over the team retrospectives and Amanda volunteered to operationalize our weekly design critiques, helping team members ensure they were getting the most out of their design crits.
+In 2019 the team had doubled in size (around 6 people) and our rituals evolved a ton. We started sharing some of the housekeeping tasks so everybody was a leader in one direction. Diego and Ana, for example took over our team retrospectives and Amanda was nominated the "queen of design critiques", helping team members ensure they were getting the most out of their design crits.
 
 
 ![Co-designing a better UI for the transaction feed · with Amanda, Diego, Ana](/images/co--design.jpg)
@@ -111,7 +109,7 @@ Diego and Ana took over the team retrospectives and Amanda volunteered to operat
 
 ### Working remote
 
-More recently, we all struggled with calendar tetris, making space for collaboration and getting to know new team members. Ana, Rafa and Poly volunteered to tackle this problem and after a round of discussions and feedback they organized a virtual "Design Studio Day" block on Thursdays. We now have a dedicated moment of the week to gather feedback, learn more about the other projects happening and get to know one another.
+More recently, we were struggling with calendar tetris, making space for collaboration and getting to know new team members. Ana, Rafa and Poly volunteered to tackle this problem and after a round of discussions and feedback from the entire team organized a virtual "Design Studio Day" block on Thursdays. We now have a moment of the week to gather feedback, learn more about the other projects happening and get to know one another.
 
 <!-- We usually stay connected on Discord where there are different rooms for different purposes (getting feedback on your work, grabbing a coffee, having lunch together, etc). The agenda for this day varies depending on the week of the month. -->
 
@@ -159,17 +157,13 @@ As we grew, some of these critical moments were left behind. Over the past year 
 
 ### Being respectful and transparent about how we use customer data
 
-Credit analysis can feel like a total enigma. Williams (product designer) worked closely with Mariana Medina (UX writer) to optimise loading states for transparency.
+Credit analysis usually feels like as a total enigma. *Williams optimised the loading states in our app to be more transparent and educative about how we use customer data* when evaluating a new credit line. This has had an impact in customer behaviour and also increased the limit utilization for customers who saw these loading states.
 
-The new solution gives more clarity about how we use customer data when evaluating a credit limit increase. Not only did it provoke change in customer behaviour, but also increased limit utilization for customers who were exposed to the new design.
-
-This pattern has now spread to other teams and is the new standard across the company as we continue on our fight against complexity.
+This new, more transparent loading pattern spread to other teams and is now the new standard across the company as we persist on our fight against complexity.
 
 <!-- ![New loading state pattern introduced by Williams](/images/New-loading-pattern-by-Williams.gif) -->
 
 ![New loading state pattern introduced by Williams](/images/hugeWill.gif)
-
-##### More transparency on what data we use for credit analysis · by Williams and Mariana Medina
 
 <br>
 
@@ -191,11 +185,11 @@ They have worked hard into expanding the frontiers of our product, originally de
 <br>
 
 ### A path to credit for the next 50MM customers
-Due to the huge success of our credit card[^1], since mid-2019 a huge part of my attention has been dedicated to finding new ways of offering credit options. This has been a passion project of mine and I have worked on the product strategy and future vision for this product.
+Due to the huge success of our credit card, since mid-2019 most of my attention has been dedicated to finding new ways of offering credit options[^1].
 
-More recently, Rafael joined me in this adventure and we are now rolling out the first version of our credit building program. We expect to onboard over 50 million Brazilians to Nubank and provide them healthier tools to (re)build and use credit.
+We're now slowly rolling out a program that is expected to help over 50 million Brazilians (re)build credit.
 
-![First release of our path to credit program. I expect · with Rafael](/images/Building-credit-by-Rafael.png)
+![Credit Building program · with Rafael](/images/Building-credit-by-Rafael.png)
 
 <!-- ### Hitting refresh in our rewards program
 - Ultravioleta, led by Amanda Legge and Diego Vieira -->
@@ -212,24 +206,22 @@ Within our design team, there are a couple of rituals that
 
 
 ### Mixing multiple lenses for understanding customers
-In only 12 months our customer base sky-rocketed from 3 to 12 million people. We were onboarding almost a million customers per month and the data we had on them was changing too fast to keep track of. Leticia and I kicked off a foundational research initiative in collaboration with data scientists and product managers.
+Soon after Leticia joined, we kicked off a foundational research initiative in partnership with data scientists and product managers.
 
-We used a mixed-methods (quant/qual) research process. Our findings helped segment a massive and ever growing customer base into smaller, more actionable buckets of behaviours.
+We used existing data to guide our mixed methods research process and later segment our ever growing customer base into smaller, more actionable buckets of behaviours. This work informed a new tree of business opportunities driven by customer needs, which led the product and credit strategy for the following years.
 
-This work informed revealed a ton of user needs, pushed us to look more into new ways of connecting different products in the Nubank ecossystem and served as the cornerstone for the product and credit strategy the Product Lead and I created for the following year.
+We were invited to present our method at [UXR Conf](https://uxrconf.com) in 2020.
 
-Leticia and I were invited to present this process at [UXR Conf](https://uxrconf.com) in 2020.
-
-![Leticia and I presenting the work we did in partnership with data scientsts at UXR Conf](/images/Presenting-our-Research-method-at-UXR-Conf.jpg)
+![Leticia and I presenting the work we did in partnership with data scientsts at UXR Conf · photo credit to Omar who watched us from Mexico](/images/Presenting-our-Research-method-at-UXR-Conf.jpg)
 
 <br>
 
 ### Connecting the parts to make sense as a whole
-As our product and design teams were growing, it didn't take long for the org to feel like we worked in completely different companies. In 2018 I kickstarted a weekly forum with product, design, research, marketing and the general manager so we teams would what were working, get feedback on strategy, roadmap, discovery plan or execution.
+As our product and design teams were growing, it didn't take long for the org to feel like we worked in completely different companies. I kickstarted a weekly forum with product, design, research, marketing and the general manager so we would have at least one moment of the week to share where teams were working on and get feedback on their strategy, roadmap, discovery plan or execution. 
 
-Over the years, this forum took many different shapes and sizes. The current version is called Product Review, and is a session for us to go deep into one specific topic every week and discuss it with senior leaders in the company. It's a casual forum that people usually use to gather fresh perspective on their work or as a dry-run before presenting to the executive team.
+This forum took many different shapes. The current version of it is called Product Review, where we go deep into one specific topic every week and discuss it with senior leaders in the company. It's a casual forum that people usually use to gather fresh perspective on their work or also as a dry run to present
 
-![Product Review guidelines depending on the maturity of the product — and what to expect from them. I worked with Mariana (Product Lead) to design the format of our Product Review.](/images/Product-Review.png)
+![Suggestion of formats depending on the maturity of the product (and what to expect as feedback) · with Amanda Legge and Mariana Penido](/images/Product-Review.png)
 
 ### Co-designing solutions with our peers
 We have created the habit of bringing other functions as early as possible in our process. Be it for software engineers to participate in user research or to involve data scientists and customer support in our co-creation/brainstorming sessions. This has been  
@@ -255,4 +247,4 @@ Things people told me that get me energized to do my best work.
 Add social media stuff
 
 
-[^1]: Credit is an item of desire in Brazil. It enables people to buy more time to pay for things as almost every merchant offers zero interest instalments.
+[^1]: Credit is an item of desire in Brazil. It enables people to buy more time to pay for things as almost every merchant offers zero interest instalments

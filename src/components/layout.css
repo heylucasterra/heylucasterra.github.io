@@ -321,9 +321,7 @@ samp {
   /* font-size: 1.055rem; */
   font-weight: 400;
 }
-figure {
-  margin: 1em 40px;
-}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -525,11 +523,6 @@ textarea {
 .logo {
   background-color: var(--font-inactive);
 }
-.tag {
-  background-color: var(--bg-frosted);
-  padding: 4px;
-  border-radius: 4px;
-}
 html {
   font: 112.5%/1.45em sans-serif;
   box-sizing: border-box;
@@ -554,10 +547,11 @@ body {
   background-color: var(--bg-light);
 }
 img {
-  width: 40rem;
+  width: 50rem;
   max-width: 100%;
   padding: 0;
-  margin: 0 0 1.45rem;
+  /* margin: 0 0 1.45rem; */
+  margin: 3.45rem 0;
   border-radius: 4px;
 }
 img,
@@ -671,6 +665,11 @@ width: fit-content;
 margin-right: 8px;
 }
 
+.tag {
+  font-family: var(--font-mono);
+  font-size: .75rem;
+}
+
 article {
   max-width: var(--body-width);
   text-align: left;
@@ -705,10 +704,14 @@ blog-post-container {
   max-width: 40rem;
   margin: 0 auto 1.45rem;
 }
-.blog-post-content img,
+
 .blog-post-content table {
   margin-bottom: 1.45rem;
 }
+.blog-post-content img{
+  margin: 1rem 0 1.45rem;
+}
+
 .gatsby-resp-image-wrapper {
   max-width: 100%;
 }
@@ -755,6 +758,20 @@ figcaption p {
   text-rendering: optimizeLegibility;
   text-align: center;
 }
+.flex-grid {
+  display: flex;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+.col {
+  flex: 1;
+}
 .footnote-backref,
 .footnote-ref {
   color: var(--primary);
@@ -780,7 +797,7 @@ figure {
 }
 figure,
 pre {
-  margin: 3.45rem 0;
+  margin: 2rem 0;
 }
 pre {
   font-size: 0.85rem;
@@ -971,4 +988,11 @@ pre code:before,
 pre tt:after,
 pre tt:before {
   content: "";
+}
+
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
 }
