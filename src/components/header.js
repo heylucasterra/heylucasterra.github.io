@@ -48,14 +48,14 @@ const Header = ({ siteTitle }) => (
           </div>
           <div style={{display:'flex', alignItems: 'center'}}>
           <Link
-              to="/about"
+              to="/work"
               style={{
                 color: `var(--font-high-contrast)`,
                 textDecoration: `none`, 
                 marginLeft: 0,
               }}
             >
-              about
+              Work
             </Link>
             {/* <Link
               to="/about"

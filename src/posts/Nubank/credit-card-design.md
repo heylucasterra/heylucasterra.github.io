@@ -103,7 +103,7 @@ It didn't take long for me to have weeks almost fully dedicated to hiring. It wa
 
 In 2019 the team had doubled in size (around 6 people) and our rituals evolved a ton. Dailies were replaced with a hour-long weekly sync. I suggested that we shared some of the housekeeping tasks so everybody was a leader in one direction. 
 
-Diego and Ana took over the team retrospectives and Amanda volunteered to run the operations for our weekly design critiques, helping team members ensure they were getting the most out of their design crits.
+Diego and Ana took over the team retrospectives and Amanda volunteered to run the design critique operations, helping team members ensure they were getting the most out of their design crits.
 
 
 ![Co-designing a better UI for the transaction feed · with Amanda, Diego, Ana](/images/co--design.jpg)

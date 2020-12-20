@@ -25,13 +25,13 @@ This is one the things I love the most about my role at Nubank. While many of th
 <div style="color: var(--font-low-contrast)">
 
 - #### Patent pending project, 2021
-Confidential
+Confidential.
 
 - #### Moving money, 2021
-Together with a pirate team of four, I have presented a new design and engineering framework for payments — and got approval to staff a new team to work on this opportunity
+Together with a pirate team of four, I have presented a new design and engineering framework for payments — and got approval to staff a new team to work on this opportunity.
 
 - #### Quality principles, 2020
-I have listened to different voices at the company to help outline what quality means for Nubank — and how do we keep a high bar for product and engineering
+I have listened to different voices at the company to help outline what quality means for Nubank — and how do we keep a high bar for product and engineering.
 
 - #### UX thermometer, 2020
 Pushed the company to move away from NPS and embracing more granular ways for measuring product success.

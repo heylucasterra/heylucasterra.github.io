@@ -78,6 +78,23 @@ const IndexPage = () => (
             <h5 class="label">Speculative</h5>
           </Link>
 
+
+      <Link to="/projects/timtim" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+            <motion.div class="thumbnail">
+              {/* <motion.img class="thumbnail-image" style={{maxWidth:155, top: 90,}} alt="Old macintosh with the code <bias></bias> written in the screen" src={Bias} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .2 },}} />
+              <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, left: 19, bottom:`-2%`,}} xmlns="http://www.w3.org/2000/svg" width="220" height="116" viewBox="0 0 233 116" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 1.05}}>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M97.282 7.87324C86.7576 -2.6244 69.7225 -2.62442 59.1981 7.87322L8.05728 58.8839C-2.45145 69.3659 -2.45135 86.389 8.05737 96.871V96.871C18.566 107.353 18.5661 124.376 8.05747 134.858V134.858C-2.45116 145.34 -2.45116 162.362 8.05746 172.844L59.1987 223.855C69.723 234.353 86.7579 234.353 97.2822 223.855V223.855C107.807 213.358 124.841 213.358 135.366 223.855V223.855C145.89 234.353 162.925 234.353 173.449 223.855L224.59 172.844C235.099 162.362 235.099 145.34 224.59 134.858V134.858C214.082 124.376 214.082 107.353 224.591 96.871V96.871C235.099 86.389 235.099 69.3659 224.591 58.8839L173.45 7.87323C162.925 -2.6244 145.89 -2.6244 135.366 7.87324V7.87324C124.842 18.3709 107.806 18.3709 97.282 7.87324V7.87324Z" fill="var(--accent-pink)"/>
+              </motion.svg> */}
+            </motion.div>
+            <h4 style={{marginBottom:4}}>Timtim por Timtim</h4>
+            <p>Helping older adults get acquainted with their gadgets</p>
+            <wrapper style={{display: `flex`, flexFlow:'wrap'}}>
+              <h5 class="label">Coming soon</h5>
+              <h5 class="label">Service</h5>
+              <h5 class="label">Business</h5>
+            </wrapper>
+          </Link>
+
           {/* to="/nubank/credit-card-design"  */}
       <Link class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
         <motion.div class="thumbnail">
@@ -93,23 +110,6 @@ const IndexPage = () => (
           <h5 class="label">Leadership</h5>
         </wrapper>
       </Link>
-
-      {/* to="/projects/timtim" */}
-      <Link  class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>
-            <motion.div class="thumbnail">
-              {/* <motion.img class="thumbnail-image" style={{maxWidth:155, top: 90,}} alt="Old macintosh with the code <bias></bias> written in the screen" src={Bias} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .2 },}} />
-              <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, left: 19, bottom:`-2%`,}} xmlns="http://www.w3.org/2000/svg" width="220" height="116" viewBox="0 0 233 116" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 1.05}}>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M97.282 7.87324C86.7576 -2.6244 69.7225 -2.62442 59.1981 7.87322L8.05728 58.8839C-2.45145 69.3659 -2.45135 86.389 8.05737 96.871V96.871C18.566 107.353 18.5661 124.376 8.05747 134.858V134.858C-2.45116 145.34 -2.45116 162.362 8.05746 172.844L59.1987 223.855C69.723 234.353 86.7579 234.353 97.2822 223.855V223.855C107.807 213.358 124.841 213.358 135.366 223.855V223.855C145.89 234.353 162.925 234.353 173.449 223.855L224.59 172.844C235.099 162.362 235.099 145.34 224.59 134.858V134.858C214.082 124.376 214.082 107.353 224.591 96.871V96.871C235.099 86.389 235.099 69.3659 224.591 58.8839L173.45 7.87323C162.925 -2.6244 145.89 -2.6244 135.366 7.87324V7.87324C124.842 18.3709 107.806 18.3709 97.282 7.87324V7.87324Z" fill="var(--accent-pink)"/>
-              </motion.svg> */}
-            </motion.div>
-            <h4 style={{marginBottom:4}}>Timtim por Timtim</h4>
-            <p>Helping older adults get acquainted with their gadgets</p>
-            <wrapper style={{display: `flex`, flexFlow:'wrap'}}>
-              <h5 class="label">Coming soon</h5>
-              <h5 class="label">Service</h5>
-              <h5 class="label">Business</h5>
-            </wrapper>
-          </Link>
       
       {/* to="/projects/timtim-por-timtim" */}
       {/* <Link  class="inactive-wrapper" style={{height:504, width:255, marginLeft:24}}>

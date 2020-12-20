@@ -28,9 +28,17 @@ I was invited to present the project at Itau's Cubo Network (São Paulo) in 2016
 
 I'll be writing more about this experience soon. Stay tuned.
 
-![Talking about Timtim por Timtim at Stanford · 2017](./images/timtim/1.jpg)
+---
+
+![Testing early class prototypes](./images/timtim/Maps.jpg)
+
+![Demoing the project at Cubo, an incubator and space for entrepreneurship in São Paulo](./images/timtim/Cubo.jpg)
+
+<img style="max-height:500px; max-width:282px; margin: 0 30%" src="./images/timtim/timtim_sticker.gif"></img>
+
+##### One of the product iterations consisted of stickers summing up the key steps to use mobile apps. 
 
 
+![Network of entrepreneurs working with the 60+ audience](./images/timtim/Cubo-network.jpg)
 
-
-
+![Presenting at Stanford's Center on Longevity · Li Ka Shing Auditorium, 2017](./images/timtim/Presenting-at-Stanford.jpg)
