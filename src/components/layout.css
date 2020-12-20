@@ -662,7 +662,7 @@ background: var(--bg-light);
 border-radius: 4px;
 padding: 4px;
 width: fit-content;
-margin-right: 8px;
+margin: 2px 8px 2px 0;
 }
 
 .tag {

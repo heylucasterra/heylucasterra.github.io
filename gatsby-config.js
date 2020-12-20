@@ -151,6 +151,7 @@ module.exports = {
         name: `posts`,
       },
     },
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     {

@@ -27,14 +27,14 @@ This is one the things I love the most about my role at Nubank. While many of th
 - #### Patent pending project, 2021
 Confidential
 
-- #### Moving money, 2020
-Using design as a means to communicate value and staff a new team
+- #### Moving money, 2021
+Together with a pirate team of four, I have presented a new design and engineering framework for payments — and got approval to staff a new team to work on this opportunity
 
 - #### Quality principles, 2020
-Listening to different voices at the company to to outline what quality means for Nubank
+I have listened to different voices at the company to help outline what quality means for Nubank — and how do we keep a high bar for product and engineering
 
 - #### UX thermometer, 2020
-Pushing the company to move away from NPS and getting the resources we needed to get more granular feedback
+Pushed the company to move away from NPS and embracing more granular ways for measuring product success.
 </div>
 
 ---
@@ -62,7 +62,7 @@ A modular in-app component that helps teams collect user feedback for specific f
 
 | 🤔 Problem | 🧩 Solution |
 |---|---|
-| During Nubank's hypergrowth, it was difficult to keep track of all hiring interviews happening. Recruiting tools didn't optimize for taking and sharing notes on candidates. | A tool that displays the different hiring questions for each position, space to add notes and an easy way to share the scorecard for each candidate |
+| During Nubank's hypergrowth, it was difficult to keep track of all hiring interviews happening. Recruiting tools didn't optimize for taking and sharing notes on candidates. | A tool that displays the different hiring questions for each position, space to add notes and an easy way to share the scorecard for each candidate. <br></br>I designed the tool to work side-by-side to a video call window — and wrote most of the front-end.|
 
 | 🤝 Team | 🕒 Duration |
 |---|---|
@@ -70,7 +70,7 @@ A modular in-app component that helps teams collect user feedback for specific f
 
 | 🎯 Impact | |
 |---|---|
-| As of May 2019, there are now over 25 employees using our tool for phone screening candidates. | |
+| 75% of the product management team used our tool for phone screening candidates. | |
 
 <!-- |![](./images/Feedback-channel-on-Slack.png)| |
 |---|---|

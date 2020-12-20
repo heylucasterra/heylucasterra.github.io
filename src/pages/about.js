@@ -92,8 +92,8 @@ const IndexPage = () => (
 
     </div>
   </div>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently working as a Design Manager leading Design and User Research for Nubank's credit card.</h4>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last three years I have helped raise the bar of our product, grow an international team from 12 to 120+ designers, shape design and product culture and foster customer understanding as we build enduring relationships with over 30MM customers.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>I'm currently working as a Design Manager leading product design, user research and content strategy for credit cards at Nubank — the world's largest independent digital bank.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>Over the last three years I have helped raise the quality bar of our product, grow an international team from 12 to 120+ designers, shape design and product culture and foster customer understanding as we build enduring relationships with over 30MM customers.</h4>
   <h4 style={{color:`var(--font-mid-contrast)`}}>In 2019, Nu became the <a href="https://qz.com/1738245/nubanks-app-has-more-downloads-than-revolut-monzo-and-n26-combined/
 " target="blank">most downloaded</a> banking app in the world and was recognized as one of the <a href="https://www.fastcompany.com/90299054/nubank-most-innovative-companies-2019" target="blank">world's most innovative companies</a>. In 2020 we have launched our credit card in <a href="https://techcrunch.com/2020/03/03/valued-at-10b-nubank-launches-its-nu-credit-card-in-mexico/" target="blank">Mexico</a> and <a href="https://www.nasdaq.com/articles/brazilian-financial-startup-nubank-expands-to-colombia-2020-09-30" target="blank">Colombia</a>.</h4>
 </motion.article>
@@ -180,7 +180,7 @@ const IndexPage = () => (
     </div>
      
   </div>
-  <h4 style={{color:`var(--font-mid-contrast)`}}>At Livework I have worked on a number of service and product design projects, mostly spanning accross mobility, health and finance combining physical and digital experiences.</h4>
+  <h4 style={{color:`var(--font-mid-contrast)`}}>At Livework I have worked on a number of service and product design projects, mostly spanning across mobility, health and finance combining physical and digital experiences.</h4>
   <h4 style={{color:`var(--font-mid-contrast)`}}>Projects can't be publicly disclosed — but I can tell you about the time I helped the biggest airline in the region <a href="https://airwaysmag.com/airlines/latam-showcases-new-business-class/" target="blank">re-position their business class to focus on rest</a> (and how we prototyped it in a Boeing 777); or about when I jammed with the Facebook public policy team to <a href="https://www.ttclabs.net/insight/collaboration_is_key_to_designing_digital_experiences_we_can_trust" target="blank">reimagine the platform around privacy</a>; partnered with the UK government to help <a href="https://www.gov.uk/disabled-students-allowances-dsas" target="blank">disabled students get access to their allowances</a> or how I helped translate patient's journey with cancer into a living exhibition.</h4>
   </article>
 

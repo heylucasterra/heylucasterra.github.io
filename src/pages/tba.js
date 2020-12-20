@@ -25,15 +25,15 @@ const IndexPage = () => (
     <motion.article initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.25,}} style={{minHeight:`35vh`}}>
       <h3>Hi, I'm Lucas</h3>
       {/* <a class={{}}>about me<span class={{icon}}>🔁</span></a> */}
-      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a designer, <a href="https://letterboxd.com/lucasterra/films/diary/" target="_blank" rel="noopener noreferrer">aspiring film critic</a> and <a href="https://www.chess.com/member/lucasterra" target="_blank" rel="noopener noreferrer">chess beginner</a>. For the past decade I have helped build products, services and teams obsessed about their users.</h4>
-      <h4 style={{color:`var(--font-mid-contrast)`}}>This page is a work in progress <Link to="/blog/2020/redesigning-open">being redesigned in the open ↗</Link></h4>
+      <h4 id="quote" style={{color:`var(--font-mid-contrast)`}}>I'm a hands-on design leader, <a href="https://letterboxd.com/lucasterra/films/diary/" target="_blank" rel="noopener noreferrer">aspiring film critic</a> and <a href="https://www.chess.com/member/lucasterra" target="_blank" rel="noopener noreferrer">chess beginner</a>. For the past decade I have helped build products, services and teams obsessed about their users.</h4>
+      <h4 style={{color:`var(--font-mid-contrast)`}}>You're in a private link. Please don't share it yet ;)</h4>
     </motion.article>
   {/* occasional writer -> link to blog */}
 
  <div style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`}}> 
  <motion.h4 initial={{opacity: 0,y:24}} animate={{x: 0, y: 0, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.35,}} style={{color:`var(--font-low-contrast)`, margin: '0 0 16px 8px'}}>Featured projects</motion.h4>
 
-  <motion.div initial={{opacity: 0,y:24}} animate={{x: 0, y: 0, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.45,}} style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
+  <motion.div initial={{opacity: 0,y:24}} animate={{x: 0, y: 0, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.45,}} style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`34rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
 
       <Link to="/nubank/credit-card-design" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:0}}>
         <motion.div class="thumbnail">
@@ -43,7 +43,7 @@ const IndexPage = () => (
           </motion.svg>
         </motion.div>
         <h4 style={{marginBottom:4}}>Designing a design team</h4>
-        <p>Building and growing the credit card design team from the ground up</p>
+        <p>Building and leading the credit card design team from the ground up</p>
         <h5 class="label">Leadership</h5>
 
       </Link>
@@ -89,16 +89,19 @@ const IndexPage = () => (
             <h5 class="label">Speculative</h5>
           </Link>
 
-      <Link to="/projects/generative-boardgames" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
+          <Link  to="/projects/timtim" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:24}}>
             <motion.div class="thumbnail">
-              <motion.img class="thumbnail-image" style={{maxWidth:155, top: 90,}} alt="Old macintosh with the code <bias></bias> written in the screen" src={Bias} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .2 },}} />
+              {/* <motion.img class="thumbnail-image" style={{maxWidth:155, top: 90,}} alt="Old macintosh with the code <bias></bias> written in the screen" src={Bias} initial={{scale: 1,}} whileHover={{scale: 1.025, transition: {duration: .2 },}} />
               <motion.svg style={{display:`flex`, alignItems:'flex-end', position:`relative`, left: 19, bottom:`-2%`,}} xmlns="http://www.w3.org/2000/svg" width="220" height="116" viewBox="0 0 233 116" fill="none" initial={{scale: 1.1,}} whileHover={{ scale: 1.15, transition: { duration: 0.3 },}} whileTap={{ scale: 1.05}}>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M97.282 7.87324C86.7576 -2.6244 69.7225 -2.62442 59.1981 7.87322L8.05728 58.8839C-2.45145 69.3659 -2.45135 86.389 8.05737 96.871V96.871C18.566 107.353 18.5661 124.376 8.05747 134.858V134.858C-2.45116 145.34 -2.45116 162.362 8.05746 172.844L59.1987 223.855C69.723 234.353 86.7579 234.353 97.2822 223.855V223.855C107.807 213.358 124.841 213.358 135.366 223.855V223.855C145.89 234.353 162.925 234.353 173.449 223.855L224.59 172.844C235.099 162.362 235.099 145.34 224.59 134.858V134.858C214.082 124.376 214.082 107.353 224.591 96.871V96.871C235.099 86.389 235.099 69.3659 224.591 58.8839L173.45 7.87323C162.925 -2.6244 145.89 -2.6244 135.366 7.87324V7.87324C124.842 18.3709 107.806 18.3709 97.282 7.87324V7.87324Z" fill="var(--accent-pink)"/>
-              </motion.svg>
+              </motion.svg> */}
             </motion.div>
-            <h4 style={{marginBottom:4}}>Generative Boardgames</h4>
-            <p>Training a model to create board games</p>
-            <h5 class="label">Speculative</h5>
+            <h4 style={{marginBottom:4}}>Timtim por Timtim (soon)</h4>
+            <p>Helping older adults get acquainted with their gadgets</p>
+            <wrapper style={{display: `flex`, flexFlow:'wrap'}}>
+              <h5 class="label">Service</h5>
+              <h5 class="label">Business</h5>
+            </wrapper>
           </Link>
       
       {/* to="/projects/timtim-por-timtim" */}
