@@ -28,13 +28,13 @@ This is one the things I love the most about my role at Nubank. While many of th
 Confidential.
 
 - #### Moving money, 2021
-Together with a pirate team of four, I have presented a new design and engineering framework for payments — and got approval to staff a new team to work on this opportunity.
+Along with a pirate team of four, I have presented a new design and engineering framework for payments — and got approval to staff a new team to work on it.
 
 - #### Quality principles, 2020
 I have listened to different voices at the company to help outline what quality means for Nubank — and how do we keep a high bar for product and engineering.
 
 - #### UX thermometer, 2020
-Pushed the company to move away from NPS and embracing more granular ways for measuring product success.
+Pushed the company to move away from NPS and embracing more granular ways for measuring user experience and product success.
 </div>
 
 ---
@@ -76,7 +76,9 @@ A modular in-app component that helps teams collect user feedback for specific f
 |---|---|
 |Slack channel we created to collect user feedback across the product org | Event monitoring| -->
 
+
 ---
+
 
 ## Transaction Details, 2018
 ![Previous vs. New design for transaction details](./images/Transaction-Details-Old-vs-New.png)
@@ -95,13 +97,16 @@ duration: 2 weeks -->
 ---
 
 
-## Organizing Amplitude Events, 2018
-![Used scraped data from monitored events to help the PM team do some housekeeping](./images/amplitude-printable-post-its.png)
+## Organizing Analytics Events, 2018
+![I scraped data from events monitored in Amplitude to help the PM team do some housekeeping](./images/amplitude-printable-post-its.png)
 
 | 🤔 Problem | 🧩 Solution |
 |---|---|
-| There were too many events being monitored in our analytics. Nubank was spending funds in a sub-optimal way given the number of unused/ deprecated events. | A work session with PMs across the company to map which events were still necessary and trace a plan for data governance at the company. I scraped data on the events from the Amplitude website and printed them in sticky notes to facilitate the session. |
+| There were too many events being monitored in our analytics. Nubank was spending funds in a sub-optimal way given the number of unused/ deprecated events. | A work session with PMs across the company to map which events were still necessary and trace a plan for data governance at the company. <br> <br>I scraped data on the events from the Amplitude website and printed them in sticky notes to facilitate the session. |
 
 | 🕒 Duration | 🎯 Impact |
 |---|---|
 | 3 weeks for preparation, host the event and analyse/create a plan with our learnings | Deflected a 40% price increase in the tool subscription — can't reveal figures but think big. This also guided a clearer set of rules and principles for creating using and maintaining data at Nubank. |
+<!-- 
+![](./images/Amplitude-events-cleanup.jpg)
+##### PM teams were divided in groups to review their Amplitude events and decide wether they were OK, or what kind of review was needed -->

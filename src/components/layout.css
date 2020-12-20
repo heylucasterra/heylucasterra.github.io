@@ -132,6 +132,7 @@ figure,
 header {
   position: -webkit-sticky;
   position: sticky;
+  /* position:static; */
   background-color: var(--bg-frosted);
   -webkit-backdrop-filter: saturate(180%) blur(16px);
   backdrop-filter: saturate(180%) blur(16px);

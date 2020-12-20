@@ -59,7 +59,7 @@ Our main accomplishments have been to:
 	</div>
     <div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 0 16px 0 ;flex-grow: 1;width: auto;">
 		<h3 style="margin-top:0"><strong>2</strong></h3>
-			<h3 style="margin-top:0"><strong>Outline our vision of the future</strong></h3>
+			<h3 style="margin-top:0"><strong>Outline the future vision</strong></h3>
 		<p>Keeping Brazilians' <a href="https://www.infomoney.com.br/minhas-financas/nubank-e-cartao-de-credito-favorito-dos-brasileiros-diz-pesquisa/" target="blank">favourite credit card</a> always fresh and meaningful to them</p>
 	</div>
     <div style="background-color:var(--bg-light); padding: 16px; border-radius:3px;margin:0 8px 0 0 ;flex-grow: 1;width: auto; margin: auto">
@@ -134,9 +134,9 @@ Growing a cohesive, connected and empowered team takes time. The integration and
 </div></blockquote>
 <br> -->
 
-## 2. Outlining our vision of the future
+## 2. Outlining the vision of the future
 
-While our vision of the future will always remain confidential, here are some of the bits pushing us into the right direction.
+While the vision will always remain confidential, here are some of the bits pushing us into the right direction.
 
 ### Recovering the Nu magic
 
@@ -192,11 +192,11 @@ They worked hard expanding the frontiers of our product, originally designed for
 <br>
 
 ### A path to credit for the next 50MM customers
-Nubank' credit card has been hugely successful[^1] but there's still an expressive number of applicants that weren't approved for the product. Since mid-2019 the largest portion of my attention has been dedicated to finding new ways of offering credit options. This has been a passion project of mine where I have participated in user research, worked on the product strategy, helped the team structure and run a number of experiments and shaped the future vision.
+Nubank' credit card has been hugely successful[^1] but there's still an expressive number of applicants that weren't approved for the product. Since mid-2019 the largest portion of my attention has been dedicated to finding new ways of offering credit options. This has been a passion project of mine where I have participated in user research, helped define the product strategy and structure a number of experiments and gradually progressing towards the vision.
 
 More recently, Rafael joined me in this adventure and we are now rolling out the first version of a credit building program — I can't tell much more than that for now! We expect to onboard millions of Latin Americans to Nubank and provide them healthier tools to (re)build and use credit.
 
-![First release of our path to credit program · by myself and Rafael](/images/Building-credit-by-Rafael.png)
+![First release of our path to credit program · by me and Rafael](/images/Building-credit-by-Rafael.png)
 
 <!-- ### Hitting refresh in our rewards program
 - Ultravioleta, led by Amanda Legge and Diego Vieira -->
@@ -232,8 +232,10 @@ Over the years, this forum took many different shapes and sizes. The current ver
 
 ![Product Review guidelines depending on the maturity of the product — and what to expect from them. I worked on this with Mariana Penido (Product Lead)](/images/Product-Review.png)
 
-### Co-designing solutions with our peers
-We have created the habit of bringing in other functions as early as possible in our process. Be it software engineers participating in user interviews or data scientists and customer support ideating product possibilities. This has been called out several times 
+<br>
+
+### Co-designing with other functions
+We have created the habit of bringing in other functions as early as possible in our process. Be it software engineers participating in user interviews or data scientists and customer support ideating product possibilities. This has been called out several times as a "design team" trait that spread out to other chapters — we couldn't be happier about it!
 
 ![Ideation session with Business Architects, Customer Support and Engineers](/images/Ideation-session-with-cross-functional-peers.jpg)
 
