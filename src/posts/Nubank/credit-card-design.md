@@ -14,14 +14,14 @@ color: ''
 ### Joining credit card
 When I joined Nubank, my interest for human behaviour, business, data models and the dry access to credit in my home country swiftly drew me to our core product: the credit card.
 
-Most of the companies attention was focused on shipping new products and credit card was in need of some design love. I was excited to push it to the next level.
+Most of the company's attention was focused on shipping new products and credit card was in need of some design love. I was excited to push it to the next level.
 
 ### Embracing leadership
 As the company jumped into hypergrowth, it was clear Nubank required more design leaders. I stepped up and was fortunate to help build this team from the ground up in a 300+ people org.
 
-My main contributions were to define interviewing processes, onboard new team members, shape rituals (and empower the team to do the same). I also currently collaborate with other cross-functional leaders on longer term strategy, and help define the research and product roadmap for the business unit.
+Some of my contributions include defining interviewing processes, onboard new team members, shape design and product team rituals — and empower the team to do the same. I also collaborate with other cross-functional leaders on longer term strategy, and help define the research and product roadmap for the business unit.
 
-Credit card has been my home at Nubank for the past 3 years and the best team of product designers, user researchers and content strategists I have ever worked with.
+Credit card has been my home at Nubank for the last 3 years and the best team of product designers, user researchers and content strategists I have ever worked with.
 
 <!-- |   |   |
 |---|---|
@@ -136,7 +136,7 @@ Growing a cohesive, connected and empowered team takes time. The integration and
 
 ## 2. Outlining the vision of the future
 
-While the vision will always remain confidential, here are some of the bits pushing us into the right direction.
+While our product vision will always remain confidential, here are some of the bits pushing us towards the right direction.
 
 ### Recovering the Nu magic
 
@@ -173,9 +173,9 @@ This pattern has now spread to other teams and is the new standard across the co
 <br>
 
 ### Adapting to customers needs during the pandemic
-The covid crisis in 2020 hit the whole world in many unexpected ways. In Brazil alone, over 8.9 million lost their jobs from January to March. We were changed product backlog for the year at lightning speed. Our goal became to be partners to customers and find way for both them and the company to weather the storm. 
+The covid crisis in 2020 hit the whole world in many unexpected ways. In Brazil alone, over 8.9 million lost their jobs from January to March. We promptly changed the storyline and the product backlog for the year at lightning speed. Our new goal was to be partners to customers and find way for both them and the company to weather the storm. 
 
-Amanda worked with multiple teams to design flows that provide better interest rates, financing options and also created a hub for donations.
+Amanda Elyss worked with multiple teams to design flows that provide better interest rates, financing options and also created a hub for donations.
 
 ![Lower interest rates and more financing options during the pandemic · by Amanda and the Acquisition design team](/images/Lower-interest-rates-by-Amanda-and-the-Acquisition-team.gif)
 ##### Lower interest rates and more financing options during the pandemic · by Amanda and the Acquisition design team
@@ -192,9 +192,9 @@ They worked hard expanding the frontiers of our product, originally designed for
 <br>
 
 ### A path to credit for the next 50MM customers
-Nubank' credit card has been hugely successful[^1] but there's still an expressive number of applicants that weren't approved for the product. Since mid-2019 the largest portion of my attention has been dedicated to finding new ways of offering credit options. This has been a passion project of mine where I have participated in user research, helped define the product strategy and structure a number of experiments and gradually progressing towards the vision.
+Nubank' credit card has been hugely successful[^1] but there's still an expressive number of applicants that weren't approved for the product. Since mid-2019 the largest portion of my attention has been dedicated to finding new ways of offering credit options. This has been a passion project of mine where I have participated in user research, helped define the product strategy and structure a number of experiments that are gradually progressing towards a product focused on underserved customers.
 
-More recently, Rafael joined me in this adventure and we are now rolling out the first version of a credit building program — I can't tell much more than that for now! We expect to onboard millions of Latin Americans to Nubank and provide them healthier tools to (re)build and use credit.
+More recently, Rafael joined me in this adventure and we are now rolling out the first version of our credit building program — I can't tell much more than that for now! We expect to onboard millions of Latin Americans to Nubank and provide them healthier tools to (re)build and use credit.
 
 ![First release of our path to credit program · by me and Rafael](/images/Building-credit-by-Rafael.png)
 
@@ -230,7 +230,7 @@ In 2018, the credit card org was a group of siloes maintaining the product opera
 
 Over the years, this forum took many different shapes and sizes. The current version is called Product Review. It's a weekly session where we go deep into one specific topic and discuss it with senior leaders in the company. It's a casual forum that people usually use to gather fresh perspective on their work or as a dry-run before presenting to the executive team.
 
-![Product Review guidelines depending on the maturity of the product — and what to expect from them. I worked on this with Mariana Penido (Product Lead)](/images/Product-Review.png)
+![Product Review guidelines depending on the maturity of the product — and what to expect from them. I worked on this with Mariana Penido and Amanda Legge](/images/Product-Review.png)
 
 <br>
 
@@ -258,4 +258,4 @@ Things people told me that got me energized to do my best work.
 Add social media stuff -->
 
 
-[^1]: Credit cards are scarce and desired in Brazil. It enables people to: <br>*A. purchase online* (debit isn't accepted in ecommerce) and *B. buy more time to pay for things* (which has a ton of value for home/health emergencies). Almost every merchant offers zero interest instalments when you pay with credit cards, so financing purchases is part of the culture.
+[^1]: Credit cards are scarce and desired in Brazil. They enable people to: <br>*A. purchase online* (debit isn't accepted in ecommerce) and *B. buy more time to pay for things* (which has a ton of value for home/health emergencies). Almost every merchant offers zero interest instalments when you pay with credit cards, so financing purchases is part of the culture.

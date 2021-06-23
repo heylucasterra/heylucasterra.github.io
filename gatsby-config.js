@@ -201,7 +201,7 @@ module.exports = {
         emoji: '🌎'
       }
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-plugin-htaccess',
       options: {
