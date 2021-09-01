@@ -184,17 +184,17 @@ module.exports = {
         //cookieDomain: "example.com",
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Lucas Terra · Design`,
-        short_name: `Lucas Terra`,
-        start_url: `/`,
-        background_color: `var(bg-lightest)`,
-        theme_color: `#ffffff`,
-        display: `standalone`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Lucas Terra · Design`,
+    //     short_name: `Lucas Terra`,
+    //     start_url: `/`,
+    //     background_color: `var(bg-lightest)`,
+    //     theme_color: `#ffffff`,
+    //     display: `standalone`,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-emoji-favicon',
       options: {

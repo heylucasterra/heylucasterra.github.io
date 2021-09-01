@@ -99,7 +99,7 @@ const IndexPage = () => (
 {/* <h4 style={{color:`var(--font-mid-contrast)`}}>More case studies coming soon.</h4> */}
 </motion.article>
 
- <motion.div initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.45,}} style={{}} style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`, marginBottom: `5rem`}}> 
+ <motion.div initial={{opacity: 0,}} animate={{x: 0, y: -24, scale: 1, rotate: 0, opacity: 1,}} transition={{duration: 0.5,  ease: "easeOut", delay: 0.45,}} style={{maxWidth:`100%`,justifyContent:`center`,textAlign:`center`, marginBottom: `5rem`}}> 
   <div style={{opacity:`100%`,display:`flex`,overflow:`scroll`,textAlign:`left`,height:`32rem`,justifyContent:`flex-start`, marginBottom:`1.45rem`}}>
       <Link to="/nubank/product-dashboards" class="thumbnail-wrapper" style={{height:504, width:255, marginLeft:0}}>
         <motion.div class="thumbnail">
